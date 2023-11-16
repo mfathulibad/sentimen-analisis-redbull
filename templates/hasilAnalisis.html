@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Redbull</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/styleHasilAnalisis.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section starts -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="hasilAnalisis.html">
+            <span class="title_result mt-1">
+              <img src="images/result.png" alt="Result">
+              Result
+            </span>
+          </a>
+          <a class="navbar-brand" href="index.html">
+            <span class="result">
+              Redbull
+            </span>
+          </a>
+          <div class="navbar-collapse" id="">
+            <div class="user_option">
+              <!-- Informasi Akun yang Sedang Login -->
+              <div class="user_profile">
+                <img src="images/Notifications.png" alt="User Profile">
+                <img src="images/ppict.png" alt="User Profile">
+              </div>
+              <div class="user_info">
+                <span class="user_name">John Doe</span>
+                <span class="user_role">Administrator</span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <div class="sidebar">
+      <a href="#">
+        <img src="images/bttnresult.png"" alt="Result">
+        Result
+      </a>
+      <a href="#">
+        <img src="images/home.png" alt="Home">
+        Home
+      </a>
+    </div>
+
+    <div class="result_analisys">
+      <div class="keywoard">
+        <div class="row text">
+          <div class="col-2 mt-2">
+            <h3>Keywoard</h3>
+          </div>
+          <div class="button-container col-10 mt-1">
+            <button>All Keyword</button>
+            <button>Prabowo</button>
+            <button>Ganjar</button>
+            <button>Anies</button>
+          </div>   
+        </div>
+
+        <div class="visualisasi">
+          <div class="mt-4">
+            <h3 class="mt-2 ml-3">Peak Time</h3>
+            <canvas id="myChart" width="60" height="22"></canvas>
+          </div>
+          <div class="mt-4">
+            <h3 class="mt-2 ml-3">Sentiment</h3>
+            <canvas id="myChart2" width="60" height="22"></canvas>
+          </div>
+          <div>
+            <h3 class="mt-2 ml-3">Top Candidate</h3>
+          </div>
+          <div>
+            <h3 class="mt-2 ml-3">Tweets</h3>
+          </div>
+        </div>
+      </div>   
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    const ctx = document.getElementById('myChart');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['8 Okt', '12 Okt', '16 Okt', '20 Okt', '24 Okt', '28 Okt', '1 Nov'],
+        datasets: [
+          {
+            label: 'Prabowo',
+            data: [0, 0, 0, 0, 444, 0, 0], 
+            backgroundColor: ['#E0CA00'],
+            borderColor: ['#E0CA00'],
+            borderWidth: 1
+          },
+          {
+            label: 'Ganjar',
+            data: [0, 0, 0, 0, 444, 0, 0], 
+            backgroundColor: ['#1EEEC9'],
+            borderColor: ['#1EEEC9'],
+            borderWidth: 1
+          },
+          {
+            label: 'Anies',
+            data: [0, 0, 0, 0, 444, 0, 0], 
+            backgroundColor: ['#DD65E8'],
+            borderColor: ['#DD65E8'],
+            borderWidth: 1
+          }
+        ]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+
+    const ctx2 = document.getElementById('myChart2');
+    new Chart(ctx2, {
+      type: 'bar',
+      data: {
+        labels: ['Prabowo', 'Ganjar', 'Anies'],
+        datasets: [
+          {
+            label: 'Positif',
+            data: [130, 291, 152],
+            backgroundColor: ['#00E096'],
+            borderColor: ['#00E096'],
+            borderWidth: 1
+          },
+          {
+            label: 'Negatif',
+            data: [223, 63, 201],
+            backgroundColor: ['#EE1E1E'],
+            borderColor: ['#EE1E1E'],
+            borderWidth: 1
+          },
+          {
+            label: 'Netral',
+            data: [90, 89, 90],
+            backgroundColor: ['#979797'],
+            borderColor: ['#979797'],
+            borderWidth: 1
+          }
+        ]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  </script>
+
+</body>
+
+</html>
