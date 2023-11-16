@@ -14,7 +14,7 @@ def form():
 
 @app.route("/form_submit", methods=['POST'])
 def form_submit():
-    #scrape.crawl_data()
+    scrape.crawl_data()
     transform.compare_length(50)
     transform.trim_field()
     transform.convert_datetime()
