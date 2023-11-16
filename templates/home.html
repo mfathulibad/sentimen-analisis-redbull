@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>REDBULL</title>
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+
+    <!-- header section starts -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Redbull
+            </span>
+          </a>
+          <div class="navbar-collapse" id="">
+            <div class="user_option">
+              <!-- Informasi Akun yang Sedang Login -->
+              <div class="user_profile">
+                <img style="width: 30px; height: 30px;" src="images/Notifications.png" alt="User Profile">
+                <img src="images/ppict.png" alt="User Profile">
+              </div>
+              <div class="user_info">
+                <span class="user_name">John Doe</span>
+                <span class="user_role">Admin</span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- topic section -->
+  <section class="car_section layout_padding">  
+    <!-- Container -->
+    <div class="topic-container">
+      <div class="topic-title">
+        Topic
+        <button id="addTopicButton" class="create-button">
+          <img src="images/Export.png" alt="Create Image">
+          Create
+        </button>
+      </div>      
+      <div class="topic-subtitle">
+        Topic Lists
+      </div>
+      <!-- Card 1 -->
+      <div class="row">
+        <div class="col-md-3">
+          <a href="index.html" class="topic-card-link">
+            <div class="topic-card">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="topic-card-img" src="images/Icon.png" alt="Topic1">
+                </div>
+                <div class="col-md-8">
+                  <div class="topic-card-title">
+                    Sentimen Kesatu
+                  </div>
+                </div>
+              </div>
+              <div class="topic-card-text">
+                01-11-2023 s.d.<br>07-11-2023
+              </div> 
+              <div class="topic-card-text2">
+                Total Data: 1329
+              </div>  
+              <div class="topic-card-text3">
+                Created at: 07-11-2023
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Add more cards as needed -->
+      </div>
+    </div>
+  </section>
+  <!-- end topic section -->
+
+  <!-- Modal -->
+  <div id="addTopicModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <label>Create Topic</label>
+      <!-- Modal content goes here (e.g., form for entering title) -->
+      <label class="modal-content2" for="topicTitle">Title:</label>
+      <input type="text" id="topicTitle" name="topicTitle" class="underline-input">
+
+      <label class="modal-content2" for="totalData">Total Data:</label>
+      <input type="text" id="totalData" name="totalData" class="underline-input">
+
+      <label style="margin-bottom: 10px;" class="modal-content2">Timeline:</label>
+      <div class="form-check">
+        <input type="radio" id="defaultTimeline" name="timeline" class="form-check-input" onchange="toggleTimeline()">
+        <label class="checkbox-text" for="defaultTimeline">Default</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" id="enableTimeline" name="timeline" class="form-check-input" onchange="toggleTimeline()">
+        <label class="checkbox-text" for="enableTimeline">Customize</label>
+      </div>
+
+      <div class="date-box" id="timelineFields">
+        <div class="row">
+          <div class="col-md-6">
+            <label class="modal-content2 fontsize14" for="startDate">Start Date:</label>
+            <input class="modal-content2 fontsize14" type="date" id="startDate" name="startDate">
+          </div>
+          <div class="col-md-6">
+            <label class="modal-content2 fontsize14" for="endDate">End Date:</label>
+            <input class="modal-content2 fontsize14" type="date" id="endDate" name="endDate">
+          </div>
+        </div>
+      </div>
+
+      <div class="button-container">
+        <button class="cancel-button" onclick="closeModal()">Cancel</button>
+        <button class="create-button2" onclick="saveTopic()">Create</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- footer section -->
+  <footer class="container-fluid footer_section">
+    <p>
+      &copy; 2023 Redbull
+    </p>
+  </footer>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById('addTopicModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("addTopicButton");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      closeModal();
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        closeModal();
+      }
+    }
+    function closeModal() {
+      modal.style.display = "none";
+    }
+    function saveTopic() {
+      // Add logic to save the topic (e.g., get the input value and process it)
+      closeModal();
+    }
+    function toggleTimeline() {
+      var timelineFields = document.getElementById('timelineFields');
+      var enableTimelineRadio = document.getElementById('enableTimeline');
+      var defaultTimelineRadio = document.getElementById('defaultTimeline');
+
+      if (enableTimelineRadio.checked) {
+        timelineFields.style.display = 'block';
+      } else {
+        timelineFields.style.display = 'none';
+      }
+
+      // If "Default" radio is checked, hide timelineFields
+      if (defaultTimelineRadio.checked) {
+        timelineFields.style.display = 'none';
+      }
+    }
+  </script>
+</body>
+
+</html>
