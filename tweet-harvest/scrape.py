@@ -1,6 +1,5 @@
 import subprocess
 
-
 filename = 'prabowo.csv'
 search_keyword = 'prabowo'
 limit = 50

@@ -1,15 +1,20 @@
-import subprocess
-
+import os
 
 def crawl_data():
-    filename = 'piala.csv'
-    search_keyword = 'piala dunia u-20 until:2023-03-28 since:2023-03-01'
-    limit = 50
-
-    command = f'npx --yes tweet-harvest@latest -o "{filename}" -s "{search_keyword}" -l {limit} --token ""'
-
+    target_directory = "tweet-harvest"
     try:
-        subprocess.run(command, shell=True, check=True)
-        return 'Crawling data berhasil!'
-    except subprocess.CalledProcessError as e:
-        return f'Gagal melakukan crawling data: {e}'
+        current_directory = os.getcwd()  # Menyimpan direktori saat ini
+        os.chdir(target_directory)  # Mengubah direktori kerja ke folder yang diinginkan
+
+        file_path = "scrape.py"
+        try:
+            with open(file_path, 'r') as file:
+                code = file.read()
+                exec(code)
+        except FileNotFoundError:
+            print(f"File '{file_path}' not found.")
+        except Exception as e:
+            print(f"An error occurred: {e}")
+
+    finally:
+        os.chdir(current_directory)
