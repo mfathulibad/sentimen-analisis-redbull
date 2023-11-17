@@ -1,6 +1,6 @@
 import os
 
-def crawl_data():
+def crawl_data(limit):
     target_directory = "tweet-harvest"
     try:
         current_directory = os.getcwd()  # Menyimpan direktori saat ini
