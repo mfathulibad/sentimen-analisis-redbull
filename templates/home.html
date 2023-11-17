@@ -41,8 +41,8 @@
             <div class="user_option">
               <!-- Informasi Akun yang Sedang Login -->
               <div class="user_profile">
-                <img style="width: 30px; height: 30px;" src="images/Notifications.png" alt="User Profile">
-                <img src="images/ppict.png" alt="User Profile">
+                <img style="width: 30px; height: 30px;" src="{{ url_for('static', filename='images/Notifications.png') }}" alt="User Profile">
+                <img src="{{ url_for('static', filename='images/ppict.png') }}" alt="User Profile">
               </div>
               <div class="user_info">
                 <span class="user_name">John Doe</span>
@@ -63,7 +63,7 @@
       <div class="topic-title">
         Topic
         <button id="addTopicButton" class="create-button">
-          <img src="images/Export.png" alt="Create Image">
+          <img src="{{ url_for('static', filename='images/Export.png') }}" alt="Create Image">
           Create
         </button>
       </div>      
@@ -73,25 +73,25 @@
       <!-- Card 1 -->
       <div class="row">
         <div class="col-md-3">
-          <a href="form.html" class="topic-card-link">
-            <div class="topic-card">
+          <a href="form.html" class="topic-card-link" id="topicCardLink">
+            <div class="topic-card" id="topicCard">
               <div class="row">
                 <div class="col-md-4">
-                  <img class="topic-card-img" src="images/Icon.png" alt="Topic1">
+                  <img class="topic-card-img" src="{{ url_for('static', filename='images/Icon.png') }}" alt="Topic1">
                 </div>
                 <div class="col-md-8">
-                  <div class="topic-card-title">
+                  <div class="topic-card-title" id="topicCardTitle">
                     Sentimen Kesatu
                   </div>
                 </div>
               </div>
-              <div class="topic-card-text">
+              <div class="topic-card-text" id="topicCardText">
                 01-11-2023 s.d.<br>07-11-2023
-              </div> 
-              <div class="topic-card-text2">
+              </div>
+              <div class="topic-card-text2" id="topicCardText2">
                 Total Data: 1329
-              </div>  
-              <div class="topic-card-text3">
+              </div>
+              <div class="topic-card-text3" id="topicCardText3">
                 Created at: 07-11-2023
               </div>
             </div>
@@ -104,14 +104,16 @@
   </section>
   <!-- end topic section -->
 
-  <!-- Modal -->
+<!-- AddTopic Modal -->
 <div id="addTopicModal" class="modal">
-    <div class="modal-content">
-      <span class="close" onclick="closeModal()">&times;</span>
-      <div>
-        <label>Create Topic</label>
-      </div>
-      <!-- Modal content goes here (e.g., form for entering title) -->
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div>
+      <label>Create Topic</label>
+    </div>
+
+    <!-- Form for adding a topic -->
+    <form id="addTopicForm">
       <div>
         <label class="modal-content2" for="topicTitle">Title:</label>
         <input type="text" id="topicTitle" name="topicTitle" class="underline-input">
@@ -144,11 +146,12 @@
         </div>
       </div>
       <div class="button-container">
-        <button class="cancel-button" onclick="closeModal()">Cancel</button>
-        <button class="create-button2" onclick="saveTopic()">Create</button>
+        <button type="button" class="cancel-button" onclick="closeModal()">Cancel</button>
+        <button type="button" class="create-button2" onclick="submitForm()">Create</button>
       </div>
-    </div>
+    </form>
   </div>
+</div>
   
 
 
@@ -164,8 +167,53 @@
   <script src="js/bootstrap.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="js/custom.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
 
   <script>
+    function submitForm() {
+      // Get form data
+      var formData = new FormData(document.getElementById('addTopicForm'));
+
+      // Perform AJAX request
+      $.ajax({
+        type: 'POST',
+        url: '{{ url_for("form_submit") }}',
+        data: formData,
+        processData: false,
+        contentType: false,
+        success: function(response) {
+          // Handle the success response if needed
+          console.log(response);
+
+          // Update card content with input values
+          var topicCardTitle = document.getElementById('topicCardTitle');
+          var topicCardText = document.getElementById('topicCardText');
+          var topicCardText2 = document.getElementById('topicCardText2');
+
+          // Get the input values from the form
+          var topicTitle = formData.get('topicTitle');
+          var totalData = formData.get('totalData');
+          var startDate = formData.get('startDate');
+          var endDate = formData.get('endDate');
+
+          // Format the date as needed
+          var formattedDate = startDate + ' s.d.<br>' + endDate;
+
+          // Update card content
+          topicCardTitle.innerHTML = topicTitle;
+          topicCardText.innerHTML = formattedDate;
+          topicCardText2.innerHTML = 'Total Data: ' + totalData;
+
+          closeModal();
+        },
+        error: function(error) {
+          // Handle the error response if needed
+          console.error(error);
+        }
+      });
+    }
+
     // Get the modal
     var modal = document.getElementById('addTopicModal');
     // Get the button that opens the modal
