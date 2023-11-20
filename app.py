@@ -9,20 +9,23 @@ app.config['STATIC_FOLDER'] = 'static'
 def home():
     return "Hello, Flask!"
   
-@app.route("/form")
+@app.route("/form") 
 def form():
     return render_template("home.html")
 
 @app.route("/form_submit", methods=['POST'])
 def form_submit():
-    # Get the values of "topicTitle" and "totalData" from the form
-    # topic_title = request.form.get('topicTitle', '')
-    total_data = int(request.form.get('totalData', 50))  # Default to 50 if not provided
+    # Ambil data di form
+    amount_str = request.form.get('amount')
+    amount = int(amount_str) if amount_str else 0
+    since = request.form.get('startDate')
+    until = request.form.get('endDate')
+    print(f'since = {since}')
+    print(f'until = {until}')
+    print(f'amount = {amount}')
 
-    # Call crawl_data with dynamic parameters
-    scrape.crawl_data(limit=total_data)
-    # scrape.crawl_data()
-    transform.compare_length(50)
+    scrape.crawl_data(amount, until, since)
+    transform.compare_length(amount)
     transform.trim_field()
     transform.convert_datetime()
     transform.add_keyword()
