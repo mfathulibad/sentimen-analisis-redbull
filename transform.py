@@ -1,6 +1,6 @@
 import pandas as pd
 
-KEYWORDS = ["prabowo"]
+KEYWORDS = ["prabowo", "ganjar", "anies"]
 
 
 def compare_length(amount):

@@ -119,8 +119,8 @@
         <input type="text" id="topicTitle" name="topicTitle" class="underline-input">
       </div>
       <div>
-        <label class="modal-content2" for="totalData">Total Data:</label>
-        <input type="text" id="totalData" name="totalData" class="underline-input">
+        <label class="modal-content2" for="amount">Total Data:</label>
+        <input type="text" id="amount" name="amount" class="underline-input">
       </div>
       <div style="margin-bottom: 10px;">
         <label class="modal-content2">Timeline:</label>
@@ -193,7 +193,7 @@
 
           // Get the input values from the form
           var topicTitle = formData.get('topicTitle');
-          var totalData = formData.get('totalData');
+          var amount = formData.get('amount');
           var startDate = formData.get('startDate');
           var endDate = formData.get('endDate');
 
@@ -203,7 +203,7 @@
           // Update card content
           topicCardTitle.innerHTML = topicTitle;
           topicCardText.innerHTML = formattedDate;
-          topicCardText2.innerHTML = 'Total Data: ' + totalData;
+          topicCardText2.innerHTML = 'Total Data: ' + amount;
 
           closeModal();
         },
