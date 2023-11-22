@@ -1,6 +1,6 @@
 import os
 
-def crawl_data(amount, until, since):
+def crawl_data(topicId, amount, until, since):
     target_directory = "tweet-harvest"
     try:
         current_directory = os.getcwd()
@@ -12,7 +12,7 @@ def crawl_data(amount, until, since):
                 code = file.read()
 
             exec_globals = globals().copy()
-            exec_globals.update({'amount': amount, 'until': until, 'since': since})
+            exec_globals.update({'topicId': topicId, 'amount': amount, 'until': until, 'since': since})
 
             exec(code, exec_globals)
         except FileNotFoundError:

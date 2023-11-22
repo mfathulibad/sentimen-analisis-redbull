@@ -1,0 +1,4531 @@
+{
+    "_id": {
+      "$oid": "655dd3d79fc13f1be1533fe0"
+    },
+    "topicId": 4,
+    "title": null,
+    "amount": 100,
+    "timeline": {
+      "until": "2023-11-14",
+      "since": "2023-11-07"
+    },
+    "tweets": [
+      {
+        "created_at": "2023-11-13 23:59:48+00:00",
+        "id_str": {
+          "$numberLong": "1724215517257592999"
+        },
+        "full_text": "@t_yudehis @BukhariSutrisno Kagaaa emang upaya yang dilakukan Prabowo ya itu mas. Mewujudkan program2 populisnya ntu adalah menaikkan tax ratio alias rasio penerimaan pajak jadi 20 persen PDB. Brarti naik 2 kali lipat dari sekarang, misalkan sekarang 1600 T jadi 3200 T gitu lhoo",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "FelixSGL1",
+        "tweet_url": "https://twitter.com/FelixSGL1/status/1724215517257592999",
+        "keyword": "prabowo",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:59:29+00:00",
+        "id_str": {
+          "$numberLong": "1724215440220815364"
+        },
+        "full_text": "3) Ketahanan air perkotaan. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "OkaRiyanti",
+        "tweet_url": "https://twitter.com/OkaRiyanti/status/1724215440220815364",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:59:20+00:00",
+        "id_str": {
+          "$numberLong": "1724215401167355927"
+        },
+        "full_text": "3. Merata. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "WahyuArya_W",
+        "tweet_url": "https://twitter.com/WahyuArya_W/status/1724215401167355927",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:59:04+00:00",
+        "id_str": {
+          "$numberLong": "1724215335430021236"
+        },
+        "full_text": "jadi gini.... ganjar trendnya menurun, anies naik, prabowo naik... makanya banteng ngamuk2... no hope",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 6,
+        "username": "Piyusaja2",
+        "tweet_url": "https://twitter.com/Piyusaja2/status/1724215335430021236",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:57:09+00:00",
+        "id_str": {
+          "$numberLong": "1724214850833076305"
+        },
+        "full_text": "Ketahan Air. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju https://t.co/SUNibTvUVu",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AnnepronP",
+        "tweet_url": "https://twitter.com/AnnepronP/status/1724214850833076305",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:56:34+00:00",
+        "id_str": {
+          "$numberLong": "1724214705743605961"
+        },
+        "full_text": "3. Merata. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "jahnan_radio",
+        "tweet_url": "https://twitter.com/jahnan_radio/status/1724214705743605961",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:54:06+00:00",
+        "id_str": {
+          "$numberLong": "1724214085317988748"
+        },
+        "full_text": "@yusufagro @alextham878 @Alie_Fahnoor @AlmaghribiS @askencana @BANGSAygSUJUD @Bank_Joee_ @Kenikir27 @99propaganda @Kimberley_2024 @Chaves1305 Beda emang jendral sesungguhnya sma jendral pecatan Jendral sesungguhnya pantang jilat ludah sendiri, klau jendral pecatan jgn ludah sendiri kaki orang yg sdh dia hina dan dihinakan demi meraih kekuasaan krna malu udh 3x kalah apapun dia lakukan Prabowo jongos petugas partai https://t.co/tG40uJwCL5",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Tino_711003",
+        "tweet_url": "https://twitter.com/Tino_711003/status/1724214085317988748",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:53:39+00:00",
+        "id_str": {
+          "$numberLong": "1724213968921833717"
+        },
+        "full_text": "@tvOneNews prabowo seperti gak sadar,klo pemilihnya dulu bukan karna simpatisan beliau,tapi rata-rata karena anti jokowi. ini malah gandeng anak jokowi,ya fatal.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "kolektorGMC",
+        "tweet_url": "https://twitter.com/kolektorGMC/status/1724213968921833717",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:51:02+00:00",
+        "id_str": {
+          "$numberLong": "1724213311179555179"
+        },
+        "full_text": "4.Berorientasi pada pemenuhan gizi Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AnnepronP",
+        "tweet_url": "https://twitter.com/AnnepronP/status/1724213311179555179",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:50:30+00:00",
+        "id_str": {
+          "$numberLong": "1724213175523098946"
+        },
+        "full_text": "@Fixtech7 @Fahrihamzah Keraguan anda apa dasarnya?  Siapapun Presidennya, ga akan mampu mengendalikan harga minyak dunia  Justru kita butuh Presiden yg paham&amp berpengalaman urusan ekonomi&amp politik global...dan itu ada pada Pak Prabowo",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "yusufagro",
+        "tweet_url": "https://twitter.com/yusufagro/status/1724213175523098946",
+        "keyword": "prabowo",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:50:16+00:00",
+        "id_str": {
+          "$numberLong": "1724213118010626554"
+        },
+        "full_text": "2.Dimensi watu setiap saat pangan tersedia dan dapat diakses. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AnnepronP",
+        "tweet_url": "https://twitter.com/AnnepronP/status/1724213118010626554",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:44:34+00:00",
+        "id_str": {
+          "$numberLong": "1724211686012293283"
+        },
+        "full_text": "sebuah rumah tangga mempunyai ketahanan pangan jika penghuninya tidak berada pada kondisi kelaparan ataupun dihantui oleh ancaman kelaparan. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AnnepronP",
+        "tweet_url": "https://twitter.com/AnnepronP/status/1724211686012293283",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:40:32+00:00",
+        "id_str": {
+          "$numberLong": "1724210669111988245"
+        },
+        "full_text": "@BANGSAygSUJUD @prabowo https://t.co/4aMsWm0eLU",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "dhedhote1978",
+        "tweet_url": "https://twitter.com/dhedhote1978/status/1724210669111988245",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:39:05+00:00",
+        "id_str": {
+          "$numberLong": "1724210303695778023"
+        },
+        "full_text": "4) Ketahanan air lingkungan. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriniCahyanii",
+        "tweet_url": "https://twitter.com/AriniCahyanii/status/1724210303695778023",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:37:48+00:00",
+        "id_str": {
+          "$numberLong": "1724209980906381628"
+        },
+        "full_text": "@Andiarief__ @syahrial_nst @msaid_didu Sampe hari ini sya belum lihat ada Spanduk caleg2 Demokrat dengan bergambarkan Prabowo Gibran , apa karena malu jdi pelayan Bocil om ? 😁",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "HitamManis08",
+        "tweet_url": "https://twitter.com/HitamManis08/status/1724209980906381628",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:37:07+00:00",
+        "id_str": {
+          "$numberLong": "1724209807392125355"
+        },
+        "full_text": "@Andiarief__ @msaid_didu Kalau sama pak Prabowo kok bisa tanpa syarat dan kalau sama pak Anies bersyarat cawapres???",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 12,
+        "username": "Pejuang_UmmatOk",
+        "tweet_url": "https://twitter.com/Pejuang_UmmatOk/status/1724209807392125355",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:36:41+00:00",
+        "id_str": {
+          "$numberLong": "1724209699145519385"
+        },
+        "full_text": "Sesuatu yg baik meski itu utk rakyat, sebaiknya dilakukan dg cara yg baik pula.... Biar berkah....kalo gak baik...ya sama saja  CC @gibran_tweet @prabowo",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "sukarja",
+        "tweet_url": "https://twitter.com/sukarja/status/1724209699145519385",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:35:18+00:00",
+        "id_str": {
+          "$numberLong": "1724209353547473082"
+        },
+        "full_text": "4.Berorientasi pada pemenuhan gizi Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "SumantoSukarni",
+        "tweet_url": "https://twitter.com/SumantoSukarni/status/1724209353547473082",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:31:06+00:00",
+        "id_str": {
+          "$numberLong": "1724208293680140680"
+        },
+        "full_text": "Dengan 16 bendungan yang sudah selesai, kita sudah menambah tampungan air sejumlah 1,5 miliar meter kubik. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "MccormickM2260",
+        "tweet_url": "https://twitter.com/MccormickM2260/status/1724208293680140680",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:26:59+00:00",
+        "id_str": {
+          "$numberLong": "1724207258840797441"
+        },
+        "full_text": "Nasdem Jabar Ngaku Banyak Pendukung Prabowo Pindah ke Anies https://t.co/JxmdjwlN1O",
+        "quote_count": 4,
+        "reply_count": 6,
+        "retweet_count": 73,
+        "favorite_count": 223,
+        "username": "OposisiCerdas",
+        "tweet_url": "https://twitter.com/OposisiCerdas/status/1724207258840797441",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:26:03+00:00",
+        "id_str": {
+          "$numberLong": "1724207023879868468"
+        },
+        "full_text": "4.Berorientasi pada pemenuhan gizi Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriniCahyanii",
+        "tweet_url": "https://twitter.com/AriniCahyanii/status/1724207023879868468",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:23:19+00:00",
+        "id_str": {
+          "$numberLong": "1724206336521736673"
+        },
+        "full_text": "3) Ketahanan air perkotaan. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "MccormickM2260",
+        "tweet_url": "https://twitter.com/MccormickM2260/status/1724206336521736673",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:18:12+00:00",
+        "id_str": {
+          "$numberLong": "1724205049641857179"
+        },
+        "full_text": "Apa ini Rekonsiliasi antara capres Prabowo dan CSIS??",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "luckyrauf",
+        "tweet_url": "https://twitter.com/luckyrauf/status/1724205049641857179",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:00:46+00:00",
+        "id_str": {
+          "$numberLong": "1724200663146811651"
+        },
+        "full_text": "4) Ketahanan air lingkungan. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "NurfalahChristy",
+        "tweet_url": "https://twitter.com/NurfalahChristy/status/1724200663146811651",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:00:46+00:00",
+        "id_str": {
+          "$numberLong": "1724200661888405532"
+        },
+        "full_text": "4.Berorientasi pada pemenuhan gizi Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Arie_Gustom",
+        "tweet_url": "https://twitter.com/Arie_Gustom/status/1724200661888405532",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:00:42+00:00",
+        "id_str": {
+          "$numberLong": "1724200646205907039"
+        },
+        "full_text": "Ketahan Pangan. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "MccormickM2260",
+        "tweet_url": "https://twitter.com/MccormickM2260/status/1724200646205907039",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:00:39+00:00",
+        "id_str": {
+          "$numberLong": "1724200632020881544"
+        },
+        "full_text": "@geloraco Yokk kubu Prabowo lawan Ganjar tonjok2an, buka2an, biar kubu Anies menikmati sambil duduk manis",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 11,
+        "username": "ahora_baila",
+        "tweet_url": "https://twitter.com/ahora_baila/status/1724200632020881544",
+        "keyword": "prabowo",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:00:36+00:00",
+        "id_str": {
+          "$numberLong": "1724200619274338727"
+        },
+        "full_text": "4) Ketahanan air lingkungan. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "johnston_d70391",
+        "tweet_url": "https://twitter.com/johnston_d70391/status/1724200619274338727",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:00:34+00:00",
+        "id_str": {
+          "$numberLong": "1724200610583720339"
+        },
+        "full_text": "Rekomendasi gelang emas mewah https://t.co/2nBmfK345p  Ganjar prabowo anies baswedan mahfud worldcup17 netflix parfum https://t.co/3xbMaDsjum",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cicuitirit",
+        "tweet_url": "https://twitter.com/cicuitirit/status/1724200610583720339",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:00:30+00:00",
+        "id_str": {
+          "$numberLong": "1724200594020458718"
+        },
+        "full_text": "3) Ketahanan air perkotaan. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "NurfalahChristy",
+        "tweet_url": "https://twitter.com/NurfalahChristy/status/1724200594020458718",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:00:29+00:00",
+        "id_str": {
+          "$numberLong": "1724200591352828399"
+        },
+        "full_text": "@BlackcoTanya Kalo kata Prabowo AMBIL BERAS DAN DUITNYA, tapi jangan pilih Capresnya karna itu semua hasil ngembat duit rakyat..🤭",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 3,
+        "username": "FirdausyMuh",
+        "tweet_url": "https://twitter.com/FirdausyMuh/status/1724200591352828399",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:00:19+00:00",
+        "id_str": {
+          "$numberLong": "1724200548927479846"
+        },
+        "full_text": "4) Ketahanan air lingkungan. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "PutriAisi",
+        "tweet_url": "https://twitter.com/PutriAisi/status/1724200548927479846",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:00:14+00:00",
+        "id_str": {
+          "$numberLong": "1724200526181765178"
+        },
+        "full_text": "Antara lain kebijakan pemanfaatan daya guna air yang efisien, konservasi, perlindungan dari pencemaran, sistem distribusi air yang baik agar tidak terjadi kebocoran. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724200526181765178",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:00:13+00:00",
+        "id_str": {
+          "$numberLong": "1724200522226499899"
+        },
+        "full_text": "Program ekonomi Prabowo Subianto untuk rakyat. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju https://t.co/vGjZ5BTKRr",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "MccormickM2260",
+        "tweet_url": "https://twitter.com/MccormickM2260/status/1724200522226499899",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:00:04+00:00",
+        "id_str": {
+          "$numberLong": "1724200487187345907"
+        },
+        "full_text": "3) Ketahanan air perkotaan. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "johnston_d70391",
+        "tweet_url": "https://twitter.com/johnston_d70391/status/1724200487187345907",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:00:01+00:00",
+        "id_str": {
+          "$numberLong": "1724200473861968100"
+        },
+        "full_text": "@r_situmora @marlina_idha @aniesbaswedan Prabowo ada cinanya. Ganjar ada belandanya. .",
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "riyanto442799",
+        "tweet_url": "https://twitter.com/riyanto442799/status/1724200473861968100",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:59:45+00:00",
+        "id_str": {
+          "$numberLong": "1724200404303691891"
+        },
+        "full_text": "3) Ketahanan air perkotaan. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "PutriAisi",
+        "tweet_url": "https://twitter.com/PutriAisi/status/1724200404303691891",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:59:44+00:00",
+        "id_str": {
+          "$numberLong": "1724200402688557517"
+        },
+        "full_text": "Kementerian PU telah menyusun kebijakan dalam menjaga ketahanan air. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724200402688557517",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:59:41+00:00",
+        "id_str": {
+          "$numberLong": "1724200388843434422"
+        },
+        "full_text": "2) Ketahanan air ekonomi. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "johnston_d70391",
+        "tweet_url": "https://twitter.com/johnston_d70391/status/1724200388843434422",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:59:40+00:00",
+        "id_str": {
+          "$numberLong": "1724200383843815794"
+        },
+        "full_text": "Tas jinjing tas mini lucu tas main https://t.co/TyCzST303F  Ganjar prabowo anies baswedan mahfud worldcup17 netflix parfum https://t.co/6eZTHFiy8k",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cicuitirit",
+        "tweet_url": "https://twitter.com/cicuitirit/status/1724200383843815794",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:59:24+00:00",
+        "id_str": {
+          "$numberLong": "1724200318446276774"
+        },
+        "full_text": "2) Ketahanan air ekonomi. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "PutriAisi",
+        "tweet_url": "https://twitter.com/PutriAisi/status/1724200318446276774",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:59:20+00:00",
+        "id_str": {
+          "$numberLong": "1724200302294053043"
+        },
+        "full_text": "@BANGSAygSUJUD @prabowo Among kosong. Ditawari duduk diemperan Istana aja dia tinggalkan rakyat pendukungnya.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "firmanashad08",
+        "tweet_url": "https://twitter.com/firmanashad08/status/1724200302294053043",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:59:13+00:00",
+        "id_str": {
+          "$numberLong": "1724200270706671778"
+        },
+        "full_text": "Dikarenakan, jumlah kepadatan penduduk sangat tinggi dengan area yang terbatas. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724200270706671778",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:58:54+00:00",
+        "id_str": {
+          "$numberLong": "1724200190599434246"
+        },
+        "full_text": "Prabowo juga kritik orba. Politik Prabowo itu “jalan tengah” yang berlandaskan Pancasila.   Semua yang baik dan tidak betentangan dengan Pancasila dia ambil. Mengakar pada budaya Indonesia.",
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 4,
+        "favorite_count": 11,
+        "username": "Kimberley_2024",
+        "tweet_url": "https://twitter.com/Kimberley_2024/status/1724200190599434246",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:58:33+00:00",
+        "id_str": {
+          "$numberLong": "1724200102326386837"
+        },
+        "full_text": "Ketersediaan air di Indonesia sangat mencukupi. Namun, dikarenakan penyebarannya sumber air dan kepadatan penduduk yang tidak merata menyebabkan di beberapa tempat mengalami kesulitan air. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724200102326386837",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:58:22+00:00",
+        "id_str": {
+          "$numberLong": "1724200056486867180"
+        },
+        "full_text": "@mbahjhojho https://t.co/2d5Lvcuc6L @Surya_Paloh mind setnya tdk sehina @prabowo urrrraaa urrrraaaa",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "driveronline_17",
+        "tweet_url": "https://twitter.com/driveronline_17/status/1724200056486867180",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:58:12+00:00",
+        "id_str": {
+          "$numberLong": "1724200013885243761"
+        },
+        "full_text": "Rekomendasi Simple Top - Blouse Wanita https://t.co/RoIamyim7Y  Ganjar prabowo anies baswedan mahfud worldcup17 netflix parfum ootd kemeja kuliah kerja https://t.co/ZOrkfd3or3",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cicuitirit",
+        "tweet_url": "https://twitter.com/cicuitirit/status/1724200013885243761",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:58:09+00:00",
+        "id_str": {
+          "$numberLong": "1724200002166362380"
+        },
+        "full_text": "Disebutkannya, ketahanan air dikaitkan dengan empat hal yakni aksesibilitas, berkelanjutan, keamanan dan ketersediaan potensi air. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724200002166362380",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:58:06+00:00",
+        "id_str": {
+          "$numberLong": "1724199989860249661"
+        },
+        "full_text": "4) Ketahanan air lingkungan. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AliSupriandi354",
+        "tweet_url": "https://twitter.com/AliSupriandi354/status/1724199989860249661",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:58:04+00:00",
+        "id_str": {
+          "$numberLong": "1724199983220502811"
+        },
+        "full_text": "@savicali @saiful_mujani Setelah sekian banyak peluru ditembakkan &amp  minim hasil, sekarang seperti pada kehabisan amunisi utk menyerang dan melemahkan elektabilitas Prabowo. Timses Ganjar perlu dukungan lebih banyak lagi scientist &amp  konsultan jitu utk dongkrak elektabilitasnyag merosot tajam.",
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "TopanTj",
+        "tweet_url": "https://twitter.com/TopanTj/status/1724199983220502811",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:57:51+00:00",
+        "id_str": {
+          "$numberLong": "1724199927549743206"
+        },
+        "full_text": "@habiburokhman Jadi penasaran lihat prabowo sutress krn gagal jadi presiden lagi 😁😁😁",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "hennopbdg",
+        "tweet_url": "https://twitter.com/hennopbdg/status/1724199927549743206",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:57:49+00:00",
+        "id_str": {
+          "$numberLong": "1724199920763306209"
+        },
+        "full_text": "3) Ketahanan air perkotaan. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AliSupriandi354",
+        "tweet_url": "https://twitter.com/AliSupriandi354/status/1724199920763306209",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:57:48+00:00",
+        "id_str": {
+          "$numberLong": "1724199914627010676"
+        },
+        "full_text": "Semua itu adalah konsep yang harus terus menerus dilakukan, sehingga tidak terpaku pada potensi ketersediaan air saja. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724199914627010676",
+        "keyword": "prabowo",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 22:57:28+00:00",
+        "id_str": {
+          "$numberLong": "1724199832657461523"
+        },
+        "full_text": "Survei Indo Barometer: Anies Unggul Aspek Kepribadian Beragama Dibanding Ganjar dan Prabowo https://t.co/NtISdneUsn",
+        "quote_count": 3,
+        "reply_count": 11,
+        "retweet_count": 150,
+        "favorite_count": 393,
+        "username": "keuangannews_id",
+        "tweet_url": "https://twitter.com/keuangannews_id/status/1724199832657461523",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:57:26+00:00",
+        "id_str": {
+          "$numberLong": "1724199822272684161"
+        },
+        "full_text": "2) Ketahanan air ekonomi. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AliSupriandi354",
+        "tweet_url": "https://twitter.com/AliSupriandi354/status/1724199822272684161",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:57:25+00:00",
+        "id_str": {
+          "$numberLong": "1724199820485857326"
+        },
+        "full_text": "Ketahanan air adalah konsep lebih luas daripada kesediaan air, upaya mendapat air, keamanan dari daya rusak dan penyediaan air yang keberlanjutan. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724199820485857326",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:57:24+00:00",
+        "id_str": {
+          "$numberLong": "1724199813124931832"
+        },
+        "full_text": "Rekomendasi blouse kemeja wanuta kantor kuliah kerja https://t.co/s9opGW6Woq  Ganjar prabowo anies baswedan mahfud worldcup17 netflix parfum ootd https://t.co/NZlVLoAJXF",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cicuitirit",
+        "tweet_url": "https://twitter.com/cicuitirit/status/1724199813124931832",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:57:07+00:00",
+        "id_str": {
+          "$numberLong": "1724199742950047884"
+        },
+        "full_text": "Untuk menjaga kuantitas dan kualitas air, diperlukan berbagai upaya menjaga ketahanan air seperti mengefisienkan penggunaan air dan konservasi Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju https://t.co/8APe5oATDp",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724199742950047884",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:57:00+00:00",
+        "id_str": {
+          "$numberLong": "1724199713883517277"
+        },
+        "full_text": "4.Terpenuhinya pangan dengan kondisi terjangkau, diartikan pangan mudah diperoleh rumah tangga dengan harga yang terjangkau. @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cortez39070",
+        "tweet_url": "https://twitter.com/cortez39070/status/1724199713883517277",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:56:52+00:00",
+        "id_str": {
+          "$numberLong": "1724199678710108668"
+        },
+        "full_text": "Ketahan Pangan. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "SutrisniEtik",
+        "tweet_url": "https://twitter.com/SutrisniEtik/status/1724199678710108668",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:56:48+00:00",
+        "id_str": {
+          "$numberLong": "1724199662050226280"
+        },
+        "full_text": "@prasetyopeuru @pututpngstu @kumparan Kamu yang bodoh, Prabowo tidak pernah diblacklist eropa. Dia sering berkunjung ke eropa. Bahkan sebelum ramai pemilu 2014, dia bolak balik ke eropa mengunjungi anaknya, dan sempat bertemu Habibie utk meminta restu maju di pemilu 2009.",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "badstereotypee",
+        "tweet_url": "https://twitter.com/badstereotypee/status/1724199662050226280",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:56:47+00:00",
+        "id_str": {
+          "$numberLong": "1724199659999248654"
+        },
+        "full_text": "Sebagai sumber kehidupan, air mempunyai fungsi strategis antara lain untuk rumah tangga, industri dan pertanian. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju https://t.co/gZ0FCnoz1t",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724199659999248654",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:56:44+00:00",
+        "id_str": {
+          "$numberLong": "1724199648683032638"
+        },
+        "full_text": "Di beberapa tempat seperti Pulau Jawa sudah mengalami tekanan dalam penyediaan air (water stress). Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "johnston_d70391",
+        "tweet_url": "https://twitter.com/johnston_d70391/status/1724199648683032638",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:56:37+00:00",
+        "id_str": {
+          "$numberLong": "1724199618089738546"
+        },
+        "full_text": "@KompasTV Apa iya Sron ? dulu ente caci maki prabowo sekarang ente jilatin prabowo kasian deh lu caranya cari makan.😃",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "haso_samsung",
+        "tweet_url": "https://twitter.com/haso_samsung/status/1724199618089738546",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:56:32+00:00",
+        "id_str": {
+          "$numberLong": "1724199598342947076"
+        },
+        "full_text": "2. Aman. @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Antoniojac7419",
+        "tweet_url": "https://twitter.com/Antoniojac7419/status/1724199598342947076",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:56:30+00:00",
+        "id_str": {
+          "$numberLong": "1724199586112192975"
+        },
+        "full_text": "3.Terpenuhinya pangan dengan kondisi yang merata, diartikan pangan yang harus tersedia setiap saat dan merata di seluruh tanah air. @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cortez39070",
+        "tweet_url": "https://twitter.com/cortez39070/status/1724199586112192975",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:56:22+00:00",
+        "id_str": {
+          "$numberLong": "1724199552562176017"
+        },
+        "full_text": "Ketahan Air. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju https://t.co/DyqAk0JXDJ",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724199552562176017",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:55:46+00:00",
+        "id_str": {
+          "$numberLong": "1724199404373188853"
+        },
+        "full_text": "@J_Aryoko @Tony_Harto @KompasTV @yunartowijaya @YRadianto @prabowo Ha ha ha ha..... Tanpa mendahului kehendak Yang Maha Kuasa, diantara Muhaimin, Prof. Mahfud, Gibran......  Gibran yg paling\" besar peluangnya jadi presiden dlm 5 tahun ini, jika masing2 pasangan mereka terpilih.....  😅😅😅\"",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "Pe_Enestee",
+        "tweet_url": "https://twitter.com/Pe_Enestee/status/1724199404373188853",
+        "keyword": "prabowo",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 22:55:45+00:00",
+        "id_str": {
+          "$numberLong": "1724199400992317534"
+        },
+        "full_text": "Program ekonomi Prabowo Subianto untuk rakyat. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju https://t.co/9w5Eu2tCKO",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724199400992317534",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:55:16+00:00",
+        "id_str": {
+          "$numberLong": "1724199279550734628"
+        },
+        "full_text": "4.Terpenuhinya pangan dengan kondisi terjangkau, diartikan pangan mudah diperoleh rumah tangga dengan harga yang terjangkau. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724199279550734628",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:55:10+00:00",
+        "id_str": {
+          "$numberLong": "1724199253181100472"
+        },
+        "full_text": "5.Ditujukan untuk hidup sehat dan produktif @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Antoniojac7419",
+        "tweet_url": "https://twitter.com/Antoniojac7419/status/1724199253181100472",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:55:03+00:00",
+        "id_str": {
+          "$numberLong": "1724199223800017320"
+        },
+        "full_text": "@prasetyopeuru @kumparan Anda bodoh dan tidak pernah baca berita. Prabowo tidak pernah masuk blacklist eropa. Dia hanya di blacklist Amerika. 2009 sebelum dia maju pencalonan wakil presiden, dia sering ke Jerman dan sempat mengunjungi Habibie. Bodoh!",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "badstereotypee",
+        "tweet_url": "https://twitter.com/badstereotypee/status/1724199223800017320",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:54:07+00:00",
+        "id_str": {
+          "$numberLong": "1724198986850930813"
+        },
+        "full_text": "4. Terjangkau. @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cortez39070",
+        "tweet_url": "https://twitter.com/cortez39070/status/1724198986850930813",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:53:55+00:00",
+        "id_str": {
+          "$numberLong": "1724198939845665021"
+        },
+        "full_text": "Ketahan Air. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju https://t.co/frnxuHvIFe",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "johnston_d70391",
+        "tweet_url": "https://twitter.com/johnston_d70391/status/1724198939845665021",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:53:40+00:00",
+        "id_str": {
+          "$numberLong": "1724198873982542023"
+        },
+        "full_text": "1. Terpenuhinya pangan dengan kondisi ketersediaan yang cukup, diartikan ke tersediaan pangan dalam arti luas, mencakup pangan yang berasal dari tanaman, ternak, Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724198873982542023",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:53:39+00:00",
+        "id_str": {
+          "$numberLong": "1724198871759515864"
+        },
+        "full_text": "3. Merata. @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cortez39070",
+        "tweet_url": "https://twitter.com/cortez39070/status/1724198871759515864",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:52:46+00:00",
+        "id_str": {
+          "$numberLong": "1724198647049617780"
+        },
+        "full_text": "3) Ketahanan air perkotaan. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "bonari_sitepu",
+        "tweet_url": "https://twitter.com/bonari_sitepu/status/1724198647049617780",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:52:43+00:00",
+        "id_str": {
+          "$numberLong": "1724198635112632475"
+        },
+        "full_text": "@ajengcute16__ Padahal 2 kali Demokrat dukung Prabowo kalah Krn dicurangi. Biasa aja tuh 🤣🤣🤣🤣🤣🤣🤣",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "SManikmoyo",
+        "tweet_url": "https://twitter.com/SManikmoyo/status/1724198635112632475",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:52:36+00:00",
+        "id_str": {
+          "$numberLong": "1724198606302064706"
+        },
+        "full_text": "4. Terjangkau. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724198606302064706",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:52:32+00:00",
+        "id_str": {
+          "$numberLong": "1724198587972592024"
+        },
+        "full_text": "@BungkusTukang di daerah ku itu, banyaknya baliho psi, prabowo gibran emang, baliho ganjar atau baliho anies sikit, paling ketemu di gang2, klw psi di sepanjang jalan",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "turnip_ratu",
+        "tweet_url": "https://twitter.com/turnip_ratu/status/1724198587972592024",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:52:23+00:00",
+        "id_str": {
+          "$numberLong": "1724198552283566282"
+        },
+        "full_text": "Di Indonesia sesuai dengan Undang-undang No. 7 Tahun 1996, pengertian ketahanan pangan adalah kondisi terpenuhinya pangan bagi rumah tangga yang tercermin dari: @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cortez39070",
+        "tweet_url": "https://twitter.com/cortez39070/status/1724198552283566282",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:52:12+00:00",
+        "id_str": {
+          "$numberLong": "1724198507073229252"
+        },
+        "full_text": "@Yattie2023 @HaramAsoy @EBuana83 @kurawa @jokowi @prabowo @Kemhan_RI @Gerindra Ya ada yg salah dg otak lu. Jelas2 ada abuse of power tp lu tutup mata n pikiran",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "kuloadalahsaya",
+        "tweet_url": "https://twitter.com/kuloadalahsaya/status/1724198507073229252",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:51:25+00:00",
+        "id_str": {
+          "$numberLong": "1724198310305828976"
+        },
+        "full_text": "Rekomendasi Parfum Laundry Grade https://t.co/EX7KTGdMAq  Ganjar prabowo anies baswedan mahfud worldcup17 netflix parfum https://t.co/S0sWbGeS83",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cicuitirit",
+        "tweet_url": "https://twitter.com/cicuitirit/status/1724198310305828976",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:51:14+00:00",
+        "id_str": {
+          "$numberLong": "1724198263920947545"
+        },
+        "full_text": "@BungkusTukang wah ini di daerahku, mayoritas disini memang pendukung pak jokowi, jadi mereka milih untuk dukung prabowo gibran, pdhl mah mending yang lainnnn",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "turnip_ratu",
+        "tweet_url": "https://twitter.com/turnip_ratu/status/1724198263920947545",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:51:10+00:00",
+        "id_str": {
+          "$numberLong": "1724198243956060594"
+        },
+        "full_text": "Di Indonesia sesuai dengan Undang-undang No. 7 Tahun 1996, pengertian ketahanan pangan adalah kondisi terpenuhinya pangan bagi rumah tangga yang tercermin dari: Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724198243956060594",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:51:02+00:00",
+        "id_str": {
+          "$numberLong": "1724198211009831193"
+        },
+        "full_text": "@H4T14K4LN4L42 @kemenhan @prabowo @InfoLurah @ganjarpranowo lg buat konten bang",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "VadahJayadi",
+        "tweet_url": "https://twitter.com/VadahJayadi/status/1724198211009831193",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:50:51+00:00",
+        "id_str": {
+          "$numberLong": "1724198166306656286"
+        },
+        "full_text": "5.Ditujukan untuk hidup sehat dan produktif Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724198166306656286",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:50:49+00:00",
+        "id_str": {
+          "$numberLong": "1724198159113465889"
+        },
+        "full_text": "Pada 2021, dan pada 2022 disusul 12 bendungan yang selesai dan pada 2023, diperkirakan ada 7 bendungan tambahan , dan 4 bendungan terakhir akan selesai pada 2024. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "yuri_praskita",
+        "tweet_url": "https://twitter.com/yuri_praskita/status/1724198159113465889",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:50:41+00:00",
+        "id_str": {
+          "$numberLong": "1724198122765852842"
+        },
+        "full_text": "Rekomendasi Parfum Laundry Murah https://t.co/deHqBZP3Nx  Ganjar prabowo anies baswedan mahfud worldcup17 netflix parfum https://t.co/zQHNnDKCn4",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cicuitirit",
+        "tweet_url": "https://twitter.com/cicuitirit/status/1724198122765852842",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:50:35+00:00",
+        "id_str": {
+          "$numberLong": "1724198097176400155"
+        },
+        "full_text": "2.Dimensi watu setiap saat pangan tersedia dan dapat diakses. @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cortez39070",
+        "tweet_url": "https://twitter.com/cortez39070/status/1724198097176400155",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:50:29+00:00",
+        "id_str": {
+          "$numberLong": "1724198073390555379"
+        },
+        "full_text": "2. Aman. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "NurfalahChristy",
+        "tweet_url": "https://twitter.com/NurfalahChristy/status/1724198073390555379",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:50:27+00:00",
+        "id_str": {
+          "$numberLong": "1724198063387070788"
+        },
+        "full_text": "4.Berorientasi pada pemenuhan gizi Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724198063387070788",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:50:16+00:00",
+        "id_str": {
+          "$numberLong": "1724198018495463576"
+        },
+        "full_text": "Pada 2020 ditargetkan 11 bendungan selesai kemudian 11 bendungan lagi akan rampung. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "yuri_praskita",
+        "tweet_url": "https://twitter.com/yuri_praskita/status/1724198018495463576",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:50:13+00:00",
+        "id_str": {
+          "$numberLong": "1724198008290709608"
+        },
+        "full_text": "@kurawa Pendukung @prabowo mah dijamin nasibnya dan kantongnya sedangkan bro toto ini pakai hati nurani... Jadi beda antara bayaran sama relawan",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "username": "KolongLangitGan",
+        "tweet_url": "https://twitter.com/KolongLangitGan/status/1724198008290709608",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:49:33+00:00",
+        "id_str": {
+          "$numberLong": "1724197838803152944"
+        },
+        "full_text": "@mardigu024 Intinya mau ganjar or prabowo sama aja kasih jalan pdip kembali berkuasa dan yg kaya bgini bakalan trus brrlanjut dan kesengsaraan jg kebodohan smakin terdepan... Hueekkks",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 4,
+        "username": "DaTomphel",
+        "tweet_url": "https://twitter.com/DaTomphel/status/1724197838803152944",
+        "keyword": "prabowo",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:49:28+00:00",
+        "id_str": {
+          "$numberLong": "1724197817961562426"
+        },
+        "full_text": "2. Aman. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "PutriAisi",
+        "tweet_url": "https://twitter.com/PutriAisi/status/1724197817961562426",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:49:21+00:00",
+        "id_str": {
+          "$numberLong": "1724197788886409399"
+        },
+        "full_text": "1.Berorientasi pada rumah tangga dan individu. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AriSutrisno2112",
+        "tweet_url": "https://twitter.com/AriSutrisno2112/status/1724197788886409399",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:49:17+00:00",
+        "id_str": {
+          "$numberLong": "1724197771039944942"
+        },
+        "full_text": "Sehingga dengan adanya waduk baru ini, tampungan setara dengan nyaris 14 miliar meter kubik air. Pak Prabowo @prabowo #PrabowoGibranIstimewa #BersamaIndonesiaMaju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "yuri_praskita",
+        "tweet_url": "https://twitter.com/yuri_praskita/status/1724197771039944942",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:49:03+00:00",
+        "id_str": {
+          "$numberLong": "1724197714727145814"
+        },
+        "full_text": "Rekomendasi Jas Hujan Gamis Wanita Cewek https://t.co/enlJHegens  Ganjar prabowo anies baswedan mahfud worldcup17 netflix https://t.co/BaP6YqQ0tG",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cicuitirit",
+        "tweet_url": "https://twitter.com/cicuitirit/status/1724197714727145814",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:49:02+00:00",
+        "id_str": {
+          "$numberLong": "1724197709832388891"
+        },
+        "full_text": "@AK__aja @jokowi @ganjarpranowo @mohmahfudmd @puanmaharani_ri @ArsjadRasjid Sepakat mas.  Tidak akan pernah mendukung Prabowo Subianto berkuasa, siapapun pendampingnya.   #GanjarMahfudTaatKonstitusi",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 2,
+        "username": "Khairaniss",
+        "tweet_url": "https://twitter.com/Khairaniss/status/1724197709832388891",
+        "keyword": "prabowo",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:59:04+00:00",
+        "id_str": {
+          "$numberLong": "1724215335430021236"
+        },
+        "full_text": "jadi gini.... ganjar trendnya menurun, anies naik, prabowo naik... makanya banteng ngamuk2... no hope",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 6,
+        "username": "Piyusaja2",
+        "tweet_url": "https://twitter.com/Piyusaja2/status/1724215335430021236",
+        "keyword": "ganjar",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:58:03+00:00",
+        "id_str": {
+          "$numberLong": "1724215076117488067"
+        },
+        "full_text": "@Melihat_Indo @ganjarpranowo @mohmahfudmd Ganjar sebagai kader PDIP dan Mahfud sebagai representasi Islam moderat menawarkan harmoni dalam kepemimpinan. Kebersihan, integritas, dan kebijaksanaan mereka menjadi fondasi yang kuat untuk masa depan yang lebih baik. GanjarMahfudTegakkanHukum https://t.co/P80mGYclNJ",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AndiniMimi",
+        "tweet_url": "https://twitter.com/AndiniMimi/status/1724215076117488067",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:56:33+00:00",
+        "id_str": {
+          "$numberLong": "1724214698957283499"
+        },
+        "full_text": "Deputi Politik 5.0 TPN Ganjar-Mahfud, Andi Widjajanto: Kami Ikuti Arahan Bu Mega Untuk Tegakkan Demokrasi  https://t.co/DHI6RfMzXP",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 1,
+        "username": "GesuriID",
+        "tweet_url": "https://twitter.com/GesuriID/status/1724214698957283499",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:56:26+00:00",
+        "id_str": {
+          "$numberLong": "1724214669198455026"
+        },
+        "full_text": "@ch_chotimah2 @ganjarpranowo @mohmahfudmd Emamngnya stigma Ganjar Porno sudah hilang? Terus Mahfud MD selama jadi menteri hukum Indonesia lebih baik keadilannya? Lebih baik jaksa dan hakimnya? Mbelgedess itu namanya!!!",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "harisdjauhari",
+        "tweet_url": "https://twitter.com/harisdjauhari/status/1724214669198455026",
+        "keyword": "ganjar",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:55:12+00:00",
+        "id_str": {
+          "$numberLong": "1724214360145568136"
+        },
+        "full_text": "@ex_AnakLolina @aan_muba Yang benar akan Tetap benar, Karena kebenaran hanya Milk Allah swt. Dan Pak Ganjar Pranowo bersama Pak Mahfud MD pada Akhirnya akan Menikmati Kebahagiaannya berkat Keuletan dan Kesabarannya. Aamiin Ya Rabbal alamiin.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "HAkhmadSoleh3",
+        "tweet_url": "https://twitter.com/HAkhmadSoleh3/status/1724214360145568136",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:55:05+00:00",
+        "id_str": {
+          "$numberLong": "1724214329539723443"
+        },
+        "full_text": "Alumni Angkatan muda muhammadiyah bali nyatakan dukung Ganjar Mahfud  #GanjarMahfudFriendly #GanjarMahfud2024 #GanjarMahfudTanpaDrama #GanjarDorongEkonomiBaru #GanjarUntukSemua #ganjarpemimpinkonsisten https://t.co/LcyioDyc0f",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 2,
+        "username": "Rhondadikboo",
+        "tweet_url": "https://twitter.com/Rhondadikboo/status/1724214329539723443",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:54:58+00:00",
+        "id_str": {
+          "$numberLong": "1724214300200599762"
+        },
+        "full_text": "Brarti ganjar @ganjarpranowo dg mentri @mohmahfudmd punya power buat nekan ASN? Klarifikasi nih... Katanya paslon org baik, anti nepotisme, perangi kkn dan paling netral.... Gmn nih yg bener???",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "adhiyadna",
+        "tweet_url": "https://twitter.com/adhiyadna/status/1724214300200599762",
+        "keyword": "ganjar",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:53:42+00:00",
+        "id_str": {
+          "$numberLong": "1724213982628896913"
+        },
+        "full_text": "Antusias warga sediakan rumah untuk Baliho Ganjar buntut dari pencopotan oleh oknum satpol pp https://t.co/sBzxUovsjA",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "mauchips",
+        "tweet_url": "https://twitter.com/mauchips/status/1724213982628896913",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:53:29+00:00",
+        "id_str": {
+          "$numberLong": "1724213929050616277"
+        },
+        "full_text": "Gasspoll teruss Pak @ganjarpranowo masyarakat mendukung bapak Baliho Ganjar https://t.co/Drr86cqdQB",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "RAdhiwira",
+        "tweet_url": "https://twitter.com/RAdhiwira/status/1724213929050616277",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:53:05+00:00",
+        "id_str": {
+          "$numberLong": "1724213829016633531"
+        },
+        "full_text": "@BANGSAygSUJUD @alextham878 @are_inismyname @Minietweets_ @mpoklela7 @ignasbowo @Gi_N0ng @bengkeldodo @P4P4B0W0_2024 @Chaves1305 @Kimberley_2024 Keren.....  Sang jenderal yg kalah 2 kali dari tukang kayu, benar benar jenderal yg pantang menyerah.  Siapa tahu nanti yg kalah 2 kali dari yg hanya tukang kayu, bisa menang lawan Ganjar ....  Kalah maju lagi jenderal .  Salam sehat jenderal",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Santoso94080852",
+        "tweet_url": "https://twitter.com/Santoso94080852/status/1724213829016633531",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:50:03+00:00",
+        "id_str": {
+          "$numberLong": "1724213065095516388"
+        },
+        "full_text": "@Nikmatul_Sg @jokowi Pak Ganjar Pranowo dan Pak Mahfud MD juga masuk kategori pasangan yang serasi dan pas buat Indonesia",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "sesiladelia_",
+        "tweet_url": "https://twitter.com/sesiladelia_/status/1724213065095516388",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:49:30+00:00",
+        "id_str": {
+          "$numberLong": "1724212925592949060"
+        },
+        "full_text": "Selain, blunder sosialisasi pornografi &amp  blunder sabotase U20  Banjir Rob Semarang yg terkesan tdk ada upaya dr Pemprov Jateng ini  Juga bikin banyak potential voters Ganjar leave him",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Mahesa_Aditya_",
+        "tweet_url": "https://twitter.com/Mahesa_Aditya_/status/1724212925592949060",
+        "keyword": "ganjar",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:48:49+00:00",
+        "id_str": {
+          "$numberLong": "1724212753676501388"
+        },
+        "full_text": "@gus_dibyo Aduh, kekompakan di Kebumen keren banget. Selamat pasang baliho baru, semoga jadi semangat bagi yang lewat di depannya. 👍🏽🏠 Baliho Ganjar https://t.co/XUK5bosGLF",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "luvluvintheair",
+        "tweet_url": "https://twitter.com/luvluvintheair/status/1724212753676501388",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:48:44+00:00",
+        "id_str": {
+          "$numberLong": "1724212731019215172"
+        },
+        "full_text": "Hilirisasi kelautan, Ganjar punya visi jelas @Inter https://t.co/3WOZaXTDE7",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "nugrohoo_rafly",
+        "tweet_url": "https://twitter.com/nugrohoo_rafly/status/1724212731019215172",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:48:35+00:00",
+        "id_str": {
+          "$numberLong": "1724212693643690023"
+        },
+        "full_text": "Ganjar Pranowo meyakini bahwa edukasi dapat meningkatkan pemahaman masyarakat terhadap ekonomi digital. #GanjarMajukanEkonomiRI https://t.co/v6Lbt5OKuC",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AdityaSaptaDara",
+        "tweet_url": "https://twitter.com/AdityaSaptaDara/status/1724212693643690023",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:48:23+00:00",
+        "id_str": {
+          "$numberLong": "1724212644763316513"
+        },
+        "full_text": "@gus_dibyo Salut buat teman di Kebumen! Semoga baliho baru bisa memberikan semangat positif dan mengusir kesedihan. 🌈📸 Baliho Ganjar https://t.co/Mtl1YInfZI",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "letjungcook997",
+        "tweet_url": "https://twitter.com/letjungcook997/status/1724212644763316513",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:47:51+00:00",
+        "id_str": {
+          "$numberLong": "1724212509245149277"
+        },
+        "full_text": "Ganjar-Mahfud adalah pasangan yang memiliki visi untuk pertumbuhan berkelanjutan @milaazri_ https://t.co/qd8i382dU3",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "PrametaSin",
+        "tweet_url": "https://twitter.com/PrametaSin/status/1724212509245149277",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:47:47+00:00",
+        "id_str": {
+          "$numberLong": "1724212492044542174"
+        },
+        "full_text": "Ganjar mahfud gama tegas tolak israel https://t.co/XeFuEKCLY8",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Gshyrellefiel",
+        "tweet_url": "https://twitter.com/Gshyrellefiel/status/1724212492044542174",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:47:43+00:00",
+        "id_str": {
+          "$numberLong": "1724212476466844000"
+        },
+        "full_text": "@Melihat_Indo @ganjarpranowo Dukungan untuk Ganjar Mahfud makin meluas meski Baliho Ganjar dicopot tanpa bekas https://t.co/03mXoufunj",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "arrysa20",
+        "tweet_url": "https://twitter.com/arrysa20/status/1724212476466844000",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:47:32+00:00",
+        "id_str": {
+          "$numberLong": "1724212431231025195"
+        },
+        "full_text": "Ganjar Mahfud dari dulu memang musuhnya koruptor GanjarMahfudTegakanHukum https://t.co/Hx3CCrhanf",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "RAdhiwira",
+        "tweet_url": "https://twitter.com/RAdhiwira/status/1724212431231025195",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:46:57+00:00",
+        "id_str": {
+          "$numberLong": "1724212283746947320"
+        },
+        "full_text": "Ganjar Pranowo mengintip proses pembuatan roti di toko roti legendaris di Pematang Siantar Sumatera Utara. #GanjarMajukanEkonomiRI https://t.co/LS0UrjPbn4",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AdityaSaptaDara",
+        "tweet_url": "https://twitter.com/AdityaSaptaDara/status/1724212283746947320",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:46:49+00:00",
+        "id_str": {
+          "$numberLong": "1724212250209386860"
+        },
+        "full_text": "Silaturahmi masyarakat sumut,ganjar komitmen hadirkan pemerataan pembangunan  #GanjarMajukanEkonomiRI https://t.co/c9LDGB6Vwx",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "_cakalang_",
+        "tweet_url": "https://twitter.com/_cakalang_/status/1724212250209386860",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:46:43+00:00",
+        "id_str": {
+          "$numberLong": "1724212227245482107"
+        },
+        "full_text": "@narkosun kasihan ganjar suaranya tambah nyungsep mau disalip sm amin, gara2 komplotannya seperti ini🤣🤣",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "BatubaraNi51671",
+        "tweet_url": "https://twitter.com/BatubaraNi51671/status/1724212227245482107",
+        "keyword": "ganjar",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:46:27+00:00",
+        "id_str": {
+          "$numberLong": "1724212158701957271"
+        },
+        "full_text": "@Melihat_Indo @ganjarpranowo Demokrasi sejati datang dari rakyat, bukan dari baliho turun naik. Teruskan semangat, teman-teman! 🇮🇩✊🏽 Baliho Ganjar https://t.co/sivwFpSEN0",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "iamyouralice",
+        "tweet_url": "https://twitter.com/iamyouralice/status/1724212158701957271",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:44:30+00:00",
+        "id_str": {
+          "$numberLong": "1724211666953388297"
+        },
+        "full_text": "Capres Ganjar Pranowo #GanjarMajukanEkonomiRI  Sowan ke ribuan masyarakat adat di Tapanuli Utara Sumatera Utara https://t.co/Oect4N5fpr",
+        "quote_count": 2,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 4,
+        "username": "mimakhayla",
+        "tweet_url": "https://twitter.com/mimakhayla/status/1724211666953388297",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:44:07+00:00",
+        "id_str": {
+          "$numberLong": "1724211571105411469"
+        },
+        "full_text": "@ganjarpranowo harapan rakyat semoga perekonomian stabil setelah ganti presiden nanti .  insyaallah Pak Ganjar bisa",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "QuudosE",
+        "tweet_url": "https://twitter.com/QuudosE/status/1724211571105411469",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:43:48+00:00",
+        "id_str": {
+          "$numberLong": "1724211493221359722"
+        },
+        "full_text": "waduh bagaimna ini @ganjar, @mohmahfudmd  @adearmando61 ..bisa bantu penjelasan @kurawa",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "stanles07",
+        "tweet_url": "https://twitter.com/stanles07/status/1724211493221359722",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:43:26+00:00",
+        "id_str": {
+          "$numberLong": "1724211400267169864"
+        },
+        "full_text": "Ciptakan inovasi,ganjar mahfud akan masukan umkm dalam e-katalog  #GanjarMajukanEkonomiRI https://t.co/ac1xmByLnL",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "_cakalang_",
+        "tweet_url": "https://twitter.com/_cakalang_/status/1724211400267169864",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:43:17+00:00",
+        "id_str": {
+          "$numberLong": "1724211361453150428"
+        },
+        "full_text": "@ganjarpranowo Pak Ganjar memang sosok pemimpin sekaligus panutan yang harus kita dukung dengan penuh semangat ❤️",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "710_CS",
+        "tweet_url": "https://twitter.com/710_CS/status/1724211361453150428",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:39:42+00:00",
+        "id_str": {
+          "$numberLong": "1724210457819463865"
+        },
+        "full_text": "@Melihat_Indo @ganjarpranowo @mohmahfudmd Bener banget, Ganjar dan Mahfud tuh kayaknya punya visi yang jelas dan sikap yang tegas, jadi berasa nyaman aja kalau lihatnya. Semoga perjalanan politik mereka lancar terus! GanjarMahfudTegakkanHukum https://t.co/IM2Lk2cdkm",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "letjungcook997",
+        "tweet_url": "https://twitter.com/letjungcook997/status/1724210457819463865",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:39:38+00:00",
+        "id_str": {
+          "$numberLong": "1724210441231184098"
+        },
+        "full_text": "@kompascom Tetap dukung pak ganjar",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "rasaataro",
+        "tweet_url": "https://twitter.com/rasaataro/status/1724210441231184098",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:38:35+00:00",
+        "id_str": {
+          "$numberLong": "1724210179439501328"
+        },
+        "full_text": "@gus_dibyo Aku juga siap pasang baliho ganjar dirumah",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "farel11ok",
+        "tweet_url": "https://twitter.com/farel11ok/status/1724210179439501328",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:38:12+00:00",
+        "id_str": {
+          "$numberLong": "1724210081024389536"
+        },
+        "full_text": "@gus_dibyo Saking ngefans nya sma pak ganjar smpe di pasang drmh krn klo dijalan takut dirusak",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "dono6020",
+        "tweet_url": "https://twitter.com/dono6020/status/1724210081024389536",
+        "keyword": "ganjar",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:37:35+00:00",
+        "id_str": {
+          "$numberLong": "1724209927118631154"
+        },
+        "full_text": "@gus_dibyo Bravo! Pendukung jadi lebih kreatif dan siap terjun langsung mengawasi Baliho Ganjar bikinannya sendiri https://t.co/bEzQDX24VO",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "macanternak97",
+        "tweet_url": "https://twitter.com/macanternak97/status/1724209927118631154",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:36:57+00:00",
+        "id_str": {
+          "$numberLong": "1724209768141652059"
+        },
+        "full_text": "Warga sukarela sediakan rumah untuk Baliho Ganjar https://t.co/jMisZ5c5aD",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "kreatifaproject",
+        "tweet_url": "https://twitter.com/kreatifaproject/status/1724209768141652059",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:35:48+00:00",
+        "id_str": {
+          "$numberLong": "1724209477547626534"
+        },
+        "full_text": "@gus_dibyo Nanti ketika periode kampanye sepertinya rakyat akan bergerak serentak meminta Baliho Ganjar untuk dipasangkan",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "XabnanE15541",
+        "tweet_url": "https://twitter.com/XabnanE15541/status/1724209477547626534",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:34:43+00:00",
+        "id_str": {
+          "$numberLong": "1724209203760546146"
+        },
+        "full_text": "@Dennysiregar7 Hayooo mulai panik yaaaak!!! Katanya yakin menang satu putaran, Ama baliho Ganjar dan pendukung Ganjar takut..... lucu",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 1,
+        "favorite_count": 6,
+        "username": "ReneeEmbun",
+        "tweet_url": "https://twitter.com/ReneeEmbun/status/1724209203760546146",
+        "keyword": "ganjar",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:33:57+00:00",
+        "id_str": {
+          "$numberLong": "1724209012710031726"
+        },
+        "full_text": "@gus_dibyo Baliho Ganjar di copot hahaha tenang saja pak Ganjar rumah kami siap di pasangi baliho njenengan. Salah satu hati Ganjar Mahfud🤟🤟 https://t.co/oDp2JMQU3e",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Afifah6121",
+        "tweet_url": "https://twitter.com/Afifah6121/status/1724209012710031726",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:33:23+00:00",
+        "id_str": {
+          "$numberLong": "1724208870803775565"
+        },
+        "full_text": "@gus_dibyo Rakyat akan terus mendukung penuh pak Ganjar",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "rohayathie1",
+        "tweet_url": "https://twitter.com/rohayathie1/status/1724208870803775565",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:30:36+00:00",
+        "id_str": {
+          "$numberLong": "1724208167779713355"
+        },
+        "full_text": "@gtobing2903 @ganjarpranowo @KPK_RI @mohmahfudmd @adearmando61 @psi_id @andrewenas @Bank_Joee_ @bengkeldodo @Minietweets_ @virtual_asisten @AndreasSolusi @BANGSAygSUJUD @antikorupsi Bisa juga dibalik, karena komitmen dukung ganjar makanya di OTT, tau kan siapa yg suka menyandera kasus hukum? Tanya airlangga, ditho, zulhas, dll kalau belom tau",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 1,
+        "username": "AsepBerlian8",
+        "tweet_url": "https://twitter.com/AsepBerlian8/status/1724208167779713355",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:29:19+00:00",
+        "id_str": {
+          "$numberLong": "1724207848559947881"
+        },
+        "full_text": "@Syarman59 Serangan membabi buta ini tidak berdampak positif kepada pemilih. Elektabilitas Ganjar turun signifikan dalam bbrp minggu ini. Tak lama lagi akan disalip oleh Anis. Sementara itu kubu yang kalian serang tetap berada diposisi teratas dengan peningkatan elektabilitas meyakinkan.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "kapuyuak_24285",
+        "tweet_url": "https://twitter.com/kapuyuak_24285/status/1724207848559947881",
+        "keyword": "ganjar",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:28:25+00:00",
+        "id_str": {
+          "$numberLong": "1724207617969365014"
+        },
+        "full_text": "@ganjarpranowo Pemimpin terbaik untuk Indonesia ya cuma Pak Ganjar Maju terus Pak",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "OscarJoe_",
+        "tweet_url": "https://twitter.com/OscarJoe_/status/1724207617969365014",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:26:43+00:00",
+        "id_str": {
+          "$numberLong": "1724207192084287893"
+        },
+        "full_text": "@gus_dibyo keliatan kan kalo warga banyak yang mendukung pak ganjar untuk indonesia maju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "novelineputrii",
+        "tweet_url": "https://twitter.com/novelineputrii/status/1724207192084287893",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:24:34+00:00",
+        "id_str": {
+          "$numberLong": "1724206651631415463"
+        },
+        "full_text": "@gus_dibyo Kekuatan masyarakat adalah yang nomor 1 itu nyata adanya.. Baliho Ganjar https://t.co/FEE6Sym0Fw",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Nakimarta11",
+        "tweet_url": "https://twitter.com/Nakimarta11/status/1724206651631415463",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:23:39+00:00",
+        "id_str": {
+          "$numberLong": "1724206422311759931"
+        },
+        "full_text": "@gus_dibyo Sudah pasti warga siap menampung Baliho Ganjar. Biar aman dri aparat",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "codebluee116140",
+        "tweet_url": "https://twitter.com/codebluee116140/status/1724206422311759931",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:22:26+00:00",
+        "id_str": {
+          "$numberLong": "1724206116010439067"
+        },
+        "full_text": "Ganjar mahfud menang",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "evaristo_ella",
+        "tweet_url": "https://twitter.com/evaristo_ella/status/1724206116010439067",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:21:16+00:00",
+        "id_str": {
+          "$numberLong": "1724205821868052964"
+        },
+        "full_text": "Antusias warga sediakan rumah untuk Baliho Ganjar https://t.co/tEgLgeFTNV",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "asuryadinata9",
+        "tweet_url": "https://twitter.com/asuryadinata9/status/1724205821868052964",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:12:32+00:00",
+        "id_str": {
+          "$numberLong": "1724203623952044462"
+        },
+        "full_text": "@Melihat_Indo @ganjarpranowo @mohmahfudmd Ganjar Mahfud adalah dua pemimpin yang baik hati dan mereka sangat sederhana GanjarMahfudTegakkanHukum https://t.co/Wm2NlbxQb6",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Blexii53",
+        "tweet_url": "https://twitter.com/Blexii53/status/1724203623952044462",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:08:36+00:00",
+        "id_str": {
+          "$numberLong": "1724202633143935079"
+        },
+        "full_text": "@ganjarpranowo Banyak hal yang indah di setiap kunjungan pak Ganjar dan beliau untuk menjadi pemimpin Indonesia yang berpengalaman",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "kusumasuma03",
+        "tweet_url": "https://twitter.com/kusumasuma03/status/1724202633143935079",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:07:13+00:00",
+        "id_str": {
+          "$numberLong": "1724202283582345571"
+        },
+        "full_text": "@Melihat_Indo @ganjarpranowo Sikap aparat sekarang udah Ndak manusiawi hanya karena Baliho Ganjar aja bertindak seperti itu",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "maulida_ri8",
+        "tweet_url": "https://twitter.com/maulida_ri8/status/1724202283582345571",
+        "keyword": "ganjar",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:06:08+00:00",
+        "id_str": {
+          "$numberLong": "1724202012643115100"
+        },
+        "full_text": "@gus_dibyo Kami juga siap rumah gue di pasang Baliho ganjar yg besar gede juga ngga masalah",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AidaLani43626",
+        "tweet_url": "https://twitter.com/AidaLani43626/status/1724202012643115100",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:04:30+00:00",
+        "id_str": {
+          "$numberLong": "1724201599172817391"
+        },
+        "full_text": "GanjarMahfudTegakkanHukum  Ganjar Sebut Kesamaannya dengan Mahfud adalah Anti-Korupsi, Simak Riwayat Komitmen Keduanya https://t.co/Qo0E48dzPF",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "okyherman5",
+        "tweet_url": "https://twitter.com/okyherman5/status/1724201599172817391",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:04:24+00:00",
+        "id_str": {
+          "$numberLong": "1724201576464888108"
+        },
+        "full_text": "@ganjarpranowo saya yakin pak ganjar ganjar memikirkan bagaimana masa depan indonesia selanjutnya",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "novelineputrii",
+        "tweet_url": "https://twitter.com/novelineputrii/status/1724201576464888108",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:04:22+00:00",
+        "id_str": {
+          "$numberLong": "1724201569569177972"
+        },
+        "full_text": "@AndreasSolusi Logika sederhana, 1 jari telunjuk menuding GANJAR MAHFUD panik &amp  takut kalah, 4 jarinya kembali ke dirinya sendiri.  Buzzer Prabowo selain BODOH juga hanya Zombie.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "RifQibaeLha",
+        "tweet_url": "https://twitter.com/RifQibaeLha/status/1724201569569177972",
+        "keyword": "ganjar",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:04:20+00:00",
+        "id_str": {
+          "$numberLong": "1724201559360475398"
+        },
+        "full_text": "@gus_dibyo Warga yang beri lngsung dukungan untuk ganjar mahfud Baliho Ganjar dipasang https://t.co/vQldYtJzho",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Yikomuta10",
+        "tweet_url": "https://twitter.com/Yikomuta10/status/1724201559360475398",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:03:56+00:00",
+        "id_str": {
+          "$numberLong": "1724201460215468259"
+        },
+        "full_text": "@Melihat_Indo @ganjarpranowo Asala banget yah Baliho Ganjar dicopot padahal Ndak nyalahi aturan",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "sambelkaca8",
+        "tweet_url": "https://twitter.com/sambelkaca8/status/1724201460215468259",
+        "keyword": "ganjar",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:03:53+00:00",
+        "id_str": {
+          "$numberLong": "1724201444587491820"
+        },
+        "full_text": "@ganjarpranowo Pak Ganjar di Desa Tanjung Alam kaya bintang tamu spesial, seru banget pasti acaranya! Sukses terus, Pak!",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "caps_loghs",
+        "tweet_url": "https://twitter.com/caps_loghs/status/1724201444587491820",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:03:48+00:00",
+        "id_str": {
+          "$numberLong": "1724201424790405453"
+        },
+        "full_text": "@Melihat_Indo @ganjarpranowo @mohmahfudmd Betul sekali itu pak Ganjar dan pak Mahfud sudah memenuhi syarat untuk menjadi capres dan cawapres GanjarMahfudTegakkanHukum https://t.co/xi9bDNfGWJ",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "shine_ssoo",
+        "tweet_url": "https://twitter.com/shine_ssoo/status/1724201424790405453",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:03:43+00:00",
+        "id_str": {
+          "$numberLong": "1724201403751580153"
+        },
+        "full_text": "@gus_dibyo MashaaAllah.,.. semoga masih banyak rakyat yang masih memelihara akal sehat... pilih GANJAR-MAHFUD paling tepat  Baliho Ganjar https://t.co/2nkHAJ6zl6",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 2,
+        "username": "_DiajengSari",
+        "tweet_url": "https://twitter.com/_DiajengSari/status/1724201403751580153",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:03:41+00:00",
+        "id_str": {
+          "$numberLong": "1724201397594534307"
+        },
+        "full_text": "@Melihat_Indo @ganjarpranowo Yang tulus adalahhh masyarakat Baliho Ganjar mendukung tanpa pamrih https://t.co/ZvnkI0TbYl",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Yikomuta10",
+        "tweet_url": "https://twitter.com/Yikomuta10/status/1724201397594534307",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:03:41+00:00",
+        "id_str": {
+          "$numberLong": "1724201396017197140"
+        },
+        "full_text": "@dodotwit @Cintada16 Iya ya, dari surpey, ganjar hampir kesalip amin,  Dan kata surpey, gibran lbh intelek dari 2 cawapres lain.. Hehe Percaya dong, masa gak percaya. Hehe https://t.co/CE2XdQzdgx",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "mail_suaji",
+        "tweet_url": "https://twitter.com/mail_suaji/status/1724201396017197140",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:03:40+00:00",
+        "id_str": {
+          "$numberLong": "1724201391345066473"
+        },
+        "full_text": "@Melihat_Indo @ganjarpranowo @mohmahfudmd GanjarMahfudTegakkanHukum Hayuk pak semangat,, Saya yakin Ganjar Mahfud akan mempengaruhi hukum di Indonesia menjadi lebih baik lagi 😍 https://t.co/HbA62LF0uL",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AlovaLova422738",
+        "tweet_url": "https://twitter.com/AlovaLova422738/status/1724201391345066473",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:03:38+00:00",
+        "id_str": {
+          "$numberLong": "1724201381773615464"
+        },
+        "full_text": "@ganjarpranowo Semoga restu ini bisa memudahkan jalan pak ganjar menuju RI1",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "ratnaokee",
+        "tweet_url": "https://twitter.com/ratnaokee/status/1724201381773615464",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:03:35+00:00",
+        "id_str": {
+          "$numberLong": "1724201370323136974"
+        },
+        "full_text": "Dukung Jadi Presiden, Abuya Muhtadi Pesani Ganjar Tebar Kebaikan https://t.co/YgXCMV65SE #aktualcom #Aktualofficial",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "aktualofficial",
+        "tweet_url": "https://twitter.com/aktualofficial/status/1724201370323136974",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:03:33+00:00",
+        "id_str": {
+          "$numberLong": "1724201363876577383"
+        },
+        "full_text": "KKB kembali menebar teror ke masyarakat di Kabupaten Puncak, Papua Tengah. Kali ini mereka membakar gedung sekolah hingga rumah adat. Sebanyak 200 warga mengungsi krn KKB tdk segan membunuh warga sipil. Benar2 biadab !   #TinggalkanKKB_MajukanPapua Baliho Ganjar Panama Bima Sakti https://t.co/b2huwiF7UX",
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 11,
+        "favorite_count": 11,
+        "username": "bamantara00",
+        "tweet_url": "https://twitter.com/bamantara00/status/1724201363876577383",
+        "keyword": "ganjar",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:03:30+00:00",
+        "id_str": {
+          "$numberLong": "1724201347854344440"
+        },
+        "full_text": "@ganjarpranowo Rakyat begitu senang ada Pak Ganjar di antara mereka",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "wvyang36027",
+        "tweet_url": "https://twitter.com/wvyang36027/status/1724201347854344440",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:03:26+00:00",
+        "id_str": {
+          "$numberLong": "1724201332440207669"
+        },
+        "full_text": "@detikcom Top jujur Ganjarogi sehat sklrga bisa JD presiden th.2024.Saya dari Bali salam dng Alam Ganjar yg cerda ganteng",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "MadeNurmaw86660",
+        "tweet_url": "https://twitter.com/MadeNurmaw86660/status/1724201332440207669",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:03:16+00:00",
+        "id_str": {
+          "$numberLong": "1724201292258480596"
+        },
+        "full_text": "Mahfud MD akan membackup full KPK bongkar kasus di Kemenkumham💪🇮🇩  || Arab Baliho Ganjar Kedokteran Bima Sakti Panama One Kiss Kebangun Bu Sri Emon Iced Cofee Rujak Senin Knock Knock Amar sulli Bahlil || https://t.co/FzGCQIwl6x",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 12,
+        "favorite_count": 29,
+        "username": "AsirwandaM40",
+        "tweet_url": "https://twitter.com/AsirwandaM40/status/1724201292258480596",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:03:10+00:00",
+        "id_str": {
+          "$numberLong": "1724201265763389594"
+        },
+        "full_text": "@ganjarpranowo Indahnya kebersamaan pak ganjar dengan tokoh ulama, sehat terus semuanya",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Yikomuta10",
+        "tweet_url": "https://twitter.com/Yikomuta10/status/1724201265763389594",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:03:09+00:00",
+        "id_str": {
+          "$numberLong": "1724201263217402355"
+        },
+        "full_text": "@ganjarpranowo Dengan kesederhanaan pak ganjar membuat masyarakat semakin sayang dengan pak ganjar",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "willonaay",
+        "tweet_url": "https://twitter.com/willonaay/status/1724201263217402355",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:03:04+00:00",
+        "id_str": {
+          "$numberLong": "1724201239267692985"
+        },
+        "full_text": "@kiki_daliyo Yakin dengan kepemimpinan pak Ganjar dan pak Mahfud Indonesia akan lebih baik GanjarMahfudTegakkanHukum https://t.co/AaQ2eKihWJ",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "shine_ssoo",
+        "tweet_url": "https://twitter.com/shine_ssoo/status/1724201239267692985",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:03:03+00:00",
+        "id_str": {
+          "$numberLong": "1724201234448740576"
+        },
+        "full_text": "@UyokBack Buat pendukung Anies dan Ganjar gak usah militan², nanti juga mereka jadi menterinya Prabowo. Seperti yg sudah², kalian itu cuma Batu pijakan mendapatkan jabatan.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 2,
+        "username": "Imertomo",
+        "tweet_url": "https://twitter.com/Imertomo/status/1724201234448740576",
+        "keyword": "ganjar",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:02:57+00:00",
+        "id_str": {
+          "$numberLong": "1724201212411830592"
+        },
+        "full_text": "@ganjarpranowo Pak ganjar selalu dicintai masyarakat karena Pak ganjar begitu baik",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Wvhen12",
+        "tweet_url": "https://twitter.com/Wvhen12/status/1724201212411830592",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:02:44+00:00",
+        "id_str": {
+          "$numberLong": "1724201155927196120"
+        },
+        "full_text": "@ganjarpranowo Masa depan yang cerah bersama pak Ganjar",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "NurAlamsya6",
+        "tweet_url": "https://twitter.com/NurAlamsya6/status/1724201155927196120",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:02:35+00:00",
+        "id_str": {
+          "$numberLong": "1724201120720110042"
+        },
+        "full_text": "@kompascom jadi Pertemuan Rembang ini relasi dgn Pak Ganjar",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "bvnotwit",
+        "tweet_url": "https://twitter.com/bvnotwit/status/1724201120720110042",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:02:30+00:00",
+        "id_str": {
+          "$numberLong": "1724201098154766582"
+        },
+        "full_text": "@ganjarpranowo indonesia pasti maju bersma pak ganjar mahfud karna mereka  lebih dari capres dan Cawapres lainnya",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "roy_wjs",
+        "tweet_url": "https://twitter.com/roy_wjs/status/1724201098154766582",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:02:29+00:00",
+        "id_str": {
+          "$numberLong": "1724201092895134082"
+        },
+        "full_text": "@gus_dibyo Kenapa pada ketakutan Ama Baliho Ganjar ya, semua diturunkan. Ada apa ini https://t.co/0UfylqRCtV",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "ElzaFrozen72987",
+        "tweet_url": "https://twitter.com/ElzaFrozen72987/status/1724201092895134082",
+        "keyword": "ganjar",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:02:26+00:00",
+        "id_str": {
+          "$numberLong": "1724201081176260625"
+        },
+        "full_text": "@Melihat_Indo @ganjarpranowo Antusias pendunkung pak Ganjar begitu membara, walaupun banyak aparat yang mencopot Baliho Ganjar tapi rakyat rela memberikan tempat di rumah mereka. https://t.co/QX9SOIw1ma",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "Herie_londo",
+        "tweet_url": "https://twitter.com/Herie_londo/status/1724201081176260625",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:02:22+00:00",
+        "id_str": {
+          "$numberLong": "1724201062515826761"
+        },
+        "full_text": "@ganjarpranowo Masa depan bangsa Indonesia akan lebh baik jika d pimpin oleh pak ganjar pranowo dan pak mahfud sebagai wakilnya",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "regansyah_1",
+        "tweet_url": "https://twitter.com/regansyah_1/status/1724201062515826761",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:02:15+00:00",
+        "id_str": {
+          "$numberLong": "1724201033474494821"
+        },
+        "full_text": "@ganjarpranowo Semoga pak ganjar bisa menjadi pemimpin yang bijaksana untuk bangsa Indonesia",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Wvkun19",
+        "tweet_url": "https://twitter.com/Wvkun19/status/1724201033474494821",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:02:01+00:00",
+        "id_str": {
+          "$numberLong": "1724200976683565445"
+        },
+        "full_text": "@ganjarpranowo Dengan kemenangan pak Ganjar jadi presiden kita sama saja sudah berhasil menghentikan dinasti politik",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Balmonn10",
+        "tweet_url": "https://twitter.com/Balmonn10/status/1724200976683565445",
+        "keyword": "ganjar",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:01:55+00:00",
+        "id_str": {
+          "$numberLong": "1724200949655511099"
+        },
+        "full_text": "@ganjarpranowo Dukung Ganjar untuk Indonesia yang lebih makmur dan sejahtera",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "6Sonyaaa",
+        "tweet_url": "https://twitter.com/6Sonyaaa/status/1724200949655511099",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:01:43+00:00",
+        "id_str": {
+          "$numberLong": "1724200899961335965"
+        },
+        "full_text": "@Melihat_Indo @ganjarpranowo Sekuat-kuatnya penguasa memegang kendali dan menguasai alat negara utk mempertahankan legacynya, kekuatan rakyat tak bisa dilawan.  Baliho Ganjar https://t.co/rsYCqkIOwv",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 6,
+        "username": "ReneeEmbun",
+        "tweet_url": "https://twitter.com/ReneeEmbun/status/1724200899961335965",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:01:42+00:00",
+        "id_str": {
+          "$numberLong": "1724200896551387267"
+        },
+        "full_text": "@ganjarpranowo Seneng bgt melihat pak Ganjar mengunjungi para ulama kyai sowan dan bersilaturahmi agar tidak terputus",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "willonaay",
+        "tweet_url": "https://twitter.com/willonaay/status/1724200896551387267",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:01:39+00:00",
+        "id_str": {
+          "$numberLong": "1724200885281329301"
+        },
+        "full_text": "@gus_dibyo Mantapp rela ya mas rumah nya dipasang Baliho Ganjar",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "mamangangk",
+        "tweet_url": "https://twitter.com/mamangangk/status/1724200885281329301",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:01:38+00:00",
+        "id_str": {
+          "$numberLong": "1724200881472635146"
+        },
+        "full_text": "@ganjarpranowo Pak ganjar memang begitu dekat dengan masyarakat, keren banget ya",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Wvxiaojun13",
+        "tweet_url": "https://twitter.com/Wvxiaojun13/status/1724200881472635146",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:01:28+00:00",
+        "id_str": {
+          "$numberLong": "1724200837734703557"
+        },
+        "full_text": "@ganjarpranowo Pak Ganjar pemimpin yang dekat dengan ulama serta kebijakannya kadang minta arahan dari para ulama",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Balmonn10",
+        "tweet_url": "https://twitter.com/Balmonn10/status/1724200837734703557",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:01:24+00:00",
+        "id_str": {
+          "$numberLong": "1724200822668472411"
+        },
+        "full_text": "@ganjarpranowo Pernyataan Ini bukan tentang Ganjar\" menunjukkan bahwa fokusnya bukan semata-mata pada satu tokoh, melainkan pada isu-isu yang memiliki dampak besar terhadap masa depan Indonesia secara keseluruhan.\"",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Ichanclp",
+        "tweet_url": "https://twitter.com/Ichanclp/status/1724200822668472411",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:01:23+00:00",
+        "id_str": {
+          "$numberLong": "1724200814913200582"
+        },
+        "full_text": "@ganjarpranowo Bapak Ganjar kayaknya ganteng banget klo rambutnya item semua",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "nandajjni",
+        "tweet_url": "https://twitter.com/nandajjni/status/1724200814913200582",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:01:19+00:00",
+        "id_str": {
+          "$numberLong": "1724200800136884378"
+        },
+        "full_text": "@Melihat_Indo @ganjarpranowo @mohmahfudmd Orang baik seperti pak ganjar mahfud selalu menjadi panutan GanjarMahfudTegakkanHukum https://t.co/YVC6gADPxH",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Yikomuta10",
+        "tweet_url": "https://twitter.com/Yikomuta10/status/1724200800136884378",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:01:17+00:00",
+        "id_str": {
+          "$numberLong": "1724200789709918599"
+        },
+        "full_text": "@gus_dibyo Baliho Ganjar kayaknya emg harus di pasang di rumah rumah pribadi yaa",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Diksibiasa",
+        "tweet_url": "https://twitter.com/Diksibiasa/status/1724200789709918599",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:01:14+00:00",
+        "id_str": {
+          "$numberLong": "1724200778502467603"
+        },
+        "full_text": "@tempodotco Kami bangga dengan Pak Ganjar yang telah banyak berbuat untuk rakyat. Kami doakan agar Anda terpilih menjadi presiden Indonesia.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "okyherman5",
+        "tweet_url": "https://twitter.com/okyherman5/status/1724200778502467603",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:01:14+00:00",
+        "id_str": {
+          "$numberLong": "1724200777105695062"
+        },
+        "full_text": "@gus_dibyo mantap pendukung nya pak ganjar gak segan2 untuk memasang Baliho Ganjar didepan rumah mereka https://t.co/2Fl4XsLlRZ",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "inenovel925",
+        "tweet_url": "https://twitter.com/inenovel925/status/1724200777105695062",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:01:11+00:00",
+        "id_str": {
+          "$numberLong": "1724200767685603724"
+        },
+        "full_text": "@dean_deanlova @riza_ajir @derridaism Oi2 agustus jkw dah belok ke prabs 🤭🤭🤭. Semenjak pildun U20 dan pengumuman ganjar sebagai capres, jkw dah beri sinyal ke prabs.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "rendi078",
+        "tweet_url": "https://twitter.com/rendi078/status/1724200767685603724",
+        "keyword": "ganjar",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:01:06+00:00",
+        "id_str": {
+          "$numberLong": "1724200743505400103"
+        },
+        "full_text": "@ganjarpranowo pemilu sebentar lagi tapi rekam jejak digital kinerjamu sangat baik bagus, wawasan mu luas dan pak ganjar paling solutif atas apapun",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "axolotcl",
+        "tweet_url": "https://twitter.com/axolotcl/status/1724200743505400103",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:01:01+00:00",
+        "id_str": {
+          "$numberLong": "1724200724681183688"
+        },
+        "full_text": "@ganjarpranowo Ganjar adalah pemimpin masa depan Indonesia. Indonesia yang lebih dikdaya dan unggul",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "smkkbm20",
+        "tweet_url": "https://twitter.com/smkkbm20/status/1724200724681183688",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:01:01+00:00",
+        "id_str": {
+          "$numberLong": "1724200723569861071"
+        },
+        "full_text": "@ganjarpranowo Semangat bapak Ganjar! Kami akan selalu bela bapak untuk Indonesia yang lebih maju",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "SafJafar5",
+        "tweet_url": "https://twitter.com/SafJafar5/status/1724200723569861071",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:00:57+00:00",
+        "id_str": {
+          "$numberLong": "1724200709040881878"
+        },
+        "full_text": "@Melihat_Indo @ganjarpranowo Kami rela kok Baliho Ganjar dipasang di tempat kami",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "mamangangk",
+        "tweet_url": "https://twitter.com/mamangangk/status/1724200709040881878",
+        "keyword": "ganjar",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:00:42+00:00",
+        "id_str": {
+          "$numberLong": "1724200644846985694"
+        },
+        "full_text": "@ganjarpranowo semua tentang Indonesia indonesia harus maju bersma pemimpin yang benar. bersih. baik dari segalanya yakni pak ganjar",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "danidik_a",
+        "tweet_url": "https://twitter.com/danidik_a/status/1724200644846985694",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:00:39+00:00",
+        "id_str": {
+          "$numberLong": "1724200632020881544"
+        },
+        "full_text": "@geloraco Yokk kubu Prabowo lawan Ganjar tonjok2an, buka2an, biar kubu Anies menikmati sambil duduk manis",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 11,
+        "username": "ahora_baila",
+        "tweet_url": "https://twitter.com/ahora_baila/status/1724200632020881544",
+        "keyword": "ganjar",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:59:04+00:00",
+        "id_str": {
+          "$numberLong": "1724215335430021236"
+        },
+        "full_text": "jadi gini.... ganjar trendnya menurun, anies naik, prabowo naik... makanya banteng ngamuk2... no hope",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 6,
+        "username": "Piyusaja2",
+        "tweet_url": "https://twitter.com/Piyusaja2/status/1724215335430021236",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:58:02+00:00",
+        "id_str": {
+          "$numberLong": "1724215071734448226"
+        },
+        "full_text": "Bukankah Kapal Harus Terus Berlayar?  Penilaian saya terhadap Partai Demokrat : mereka sudah sampai di ujung untuk mempertahankan tekad perubahan.   Saya menilai dari bahasa-2 di ruang publik yang tersirat antara PKS &amp  Demokrat. Justeru Anies yang  endak siap.   Kalau mau tawur…",
+        "quote_count": 6,
+        "reply_count": 72,
+        "retweet_count": 21,
+        "favorite_count": 118,
+        "username": "MinmonPS7",
+        "tweet_url": "https://twitter.com/MinmonPS7/status/1724215071734448226",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:57:36+00:00",
+        "id_str": {
+          "$numberLong": "1724214963294605718"
+        },
+        "full_text": "@voiceofpkb @aniesbaswedan @cakimiNOW Anies Muhaimin menang 2024",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "MaulanRunga",
+        "tweet_url": "https://twitter.com/MaulanRunga/status/1724214963294605718",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:40:33+00:00",
+        "id_str": {
+          "$numberLong": "1724210673511760178"
+        },
+        "full_text": "@erickthohir Rumput JIS bgm kok LBH buruk? Demi ambisi menghabisi Anies? Politikus esih dangkal",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "gusDAL2023",
+        "tweet_url": "https://twitter.com/gusDAL2023/status/1724210673511760178",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:37:07+00:00",
+        "id_str": {
+          "$numberLong": "1724209807392125355"
+        },
+        "full_text": "@Andiarief__ @msaid_didu Kalau sama pak Prabowo kok bisa tanpa syarat dan kalau sama pak Anies bersyarat cawapres???",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 12,
+        "username": "Pejuang_UmmatOk",
+        "tweet_url": "https://twitter.com/Pejuang_UmmatOk/status/1724209807392125355",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:36:05+00:00",
+        "id_str": {
+          "$numberLong": "1724209549874491830"
+        },
+        "full_text": "Salah satu misi Mas Anies @aniesbaswedan dan Gus Imin @cakimiNOW (AMIN) untuk Indonesia adalah mendorong produktivitas anak muda dengan menyediakan peluang kerja seluas-luasnya.  #AMINPeduliKaumMuda https://t.co/Mi1uDTWJYN",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Sunsetandyou22",
+        "tweet_url": "https://twitter.com/Sunsetandyou22/status/1724209549874491830",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:32:08+00:00",
+        "id_str": {
+          "$numberLong": "1724208554444513437"
+        },
+        "full_text": "@RagilSemar Menurut saya kalo pisah, iya, karena kan Megawati dan Jokowi beda pilihan calon pemimpin nasional. Tapi kalo musuhan, kayaknya nggak, krn dlm politik itu musuh atau teman tergantung pd kepentingan. Bisa jadi PDIP dan Jokowi punya kepentingan yg sama : jangan sampai Anies menang.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 2,
+        "username": "damai_ind",
+        "tweet_url": "https://twitter.com/damai_ind/status/1724208554444513437",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:27:22+00:00",
+        "id_str": {
+          "$numberLong": "1724207353711689934"
+        },
+        "full_text": "@Tan_Mar3M Kalau yg kalah anies dari awal sdh dipridiksi",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "HPranadiya",
+        "tweet_url": "https://twitter.com/HPranadiya/status/1724207353711689934",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:26:59+00:00",
+        "id_str": {
+          "$numberLong": "1724207258840797441"
+        },
+        "full_text": "Nasdem Jabar Ngaku Banyak Pendukung Prabowo Pindah ke Anies https://t.co/JxmdjwlN1O",
+        "quote_count": 4,
+        "reply_count": 6,
+        "retweet_count": 73,
+        "favorite_count": 223,
+        "username": "OposisiCerdas",
+        "tweet_url": "https://twitter.com/OposisiCerdas/status/1724207258840797441",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:11:51+00:00",
+        "id_str": {
+          "$numberLong": "1724203449540391369"
+        },
+        "full_text": "@Fahrihamzah Ikuti fatwa ulama lebih selamat para Ulama memilih Mas Anies dan Cak Imin, AMIN,   jangan ikuti apa yg direkomendasikan pak @Fahrihamzah,",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "Almuiz_Zona",
+        "tweet_url": "https://twitter.com/Almuiz_Zona/status/1724203449540391369",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:11:27+00:00",
+        "id_str": {
+          "$numberLong": "1724203348382167404"
+        },
+        "full_text": "@Andiarief__ @msaid_didu Cara Anies meninggalkan memang mengecewakan. Maka gw dukung prabowo,  tapi setelah Prabowo gandeng Gibran,  maka layak ditinggalkan dan kembali ke Anies. Urus negara besar ajak anak tak paham apa2 adalah sebuah kesalahan besar.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 3,
+        "username": "DYS_yes",
+        "tweet_url": "https://twitter.com/DYS_yes/status/1724203348382167404",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:11:21+00:00",
+        "id_str": {
+          "$numberLong": "1724203324394946962"
+        },
+        "full_text": "@BangPino__ Oh si Anies yang katanya nyantri 3bln itu ya",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "galgodong",
+        "tweet_url": "https://twitter.com/galgodong/status/1724203324394946962",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:11:03+00:00",
+        "id_str": {
+          "$numberLong": "1724203247878193641"
+        },
+        "full_text": "Pa Prabs so cute!  Pa Anies tipikal juara kelas yang suka ikut olimpiade wkwk Pa Ganjar anak rohis, senyumnya adem banget 🥲",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "iyangozza",
+        "tweet_url": "https://twitter.com/iyangozza/status/1724203247878193641",
+        "keyword": "anies",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:09:55+00:00",
+        "id_str": {
+          "$numberLong": "1724202963147649175"
+        },
+        "full_text": "Kaum Muda adalah harapan dan kekuatan terbesar kita. Bergabunglah dengan Anies Muhaimin dalam mewujudkan visi memajukan kaum muda, menciptakan peluang, dan membangun Indonesia yang lebih baik. #AMINPeduliKaumMuda #AniesMuhaimin2024 @cakimiNOW @DPP_PKB https://t.co/CEAXIOEU2S",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 3,
+        "favorite_count": 4,
+        "username": "mantaPKB",
+        "tweet_url": "https://twitter.com/mantaPKB/status/1724202963147649175",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:09:34+00:00",
+        "id_str": {
+          "$numberLong": "1724202875528827202"
+        },
+        "full_text": "Setelah menetapkan 3 pasang capres-cawapres, KPU melakukan pengundian nomor urut untuk Anies-Muhaimin, Ganjar-Mahfud, dan Prabowo-Gibran hari ini https://t.co/d1ZjnmwcA9",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 2,
+        "username": "kompascom",
+        "tweet_url": "https://twitter.com/kompascom/status/1724202875528827202",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:08:58+00:00",
+        "id_str": {
+          "$numberLong": "1724202726777856325"
+        },
+        "full_text": "@CecepSopandi @prabowo @ganjarpranowo Waduhh lembaga survei berjamaah ini .... anies dibawah semua",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "denmhyta",
+        "tweet_url": "https://twitter.com/denmhyta/status/1724202726777856325",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:08:34+00:00",
+        "id_str": {
+          "$numberLong": "1724202626533994624"
+        },
+        "full_text": "@adityanfm_ @brochandra @ganjarpranowo Bukan orang Jakarta, gak kerja di Jakarta gak pernah ngerasa perbedaan banjir Anies, Ahok, dan Jokowi. 🤣🤣🤣 gak ngerasain nunggu 1 jam air surut  bisa pulang, versus jaman Anies mesti ngelangi air pinggul buat masuk stasiun 🤣🤣🤣",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "KikuKrisan",
+        "tweet_url": "https://twitter.com/KikuKrisan/status/1724202626533994624",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:07:22+00:00",
+        "id_str": {
+          "$numberLong": "1724202324149620943"
+        },
+        "full_text": "@ethadisaputra Anies dong 😀👍",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 1,
+        "username": "rahmaniarbaftim",
+        "tweet_url": "https://twitter.com/rahmaniarbaftim/status/1724202324149620943",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:07:07+00:00",
+        "id_str": {
+          "$numberLong": "1724202261264412746"
+        },
+        "full_text": "Sekarang propaganda sudah dimulai dg hasil survei Pilpres dari Indikator Politik, Populi Center, dan Poltracking, semua menunjukkan pasangan Prabowo-Gibran unggul secara dominan berhadapan dengan pasangan Ganjar-Mahfud maupun Anies-Muhaimin.",
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AryaSoenSakti",
+        "tweet_url": "https://twitter.com/AryaSoenSakti/status/1724202261264412746",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:06:56+00:00",
+        "id_str": {
+          "$numberLong": "1724202214397448558"
+        },
+        "full_text": "@Hasbil_Lbs Belajarlah dr pengalaman pilkada jakarta.semua lembaga survei wkt pilkada Jakarta Anies di urutan https://t.co/KV66enc9NM bisa memenangkannya.trus dgn anda bilang begini rakyat akng  percaya???knp ngga survei partai Demokrat SJ.apa msh lolos PT. Jg urus SJ partaimu.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Indramajid8",
+        "tweet_url": "https://twitter.com/Indramajid8/status/1724202214397448558",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:06:24+00:00",
+        "id_str": {
+          "$numberLong": "1724202081173799177"
+        },
+        "full_text": "@Hasbil_Lbs Betul sekali bang, fanatiknya jangan berlebihanlah untuk pendukung Anies 😅",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "TetyHerawa13269",
+        "tweet_url": "https://twitter.com/TetyHerawa13269/status/1724202081173799177",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:06:15+00:00",
+        "id_str": {
+          "$numberLong": "1724202043622195644"
+        },
+        "full_text": "@Andiarief__ @msaid_didu Partai Demokrat dikhianati Anies ? Alasan gara2 AHY tidak jadi cawapres  Tuh Jokowi + Gibran khianati rakyat, khianati konstitusi, khianati etika !!  Dibantu ibu bapak Presiden Dibantu bapak Presiden Dibantu Paman MK Dibantu aparat negara Dibantu lembaga pollster yg dibayar",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 2,
+        "username": "DJ_Luvly",
+        "tweet_url": "https://twitter.com/DJ_Luvly/status/1724202043622195644",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:06:12+00:00",
+        "id_str": {
+          "$numberLong": "1724202030301151605"
+        },
+        "full_text": "@tatakujiyati Kalau pak Anies jadi presiden, kira2 siapa ketua KPK-nya mba?",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "yudavvu",
+        "tweet_url": "https://twitter.com/yudavvu/status/1724202030301151605",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:05:18+00:00",
+        "id_str": {
+          "$numberLong": "1724201800826323432"
+        },
+        "full_text": "Gibran barang slundupan, ilegal, kotor cara seleksi pencalonannya. Jangan anggap dia calon normal.  Karena itu paslon Ganjar-Mahfud dan Anies-Muhaimin diwakilkan Office Boy saja, untuk pilih no.urut. @PDI_Perjuangan @NasDem @DPP_PKB @PKSejahtera @PDemokrat #TOLAKgibran #KamiMuak",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "FaqihSyahrir",
+        "tweet_url": "https://twitter.com/FaqihSyahrir/status/1724201800826323432",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:04:56+00:00",
+        "id_str": {
+          "$numberLong": "1724201712213545010"
+        },
+        "full_text": "@DoankWarto Susah lho membantah kehebatan Anies....",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "pingak_ted47752",
+        "tweet_url": "https://twitter.com/pingak_ted47752/status/1724201712213545010",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:03:46+00:00",
+        "id_str": {
+          "$numberLong": "1724201416804430328"
+        },
+        "full_text": "@pras18ter @strike_bravo_b Sesumbar bowo doang itu klo dia menang 😂😂. Malah Anies yg gak tertarik.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "masardika",
+        "tweet_url": "https://twitter.com/masardika/status/1724201416804430328",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:03:03+00:00",
+        "id_str": {
+          "$numberLong": "1724201234448740576"
+        },
+        "full_text": "@UyokBack Buat pendukung Anies dan Ganjar gak usah militan², nanti juga mereka jadi menterinya Prabowo. Seperti yg sudah², kalian itu cuma Batu pijakan mendapatkan jabatan.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 2,
+        "username": "Imertomo",
+        "tweet_url": "https://twitter.com/Imertomo/status/1724201234448740576",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:03:01+00:00",
+        "id_str": {
+          "$numberLong": "1724201226135384245"
+        },
+        "full_text": "@Hasbil_Lbs SP sengaja buat Anies kalah..Nmun ad klicikan SP atas kputusan ini..Agar spaya partainya bisa mndulang suara dri pndukung Anies..SP sadar betul Kal 2024 nasdem sdah mulai ditinggalkan..Terbukti pada survey2 sebelum deklarasi Anies menempatkan nasdem partai yg tak lolos ke senayan",
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AtmajaYenko",
+        "tweet_url": "https://twitter.com/AtmajaYenko/status/1724201226135384245",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:02:48+00:00",
+        "id_str": {
+          "$numberLong": "1724201171684847906"
+        },
+        "full_text": "@voiceofpkb @aniesbaswedan @cakimiNOW Mas Anies  @aniesbaswedan  dan Gus Muhaimin  @cakimiNOW  membuka sebesar-besarnya kesempatan anak muda untuk menciptakan perubahan!🇮🇩",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "monachayank",
+        "tweet_url": "https://twitter.com/monachayank/status/1724201171684847906",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 23:00:51+00:00",
+        "id_str": {
+          "$numberLong": "1724200680616075475"
+        },
+        "full_text": "@SukroDewaPanci @TheLadyJoker @gibran_tweet Susah bedain pendukung prabowo dan anies akhir2x ini 😁",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "PathRpm",
+        "tweet_url": "https://twitter.com/PathRpm/status/1724200680616075475",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 23:00:39+00:00",
+        "id_str": {
+          "$numberLong": "1724200632020881544"
+        },
+        "full_text": "@geloraco Yokk kubu Prabowo lawan Ganjar tonjok2an, buka2an, biar kubu Anies menikmati sambil duduk manis",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 11,
+        "username": "ahora_baila",
+        "tweet_url": "https://twitter.com/ahora_baila/status/1724200632020881544",
+        "keyword": "anies",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 23:00:34+00:00",
+        "id_str": {
+          "$numberLong": "1724200610583720339"
+        },
+        "full_text": "Rekomendasi gelang emas mewah https://t.co/2nBmfK345p  Ganjar prabowo anies baswedan mahfud worldcup17 netflix parfum https://t.co/3xbMaDsjum",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cicuitirit",
+        "tweet_url": "https://twitter.com/cicuitirit/status/1724200610583720339",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:59:40+00:00",
+        "id_str": {
+          "$numberLong": "1724200383843815794"
+        },
+        "full_text": "Tas jinjing tas mini lucu tas main https://t.co/TyCzST303F  Ganjar prabowo anies baswedan mahfud worldcup17 netflix parfum https://t.co/6eZTHFiy8k",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cicuitirit",
+        "tweet_url": "https://twitter.com/cicuitirit/status/1724200383843815794",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:58:55+00:00",
+        "id_str": {
+          "$numberLong": "1724200197918519740"
+        },
+        "full_text": "@Andiarief__ @msaid_didu Maaf mas Andi Arif . Anda keliru. Setiap yang saya pilih semuanya belum pernah Mengecewakan Mas . Termasuk pak presiden SBY. Saat itu saya  yakin . Dan selam itu saya pilih p Demokrat. Juga ibu Mega , termasuk pak Jokowi. Dan isya ALLaH saat ini pak ANIES. Jadi presiden.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 2,
+        "username": "AdiantoMalau1",
+        "tweet_url": "https://twitter.com/AdiantoMalau1/status/1724200197918519740",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:58:12+00:00",
+        "id_str": {
+          "$numberLong": "1724200013885243761"
+        },
+        "full_text": "Rekomendasi Simple Top - Blouse Wanita https://t.co/RoIamyim7Y  Ganjar prabowo anies baswedan mahfud worldcup17 netflix parfum ootd kemeja kuliah kerja https://t.co/ZOrkfd3or3",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cicuitirit",
+        "tweet_url": "https://twitter.com/cicuitirit/status/1724200013885243761",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:57:28+00:00",
+        "id_str": {
+          "$numberLong": "1724199832657461523"
+        },
+        "full_text": "Survei Indo Barometer: Anies Unggul Aspek Kepribadian Beragama Dibanding Ganjar dan Prabowo https://t.co/NtISdneUsn",
+        "quote_count": 3,
+        "reply_count": 11,
+        "retweet_count": 150,
+        "favorite_count": 393,
+        "username": "keuangannews_id",
+        "tweet_url": "https://twitter.com/keuangannews_id/status/1724199832657461523",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:57:24+00:00",
+        "id_str": {
+          "$numberLong": "1724199813124931832"
+        },
+        "full_text": "Rekomendasi blouse kemeja wanuta kantor kuliah kerja https://t.co/s9opGW6Woq  Ganjar prabowo anies baswedan mahfud worldcup17 netflix parfum ootd https://t.co/NZlVLoAJXF",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cicuitirit",
+        "tweet_url": "https://twitter.com/cicuitirit/status/1724199813124931832",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:56:25+00:00",
+        "id_str": {
+          "$numberLong": "1724199568164966907"
+        },
+        "full_text": "NasDem Bocorkan Sosok Kapten Timnas AMIN: Sudah Lama dengan Anies https://t.co/FMSEBY3iDJ",
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 4,
+        "favorite_count": 15,
+        "username": "keuangannews_id",
+        "tweet_url": "https://twitter.com/keuangannews_id/status/1724199568164966907",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:56:20+00:00",
+        "id_str": {
+          "$numberLong": "1724199547319050662"
+        },
+        "full_text": "Toda vez que eu vou olhar oq há de novo no meu insta tem foto da anies na academia e foto da irmã da Les dormindo",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "yepepy",
+        "tweet_url": "https://twitter.com/yepepy/status/1724199547319050662",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:55:11+00:00",
+        "id_str": {
+          "$numberLong": "1724199256859509172"
+        },
+        "full_text": "RUMPUT JIS TAMBAH BULUK USAI DIRENOVASI, BEGINI TANGGAPAN ANIES !!! https://t.co/UZ8WGbapg2 via @YouTube #RUMPUTJIS #JIS #ANIESBASWEDAN #U17 #ERICKTHOHIR #ANIESMUHAIMIN #FIFAU17",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "SAFANews3",
+        "tweet_url": "https://twitter.com/SAFANews3/status/1724199256859509172",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:54:13+00:00",
+        "id_str": {
+          "$numberLong": "1724199014290133221"
+        },
+        "full_text": "@MuhadklyAcho Harus diakuin deh setelah beberapa kali pemilu pasca reformasi, baru ide yg di visi misi Anies komprehensif dan terstruktur penjelasannya. Kalo memang presiden yg kepilih nanti jiwanya negarawan sejati, mungkin ide2 paslon lain juga akan coba diterapkan",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "chalingchairil",
+        "tweet_url": "https://twitter.com/chalingchairil/status/1724199014290133221",
+        "keyword": "anies",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 22:53:51+00:00",
+        "id_str": {
+          "$numberLong": "1724198919884664899"
+        },
+        "full_text": "@_Horceman_ Merci beaucoup beaucoup Anies 🫶😢",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "CmoiDji",
+        "tweet_url": "https://twitter.com/CmoiDji/status/1724198919884664899",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:53:43+00:00",
+        "id_str": {
+          "$numberLong": "1724198885508231321"
+        },
+        "full_text": "@DokterTifa Postingan kek gini yg bikin suara Anies makin drop, cuma bikin kader militan, tapi susah berkembang menjadi lebih besar",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 2,
+        "username": "AliqSamara",
+        "tweet_url": "https://twitter.com/AliqSamara/status/1724198885508231321",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:53:20+00:00",
+        "id_str": {
+          "$numberLong": "1724198789765033990"
+        },
+        "full_text": "@M45Broo Kunaon sih sia ngaribut ken pilpres rek si ganjar rek si prabowo rek si anies nu menang teu untung teu rugi",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "GrahaWalan6302",
+        "tweet_url": "https://twitter.com/GrahaWalan6302/status/1724198789765033990",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:53:19+00:00",
+        "id_str": {
+          "$numberLong": "1724198785797263808"
+        },
+        "full_text": "Celana jennie LEGGING PENDE https://t.co/EhS19Jk7LI  Ganjar prabowo anies baswedan mahfud worldcup17 netflix parfum https://t.co/UOUQsFfV7q",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "cicuitirit",
+        "tweet_url": "https://twitter.com/cicuitirit/status/1724198785797263808",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:53:18+00:00",
+        "id_str": {
+          "$numberLong": "1724198783653748792"
+        },
+        "full_text": "@voiceofpkb @aniesbaswedan @cakimiNOW Anies kren, cak imin keren jugaaa bersama AMIN peduli kaum muda,, next 2024",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "ekabecee",
+        "tweet_url": "https://twitter.com/ekabecee/status/1724198783653748792",
+        "keyword": "anies",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 22:53:07+00:00",
+        "id_str": {
+          "$numberLong": "1724198735943774238"
+        },
+        "full_text": "Pemuda adalah kekuatan bangsa.  Mas Anies dan Cak Imin akan memprioritaskan lapangan kerja untuk kaum muda. Kaum Muda Visioner.. #AMINPeduliKaumMuda #AniesMuhaimin2024 @DPP_PKB  @cakimiNOW  @EmHasanuddin  @imansyukri @shofamubarok1 https://t.co/0s3IaJdONL",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "eko_gusnu",
+        "tweet_url": "https://twitter.com/eko_gusnu/status/1724198735943774238",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:53:06+00:00",
+        "id_str": {
+          "$numberLong": "1724198733829513582"
+        },
+        "full_text": "@Minnie_imut Anies laah",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 4,
+        "username": "mkurnia1",
+        "tweet_url": "https://twitter.com/mkurnia1/status/1724198733829513582",
+        "keyword": "anies",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 22:52:32+00:00",
+        "id_str": {
+          "$numberLong": "1724198587972592024"
+        },
+        "full_text": "@BungkusTukang di daerah ku itu, banyaknya baliho psi, prabowo gibran emang, baliho ganjar atau baliho anies sikit, paling ketemu di gang2, klw psi di sepanjang jalan",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "turnip_ratu",
+        "tweet_url": "https://twitter.com/turnip_ratu/status/1724198587972592024",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:51:40+00:00",
+        "id_str": {
+          "$numberLong": "1724198373409038472"
+        },
+        "full_text": "@NGICLIK19 @Anita65219720 @GeiszChalifah Aku begitu khidmat mencium tangan ,bapak ibuku ,walau demikian aku tak pernah menganggap mereka ,boss, dan aku kacung nya ,Anies menganggap SP orang yg layak dihormati sedangkan JKW nggak layak dihormati karena dia manusia plonga plongo..😂",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "TotokSuryoto2",
+        "tweet_url": "https://twitter.com/TotokSuryoto2/status/1724198373409038472",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:51:25+00:00",
+        "id_str": {
+          "$numberLong": "1724198310305828976"
+        },
+        "full_text": "Rekomendasi Parfum Laundry Grade https://t.co/EX7KTGdMAq  Ganjar prabowo anies baswedan mahfud worldcup17 netflix parfum https://t.co/S0sWbGeS83",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cicuitirit",
+        "tweet_url": "https://twitter.com/cicuitirit/status/1724198310305828976",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:50:41+00:00",
+        "id_str": {
+          "$numberLong": "1724198122765852842"
+        },
+        "full_text": "Rekomendasi Parfum Laundry Murah https://t.co/deHqBZP3Nx  Ganjar prabowo anies baswedan mahfud worldcup17 netflix parfum https://t.co/zQHNnDKCn4",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cicuitirit",
+        "tweet_url": "https://twitter.com/cicuitirit/status/1724198122765852842",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:49:03+00:00",
+        "id_str": {
+          "$numberLong": "1724197714727145814"
+        },
+        "full_text": "Rekomendasi Jas Hujan Gamis Wanita Cewek https://t.co/enlJHegens  Ganjar prabowo anies baswedan mahfud worldcup17 netflix https://t.co/BaP6YqQ0tG",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cicuitirit",
+        "tweet_url": "https://twitter.com/cicuitirit/status/1724197714727145814",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:48:34+00:00",
+        "id_str": {
+          "$numberLong": "1724197590718386354"
+        },
+        "full_text": "Rekomendasi peralatan masak  https://t.co/tEsywrwH1h  Ganjar prabowo anies baswedan mahfud worldcup17 netflix https://t.co/YQpSGGzjbD",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "cicuitirit",
+        "tweet_url": "https://twitter.com/cicuitirit/status/1724197590718386354",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:44:21+00:00",
+        "id_str": {
+          "$numberLong": "1724196532256473548"
+        },
+        "full_text": "Salah satu misi Mas Anies @aniesbaswedan dan Gus Imin @cakimiNOW (AMIN) untuk Indonesia adalah mendorong produktivitas anak muda dengan menyediakan peluang kerja seluas-luasnya.  #AMINPeduliKaumMuda #AniesMuhaimin2024 https://t.co/RsUXVTpDH4",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "username": "victor_ajieb",
+        "tweet_url": "https://twitter.com/victor_ajieb/status/1724196532256473548",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:44:03+00:00",
+        "id_str": {
+          "$numberLong": "1724196456129822909"
+        },
+        "full_text": "@CNNIndonesia Nah awasi pak secara tidak langsung kan menguntungkan anies",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "ruangngupi",
+        "tweet_url": "https://twitter.com/ruangngupi/status/1724196456129822909",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:43:23+00:00",
+        "id_str": {
+          "$numberLong": "1724196285794914804"
+        },
+        "full_text": "@Hasbil_Lbs Fanatiknya rakyat yg mendukung anies mencerminkan keinginan untuk adanya oerubahan yg kebih baik bagi negara ini, mungkin org gila saja yg ingin melanjutkan hutang yg gila2an dan korupsi yg makin menjadi2. Kecintaan dan dukungan rakyat adalah nyata didarat setiap kali kunjungan,",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "DemianRicko77",
+        "tweet_url": "https://twitter.com/DemianRicko77/status/1724196285794914804",
+        "keyword": "anies",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 22:41:57+00:00",
+        "id_str": {
+          "$numberLong": "1724195925047087342"
+        },
+        "full_text": "@habiburokhman UTANKAYU UTARA SARANGNYA PKS dan PRO ANIES..",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "lnwlf08",
+        "tweet_url": "https://twitter.com/lnwlf08/status/1724195925047087342",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:41:41+00:00",
+        "id_str": {
+          "$numberLong": "1724195860576457118"
+        },
+        "full_text": "Anak2 muda ini perlu diedukasi. Mereka memang kurang literasi dan ketertarikan pada politik. Kalau mereka paham dan menggali siapa tokoh yg mereka pilih, kans Anies ini besar banget. Bahkan boleh dibilang paling tinggi krn berbasis logika dan bukan pencitraan semata. Ini PR sik",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "RidNgemil",
+        "tweet_url": "https://twitter.com/RidNgemil/status/1724195860576457118",
+        "keyword": "anies",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 22:40:50+00:00",
+        "id_str": {
+          "$numberLong": "1724195646108745989"
+        },
+        "full_text": "@abu_waras SELAMA PDIP TIDAK MAKZULKAN JOKOWI, MAKA SEMUA INI CUMA SANDIWARA UNTUK KEROYOK ANIES",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "lnwlf08",
+        "tweet_url": "https://twitter.com/lnwlf08/status/1724195646108745989",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:39:23+00:00",
+        "id_str": {
+          "$numberLong": "1724195282173509993"
+        },
+        "full_text": "Herannya, dengan segala kelebihan Anies sbg pemimpin muda visioner dan jd seorang pemikir dan edukator, kok bisa gak dilirik oleh kaum muda milenial dan gen z. Fenomena apa ini? Pernah tanya alasan anak muda ini pilih prabowo, alasannya  bikin ngurut dada. Lucu, gemoy. Apa coba?",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "RidNgemil",
+        "tweet_url": "https://twitter.com/RidNgemil/status/1724195282173509993",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:39:23+00:00",
+        "id_str": {
+          "$numberLong": "1724195278658416928"
+        },
+        "full_text": "@habiburokhman Dapil 3 Jaktim itu gudangnya Anies Mania, ogah milih bacawapres bocil kayak gitu 🤣🤣🤣",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "lnwlf08",
+        "tweet_url": "https://twitter.com/lnwlf08/status/1724195278658416928",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:39:19+00:00",
+        "id_str": {
+          "$numberLong": "1724195262628049323"
+        },
+        "full_text": "@Andiarief__ @msaid_didu Terbalik kali bos.. Justru Demokrat sendiri yg mengkhianati piagam koalisi... Kan jelas menyebutkan masalah cawapres diserahkan ke Pak Anies.. Nggak tahu nya memaksakan cawapres sbg keharusan koalisi., Urusin tuh elektabilitas demokrat yang nyungsep.. Jgn2 malah ngga lolos PT",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 5,
+        "username": "ibnoe45",
+        "tweet_url": "https://twitter.com/ibnoe45/status/1724195262628049323",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:35:50+00:00",
+        "id_str": {
+          "$numberLong": "1724194386588934463"
+        },
+        "full_text": "@OposisiCerdas Hahaaa dsar bocil, trserah nanti pa anies yg mimpin, ko ngatur 2, msa tiap pergantian presiden hrus ngikuti kebijakan,meneruskn bpa mu?",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "TedySuryan84491",
+        "tweet_url": "https://twitter.com/TedySuryan84491/status/1724194386588934463",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:35:37+00:00",
+        "id_str": {
+          "$numberLong": "1724194332293644335"
+        },
+        "full_text": "@Andiarief__ @msaid_didu Justru dgn hengkangnya Demokrat, Anies dapat tambahan suara dr daerah yg selama ini dipredikti tdk bisa dijangkau oleh Anies, bergabungnya PKB menambah amunisi pemenangan Anies, jika tetap bersama Demokrat sdh dapat dipastikan perolehan searanya jalan ditempat.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Alfian_Dzaky168",
+        "tweet_url": "https://twitter.com/Alfian_Dzaky168/status/1724194332293644335",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:34:13+00:00",
+        "id_str": {
+          "$numberLong": "1724193981180064242"
+        },
+        "full_text": "@GeiszChalifah Jejak digital BUMN (@erickthohir ) tolak bantu gelaran Formula E. Tapi karena kecerdasan dan kepiawaian Pak Anies, Formula E sukses. https://t.co/OcRXLvUj2A",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 2,
+        "username": "h_herlybaritto",
+        "tweet_url": "https://twitter.com/h_herlybaritto/status/1724193981180064242",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:34:12+00:00",
+        "id_str": {
+          "$numberLong": "1724193974058135962"
+        },
+        "full_text": "Keren paparannya. Singkat, padat dan jelas arahnya. Gak cuma bluffing tp jg reasonable &amp  executable. Emang kelas Anies beda sik. Dia pemikir, observer dan jg problem solver. Sayangnya, yang kayak dia lakunya cuma di kalangan masyarakat kota &amp  mrk yg berpendidikan tinggi (lanjut)",
+        "quote_count": 0,
+        "reply_count": 7,
+        "retweet_count": 1,
+        "favorite_count": 4,
+        "username": "RidNgemil",
+        "tweet_url": "https://twitter.com/RidNgemil/status/1724193974058135962",
+        "keyword": "anies",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 22:33:56+00:00",
+        "id_str": {
+          "$numberLong": "1724193910770245823"
+        },
+        "full_text": "Bulan ini, Serambi Hijrah akan mengadakan NBA yang membahas Hadits Arbain Nawawi ke-16: *_Jangan Marah, Bagimu Surga_* bareng guru kita, Habib Muhammad bin Anies pada: 📜: Selasa, 14 November 2023 ⏰: 19.30 wib- selesai 🕌: Masjid Ulul Azmi, Kampus C, UNAIR  Wassalamu'alaikum😊👐 https://t.co/IYObhmoKXP",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "arifluqmanngaji",
+        "tweet_url": "https://twitter.com/arifluqmanngaji/status/1724193910770245823",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:31:43+00:00",
+        "id_str": {
+          "$numberLong": "1724193352805974356"
+        },
+        "full_text": "@habiburokhman Selamat datang di gudangnya suara Anies",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "lnwlf08",
+        "tweet_url": "https://twitter.com/lnwlf08/status/1724193352805974356",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:30:37+00:00",
+        "id_str": {
+          "$numberLong": "1724193073662402777"
+        },
+        "full_text": "@YasmineMirzha @STresnowat102 @aniesbaswedan @ch_chotimah2 @Dennysiregar7 @ekokuntadhi1 Dengan munculnya sosok ANIES dipanggung politik memberi warna kontras antara Tokoh yang memiliki moralitas, integritas dan kualitas dengan yang hanya memiliki kepopuleran semata.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "HERSETIA99",
+        "tweet_url": "https://twitter.com/HERSETIA99/status/1724193073662402777",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:30:33+00:00",
+        "id_str": {
+          "$numberLong": "1724193057070031344"
+        },
+        "full_text": "#AMINPeduliKaumMuda  #Anies https://t.co/6JKCYWTcFd",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AdyBowoSaputro",
+        "tweet_url": "https://twitter.com/AdyBowoSaputro/status/1724193057070031344",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:29:46+00:00",
+        "id_str": {
+          "$numberLong": "1724192859807424715"
+        },
+        "full_text": "@syam_juhri Hanya Alloh  yg bisa mengangkat dan menurunkan jabatan  ANIES -CAK IMIN semoga ikhtiar dan perjuangan tim AMIN di ridhoi Alloh swt.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "SolihinCatonsae",
+        "tweet_url": "https://twitter.com/SolihinCatonsae/status/1724192859807424715",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:29:12+00:00",
+        "id_str": {
+          "$numberLong": "1724192718673637465"
+        },
+        "full_text": "@ferizandra anies baswedan pembohong itu ya. LUPA KAMU BACOTAN TIPU SELAMA MENJABAT? LAB COVID, TIM BOLA, POHON MONAS. JANGAN BODOH",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "justtheway333",
+        "tweet_url": "https://twitter.com/justtheway333/status/1724192718673637465",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:27:48+00:00",
+        "id_str": {
+          "$numberLong": "1724192363797434797"
+        },
+        "full_text": "@MuhadklyAcho Dan sejauh ini yg banyak memperbincangkan gagasannya cuma Anies dan Ganjar. Yg 1 lagi asik bergemoy2 ria",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "IkhwanulAhmad",
+        "tweet_url": "https://twitter.com/IkhwanulAhmad/status/1724192363797434797",
+        "keyword": "anies",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 22:27:32+00:00",
+        "id_str": {
+          "$numberLong": "1724192298396012759"
+        },
+        "full_text": "#2019GantiPresiden saya dipihak prabowo sandi secara hitungan real menang tapi kalah dikpu dan di KO MK,jadi apapun keahliannya yang penting menang dulu apapun caranya, #anies https://t.co/MsUfQCEFaE",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "ashadi0005",
+        "tweet_url": "https://twitter.com/ashadi0005/status/1724192298396012759",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:26:38+00:00",
+        "id_str": {
+          "$numberLong": "1724192071479906574"
+        },
+        "full_text": "@Chaves1305 Perindo di kubu Anies? Goblok jangan ditelan sendiri.. ngehoax apa emang tolol?",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "Yopras69Y",
+        "tweet_url": "https://twitter.com/Yopras69Y/status/1724192071479906574",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:26:04+00:00",
+        "id_str": {
+          "$numberLong": "1724191929204637712"
+        },
+        "full_text": "@DPP_PKB @aniesbaswedan @cakimiNOW Salah satu misi Mas Anies  @aniesbaswedan  dan Gus Imin  @cakimiNOW  (AMIN) untuk Indonesia adalah mendorong produktivitas anak muda dengan menyediakan peluang kerja seluas-luasnya.  #AMINPeduliKaumMuda #AniesMuhaimin2024",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "GugleId1782",
+        "tweet_url": "https://twitter.com/GugleId1782/status/1724191929204637712",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:25:59+00:00",
+        "id_str": {
+          "$numberLong": "1724191909122658443"
+        },
+        "full_text": "@Andiarief__ @msaid_didu Siapa bilang?  Anies justru yang paling berpeluang menang 1 putaran. Dan yg membuat itu adalah saat Anies meminang Cak Imin..  Kalau masih dengan demokrat.. justru itu yg melemahkan Anies.. karena ceruk suaranya sama.. 🤣🤣🤣",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 3,
+        "favorite_count": 79,
+        "username": "mkurnia1",
+        "tweet_url": "https://twitter.com/mkurnia1/status/1724191909122658443",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:25:55+00:00",
+        "id_str": {
+          "$numberLong": "1724191891401662663"
+        },
+        "full_text": "@knpiharis Yakin bang semua kaLangan...  Cuma Warga Mekar jaya aja bang.. Lainnya Anies Baswedan",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "ZaaraSholihah",
+        "tweet_url": "https://twitter.com/ZaaraSholihah/status/1724191891401662663",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:25:04+00:00",
+        "id_str": {
+          "$numberLong": "1724191675768033324"
+        },
+        "full_text": "@DPP_PKB @cakimiNOW Gak bahaya taaa....Maju terus pantang mundur #AMINPeduliKaumMuda  #Anies",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "LilisRitonga",
+        "tweet_url": "https://twitter.com/LilisRitonga/status/1724191675768033324",
+        "keyword": "anies",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 22:20:42+00:00",
+        "id_str": {
+          "$numberLong": "1724190576952651904"
+        },
+        "full_text": "@OfficiallyNino @ivanazhar1 @aniesbaswedan Siap bawa perubahan Anies Baswedan... Indonesia kaya.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "muhtar_fuat",
+        "tweet_url": "https://twitter.com/muhtar_fuat/status/1724190576952651904",
+        "keyword": "anies",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 22:20:11+00:00",
+        "id_str": {
+          "$numberLong": "1724190446472089940"
+        },
+        "full_text": "@NovendraPutra4 @mardigu024 Menunjukan sesuatu yg tidak wajar dan lucu kok dikatai buzzer anies, kenapa? Apa karena anies doang yg tidak melakukan hal serupa? Haha tolol",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 4,
+        "username": "eichBibi",
+        "tweet_url": "https://twitter.com/eichBibi/status/1724190446472089940",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:19:43+00:00",
+        "id_str": {
+          "$numberLong": "1724190331389063230"
+        },
+        "full_text": "@habiburokhman Dapil 3 Jaktim udah ke Anies semua bro...",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "lnwlf08",
+        "tweet_url": "https://twitter.com/lnwlf08/status/1724190331389063230",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:19:03+00:00",
+        "id_str": {
+          "$numberLong": "1724190163763433967"
+        },
+        "full_text": "@az_tagfirullahh @PartaiSocmed Tapi yang paling sering dan paling kelihatan gagasan dan jejaknya pak anies, padahal pengen juga denger gagasan yang nantinya bisa diimplementasikan kalau nanti sudah jadi oleh pak ganjar dan prabowo tapi jangan yang ngawang2/kartu2 j",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "beyoubeau",
+        "tweet_url": "https://twitter.com/beyoubeau/status/1724190163763433967",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:18:29+00:00",
+        "id_str": {
+          "$numberLong": "1724190021673189862"
+        },
+        "full_text": "@geloraco Prabowo cuma bisa mengulang pelajaran sejarah, sedangkan Anies selain berpijak pada sejarah, namun juga mendorong visi misi ke depan bagi Indonesia secara detail dan jelas. Disini letak perbedaannya. Anies jauh lebih siap.",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 7,
+        "username": "lnwlf08",
+        "tweet_url": "https://twitter.com/lnwlf08/status/1724190021673189862",
+        "keyword": "anies",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 22:18:11+00:00",
+        "id_str": {
+          "$numberLong": "1724189946150277247"
+        },
+        "full_text": "@bokoromonio Dimes and Anies are probably dead now",
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 2,
+        "favorite_count": 15,
+        "username": "King_Mgubz",
+        "tweet_url": "https://twitter.com/King_Mgubz/status/1724189946150277247",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:16:14+00:00",
+        "id_str": {
+          "$numberLong": "1724189453621895397"
+        },
+        "full_text": "@geloraco Semoga penghitung suara nanti juga banyak yang mendukung Anies. 😀",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0,
+        "favorite_count": 3,
+        "username": "penontonpemilu",
+        "tweet_url": "https://twitter.com/penontonpemilu/status/1724189453621895397",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:15:58+00:00",
+        "id_str": {
+          "$numberLong": "1724189387263529191"
+        },
+        "full_text": "@meditegal @Andiarief__ @msaid_didu Betul, malah calegnya pada hopeless, krn dulu waktu berada di Perubahan berharap dpt efek dari Anies, tpi skrg malah nyungsep gara ikut koalisi ABG🤣🤣\"",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 2,
+        "username": "Rizky78017425",
+        "tweet_url": "https://twitter.com/Rizky78017425/status/1724189387263529191",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:14:59+00:00",
+        "id_str": {
+          "$numberLong": "1724189138247897573"
+        },
+        "full_text": "@DPP_PKB @cakimiNOW mantap, Anies Muhaimin 2024",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Darminto1981",
+        "tweet_url": "https://twitter.com/Darminto1981/status/1724189138247897573",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:13:56+00:00",
+        "id_str": {
+          "$numberLong": "1724188875055095939"
+        },
+        "full_text": "@voiceofpkb mantap Anies Muhaimin, semangat",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Darminto1981",
+        "tweet_url": "https://twitter.com/Darminto1981/status/1724188875055095939",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:13:14+00:00",
+        "id_str": {
+          "$numberLong": "1724188700312256665"
+        },
+        "full_text": "@BangPino__ Anies emang tidak diragukan lagi cerdas berkelas tidak tukang ngeles aja kaya mukidi atau yg lainnya !",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Supriya63837034",
+        "tweet_url": "https://twitter.com/Supriya63837034/status/1724188700312256665",
+        "keyword": "anies",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 22:11:45+00:00",
+        "id_str": {
+          "$numberLong": "1724188327887446217"
+        },
+        "full_text": "@voiceofpkb @aniesbaswedan @cakimiNOW Amin, Mantap Anies Muhaimin",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Darminto1981",
+        "tweet_url": "https://twitter.com/Darminto1981/status/1724188327887446217",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:10:39+00:00",
+        "id_str": {
+          "$numberLong": "1724188049259810927"
+        },
+        "full_text": "@Andiarief__ @msaid_didu Demokrat menginginkan perubahan? Kalau ia maka Demokrat tetp bersama Anies walau tidk pada posisi cawapres",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "farant777",
+        "tweet_url": "https://twitter.com/farant777/status/1724188049259810927",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:09:59+00:00",
+        "id_str": {
+          "$numberLong": "1724187882645078104"
+        },
+        "full_text": "@syam_juhri Sudah ada yg sakit jiwa sebelum anies dan muhaimin terpilih...brp byk yg akan sakit jiwa bila Anies betul2 terpilih menjadi presiden...Manusia Hanya beeikhtiar..hasilnya Allah yg menentukan bukan manusia..",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AbdulAz86652187",
+        "tweet_url": "https://twitter.com/AbdulAz86652187/status/1724187882645078104",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:08:49+00:00",
+        "id_str": {
+          "$numberLong": "1724187587286540525"
+        },
+        "full_text": "@voiceofpkb @aniesbaswedan @cakimiNOW Mantap Anies Muhaimin",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "Darminto1981",
+        "tweet_url": "https://twitter.com/Darminto1981/status/1724187587286540525",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:08:15+00:00",
+        "id_str": {
+          "$numberLong": "1724187444587942323"
+        },
+        "full_text": "UU ITE gunanya cuma buat bungkam mulut rakyat aja ya  Antara Prabowo, Ganjar, dan Anies kalo ada yg mau ilangin UU ITE ini, ay jamin rakyat pasti bakal banyak yg langsung milih dah 😁",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "EbiWanKenobi",
+        "tweet_url": "https://twitter.com/EbiWanKenobi/status/1724187444587942323",
+        "keyword": "anies",
+        "label": "negatif"
+      },
+      {
+        "created_at": "2023-11-13 22:07:23+00:00",
+        "id_str": {
+          "$numberLong": "1724187226643578971"
+        },
+        "full_text": "@P4P4B0W0_2024 @ganjarpranowo @99propaganda @andre_rosiade @AndreasSolusi @BANGSAygSUJUD @Bank_Joee_ @bengkeldodo @are_inismyname @Lembayung071 @AgusYudhoyono @Ndons_Back Kalian dua kubu itu memang sama, cuma Anies yg beda, Anies bersih, jujur dan tdk main curang, amin aja dulu !!",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "rini99714803",
+        "tweet_url": "https://twitter.com/rini99714803/status/1724187226643578971",
+        "keyword": "anies",
+        "label": "positif"
+      },
+      {
+        "created_at": "2023-11-13 22:06:09+00:00",
+        "id_str": {
+          "$numberLong": "1724186916315414683"
+        },
+        "full_text": "Tim Kampanye Daerah percaya diri Prabowo-Gibran bisa mendulang suara di Jakarta yang disebut sebagai kandang\" Anies Baswedan. https://t.co/hSLIAAocd7\"",
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 1,
+        "favorite_count": 3,
+        "username": "kompascom",
+        "tweet_url": "https://twitter.com/kompascom/status/1724186916315414683",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:05:19+00:00",
+        "id_str": {
+          "$numberLong": "1724186705194897733"
+        },
+        "full_text": "@AgusYudhoyono @panca66 14 Pebruari 2024 piLih Anies Baswedan ya Kak.... Anies Baswedan Menang SATU PUTARAN",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "username": "ZaaraSholihah",
+        "tweet_url": "https://twitter.com/ZaaraSholihah/status/1724186705194897733",
+        "keyword": "anies",
+        "label": "netral"
+      },
+      {
+        "created_at": "2023-11-13 22:05:09+00:00",
+        "id_str": {
+          "$numberLong": "1724186666942800014"
+        },
+        "full_text": "@Hasbil_Lbs Menciptakan opini dan mendungukan rakyat sedungu2nya oleh orang2 dungu..ga bisa yah.,ga pa2 anies kalah di surpai menang di pemilih..emang gw pikiran..",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "username": "AzisrahmatR",
+        "tweet_url": "https://twitter.com/AzisrahmatR/status/1724186666942800014",
+        "keyword": "anies",
+        "label": "negatif"
+      }
+    ],
+    "sentiment": {
+      "prabowo": {
+        "positif": 5,
+        "negatif": 20,
+        "netral": 75
+      },
+      "ganjar": {
+        "positif": 32,
+        "negatif": 16,
+        "netral": 52
+      },
+      "anies": {
+        "positif": 14,
+        "negatif": 39,
+        "netral": 47
+      }
+    }
+  }
