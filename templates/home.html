@@ -176,14 +176,11 @@
 
   <script>
     function submitForm() {
-      // Get form data
       var formData = new FormData(document.getElementById('addTopicForm'));
 
-       // Show loading indicator
       var loadingIndicator = document.getElementById('loadingIndicator');
       loadingIndicator.style.display = 'block';
 
-      // Perform AJAX request
       $.ajax({
         type: 'POST',
         url: '{{ url_for("form_submit") }}',
@@ -191,44 +188,50 @@
         processData: false,
         contentType: false,
         success: function(response) {
-          // Hide loading indicator on success
           loadingIndicator.style.display = 'none';
-          // Handle the success response if needed
           console.log(response);
 
-          // Update card content with input values
-          var topicCardTitle = document.getElementById('topicCardTitle');
-          var topicCardText = document.getElementById('topicCardText');
-          var topicCardText2 = document.getElementById('topicCardText2');
+          var topicContainer = document.querySelector('.topic-container');
 
-          // Get the input values from the form
-          var topicTitle = formData.get('topicTitle');
-          var amount = formData.get('amount');
-          var startDate = formData.get('startDate');
-          var endDate = formData.get('endDate');
+          var newTopicCard = document.createElement('div');
+          newTopicCard.className = 'col-md-3';
+          newTopicCard.innerHTML = `
+            <a href="form.html" class="topic-card-link" id="topicCardLink">
+              <div class="topic-card" id="topicCard">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img class="topic-card-img" src="{{ url_for('static', filename='images/Icon.png') }}" alt="Topic1">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="topic-card-title" id="topicCardTitle">
+                      ${formData.get('topicTitle')}
+                    </div>
+                  </div>
+                </div>
+                <div class="topic-card-text" id="topicCardText">
+                  ${formData.get('startDate')} s.d.<br>${formData.get('endDate')}
+                </div>
+                <div class="topic-card-text2" id="topicCardText2">
+                  Total Data: ${formData.get('amount')}
+                </div>
+                <div class="topic-card-text3" id="topicCardText3">
+                  Created at: ${getCurrentDate()}
+                </div>
+              </div>
+            </a>
+          `;
 
-          // Format the date as needed
-          var formattedDate = startDate + ' s.d.<br>' + endDate;
-
-          // Get the current date in the format "dd-mm-yyyy"
-          var currentDate = getCurrentDate();
-
-          // Update card content
-          topicCardTitle.innerHTML = topicTitle;
-          topicCardText.innerHTML = formattedDate;
-          topicCardText2.innerHTML = 'Total Data: ' + amount;
-          topicCardText3.innerHTML = 'Created at: ' + currentDate; // Update the "Created at" text
+          topicContainer.appendChild(newTopicCard);
 
           closeModal();
         },
         error: function(error) {
-          // Hide loading indicator on error
           loadingIndicator.style.display = 'none';
-          // Handle the error response if needed
           console.error(error);
         }
       });
     }
+
 
     function getCurrentDate() {
       var today = new Date();
