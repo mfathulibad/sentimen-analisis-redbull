@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 import transform
 import scrape
 import mongodb
+import process
 
 app = Flask(__name__)
 app.config['STATIC_FOLDER'] = 'static'
@@ -20,21 +21,27 @@ def form_submit():
     
     # Ambil data di form
     title = request.form.get('title')
+
     amount_str = request.form.get('amount')
     amount = int(amount_str) if amount_str else 0
     until = request.form.get('endDate')
     since = request.form.get('startDate')
 
+    print(title)
+    print(until)
     # Buat tipic
-    topicId = mongodb.createTopic(title, amount, until, since)
+    # topicId = mongodb.createTopic(title, amount, until, since)
 
-    scrape.crawl_data(topicId, amount, until, since)
-    transform.compare_length(amount)
-    transform.trim_field()
-    transform.convert_datetime()
-    transform.add_keyword()
+    # scrape.crawl_data(topicId, amount, until, since)
+    # transform.compare_length(topicId)
+    # transform.trim_field(topicId)
+    # transform.convert_datetime(topicId)
+    # transform.add_keyword(topicId)
+    # process.addLabel(topicId)
+    # mongodb.insertTweet(topicId)
+    # mongodb.menghitungSentimen(topicId)
+
     return render_template("home.html")
-
 
 
 if __name__ == '__main__':
