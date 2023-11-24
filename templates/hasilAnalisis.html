@@ -18,15 +18,16 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/styleHasilAnalisis.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styleHasilAnalisis.css') }}">
+
   <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+
 </head>
 
 <body class="sub_page">
@@ -37,21 +38,21 @@
         <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="hasilAnalisis.html">
             <span class="title_result mt-1">
-              <img src="images/result.png" alt="Result">
+              <img src="{{ url_for('static', filename='images/result.png') }}">
               Result
             </span>
           </a>
-          <a class="navbar-brand" href="index.html">
+          <div class="navbar-brand">
             <span class="result">
               Redbull
             </span>
-          </a>
+          </div>
           <div class="navbar-collapse" id="">
             <div class="user_option">
               <!-- Informasi Akun yang Sedang Login -->
               <div class="user_profile">
-                <img src="images/Notifications.png" alt="User Profile">
-                <img src="images/ppict.png" alt="User Profile">
+                <img src="{{ url_for('static', filename='images/Notifications.png') }}" alt="User Profile">
+                <img src="{{ url_for('static', filename='images/ppict.png') }}" alt="User Profile">
               </div>
               <div class="user_info">
                 <span class="user_name">John Doe</span>
@@ -66,11 +67,11 @@
 
     <div class="sidebar">
       <a href="#">
-        <img src="images/bttnresult.png"" alt="Result">
+        <img src="{{ url_for('static', filename='images/bttnresult.png') }}" alt="Result">
         Result
       </a>
       <a href="#">
-        <img src="images/home.png" alt="Home">
+        <img src="{{ url_for('static', filename='images/home.png') }}" alt="Home">
         Home
       </a>
     </div>
@@ -111,83 +112,7 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script>
-    const ctx = document.getElementById('myChart');
-    new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: ['8 Okt', '12 Okt', '16 Okt', '20 Okt', '24 Okt', '28 Okt', '1 Nov'],
-        datasets: [
-          {
-            label: 'Prabowo',
-            data: [0, 0, 0, 0, 444, 0, 0], 
-            backgroundColor: ['#E0CA00'],
-            borderColor: ['#E0CA00'],
-            borderWidth: 1
-          },
-          {
-            label: 'Ganjar',
-            data: [0, 0, 0, 0, 444, 0, 0], 
-            backgroundColor: ['#1EEEC9'],
-            borderColor: ['#1EEEC9'],
-            borderWidth: 1
-          },
-          {
-            label: 'Anies',
-            data: [0, 0, 0, 0, 444, 0, 0], 
-            backgroundColor: ['#DD65E8'],
-            borderColor: ['#DD65E8'],
-            borderWidth: 1
-          }
-        ]
-      },
-      options: {
-        scales: {
-          y: {
-            beginAtZero: true
-          }
-        }
-      }
-    });
-
-    const ctx2 = document.getElementById('myChart2');
-    new Chart(ctx2, {
-      type: 'bar',
-      data: {
-        labels: ['Prabowo', 'Ganjar', 'Anies'],
-        datasets: [
-          {
-            label: 'Positif',
-            data: [130, 291, 152],
-            backgroundColor: ['#00E096'],
-            borderColor: ['#00E096'],
-            borderWidth: 1
-          },
-          {
-            label: 'Negatif',
-            data: [223, 63, 201],
-            backgroundColor: ['#EE1E1E'],
-            borderColor: ['#EE1E1E'],
-            borderWidth: 1
-          },
-          {
-            label: 'Netral',
-            data: [90, 89, 90],
-            backgroundColor: ['#979797'],
-            borderColor: ['#979797'],
-            borderWidth: 1
-          }
-        ]
-      },
-      options: {
-        scales: {
-          y: {
-            beginAtZero: true
-          }
-        }
-      }
-    });
-  </script>
+  <script src="{{ url_for('static', filename='js/hasilAnalisis.js') }}"></script>
 
 </body>
 
