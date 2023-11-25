@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 import transform
 import scrape
 import mongodb
@@ -14,6 +14,17 @@ def home():
 @app.route("/form") 
 def form():
     return render_template("home.html")
+
+@app.route("/hasil") 
+def hasil():
+    return render_template("hasilAnalisis.html")
+
+
+@app.route("/get_sentiment_data")
+def get_sentiment_data():
+    sentiment_data = mongodb.get_sentiment_data()
+
+    return jsonify(sentiment_data)
 
 @app.route("/form_submit", methods=['POST'])
 def form_submit():

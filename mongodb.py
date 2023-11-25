@@ -124,3 +124,26 @@ def menghitungSentimen(topicId):
     }
         
     db.topic.update_one({"topicId" : topicId}, {"$set": data_sentimen}, upsert=True)
+
+#get data sentiment from mongodb
+def get_sentiment_data():
+    db = createConnection()    
+    topics = db.topic.find({})
+
+    sentiment_data = []
+
+    for topic in topics:
+        sentiment = topic.get("sentiment", {})
+
+        data = {
+            "topicId": topic["topicId"],
+            "prabowo": sentiment.get("prabowo", {}),
+            "ganjar": sentiment.get("ganjar", {}),
+            "anies": sentiment.get("anies", {}),
+        }
+
+        sentiment_data.append(data)
+
+    db.client.close()
+
+    return sentiment_data
