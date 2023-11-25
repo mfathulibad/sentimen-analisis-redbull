@@ -72,7 +72,7 @@
         <img src="{{ url_for('static', filename='images/bttnresult.png') }}" alt="Result">
         Result
       </a>
-      <a href="#">
+      <a href="{{ url_for('form') }}">
         <img src="{{ url_for('static', filename='images/home.png') }}" alt="Home">
         Home
       </a>
@@ -85,10 +85,10 @@
             <h3>Keywoard</h3>
           </div>
           <div class="button-container col-10 mt-1">
-            <button id="allKeyword">All Keyword</button>
-            <button id="prabowo">Prabowo</button>
-            <button id="ganjar">Ganjar</button>
-            <button id="anies">Anies</button>
+            <button class="filter-button" id="allKeyword">All Keyword</button>
+            <button class="filter-button" id="prabowo">Prabowo</button>
+            <button class="filter-button" id="ganjar">Ganjar</button>
+            <button class="filter-button" id="anies">Anies</button>
           </div>   
         </div>
         

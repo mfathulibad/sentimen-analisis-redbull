@@ -188,11 +188,15 @@
     box-shadow: 0px 0px 10px #efeff0;
 }
   
-.button-container button:hover,
-.button-container button:active {
+.button-container button:hover{
     background-color: #5D5FEF;
     color: #fff;
     border: none;
+}
+
+.active {
+    background-color: #5D5FEF!important;
+    color: white !important;
 }
 
 .visualisasi{

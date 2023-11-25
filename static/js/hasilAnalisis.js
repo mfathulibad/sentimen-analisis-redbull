@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     const ctx2 = document.getElementById('myChart2');
     const allKeywordButton = document.getElementById('allKeyword');
-    const prabowoButton = document.getElementById('prabowo');
-    const ganjarButton = document.getElementById('ganjar');
-    const aniesButton = document.getElementById('anies');
+    const topicIdString = document.getElementById('data-container').getAttribute('data-topicid');
+    const topicId = parseInt(topicIdString);
+
     let myChart;
 
     function destroyChart() {
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     }
 
-    function fetchDataAndRender(topicId, labels, dataCallback) {
+    function fetchDataAndRender(labels, dataCallback) {
         destroyChart();
 
         fetch('/get_sentiment_data')
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         }
                     });
                 } else {
-                    console.error('Dataset not found for topicId:', topicId);
+                    console.error('Dataset not found for topicId:', 2);
                 }
             })
             .catch(error => {
@@ -46,152 +46,114 @@ document.addEventListener('DOMContentLoaded', (event) => {
             });
     }
 
-    function renderAllKeywordChart() {
-        const labels = ['Prabowo', 'Ganjar', 'Anies'];
-        const topicIdString = document.getElementById('data-container').getAttribute('data-topicid');
-        const topicId = parseInt(topicIdString);
+    var selectedButtons = ['allKeyword']; 
 
-        fetchDataAndRender(topicId, labels, (dataset) => {
-            const positiveData = [dataset.prabowo.positif, dataset.ganjar.positif, dataset.anies.positif];
-            const negativeData = [dataset.prabowo.negatif, dataset.ganjar.negatif, dataset.anies.negatif];
-            const neutralData = [dataset.prabowo.netral, dataset.ganjar.netral, dataset.anies.netral];
+    function updateChartBasedOnSelection() {
+        let labels = [];
+        let selectedDataCallback;
 
-            return [
-                {
-                    label: 'Positif',
-                    data: positiveData,
-                    backgroundColor: ['#00E096'],
-                    borderColor: ['#00E096'],
-                    borderWidth: 1
-                },
-                {
-                    label: 'Negatif',
-                    data: negativeData,
-                    backgroundColor: ['#EE1E1E'],
-                    borderColor: ['#EE1E1E'],
-                    borderWidth: 1
-                },
-                {
-                    label: 'Netral',
-                    data: neutralData,
-                    backgroundColor: ['#979797'],
-                    borderColor: ['#979797'],
-                    borderWidth: 1
-                }
-            ];
-        });
+        if (selectedButtons.includes('allKeyword')) {
+            labels = ['Prabowo', 'Ganjar', 'Anies'];
+            selectedDataCallback = (dataset) => {
+                const positiveData = [dataset.prabowo.positif, dataset.ganjar.positif, dataset.anies.positif];
+                const negativeData = [dataset.prabowo.negatif, dataset.ganjar.negatif, dataset.anies.negatif];
+                const neutralData = [dataset.prabowo.netral, dataset.ganjar.netral, dataset.anies.netral];
+
+                return [
+                    {
+                        label: 'Positif',
+                        data: positiveData,
+                        backgroundColor: ['#00E096'],
+                        borderColor: ['#00E096'],
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Negatif',
+                        data: negativeData,
+                        backgroundColor: ['#EE1E1E'],
+                        borderColor: ['#EE1E1E'],
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Netral',
+                        data: neutralData,
+                        backgroundColor: ['#979797'],
+                        borderColor: ['#979797'],
+                        borderWidth: 1
+                    }
+                ];
+            };
+        } else {
+            labels = selectedButtons.map(button => button.charAt(0).toUpperCase() + button.slice(1));
+
+            selectedDataCallback = (dataset) => {
+                const data = selectedButtons.map(button => {
+                    const sentimentData = dataset[button];
+                    return [sentimentData.positif, sentimentData.negatif, sentimentData.netral];
+                });
+
+                const backgroundColors = ['#00E096', '#EE1E1E', '#979797'];
+
+                return [
+                    {
+                        label: 'Positive',
+                        data: data.map(value => value[0]),
+                        backgroundColor: backgroundColors[0],
+                        borderColor: backgroundColors[0],
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Negative',
+                        data: data.map(value => value[1]),
+                        backgroundColor: backgroundColors[1],
+                        borderColor: backgroundColors[1],
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Netral',
+                        data: data.map(value => value[2]),
+                        backgroundColor: backgroundColors[2],
+                        borderColor: backgroundColors[2],
+                        borderWidth: 1
+                    }
+                ];                
+            };
+        }
+
+        fetchDataAndRender(labels, selectedDataCallback);
     }
 
-    //default all keywoard
-    renderAllKeywordChart();
+    allKeywordButton.classList.add('active'); 
+    updateChartBasedOnSelection(); 
 
-    allKeywordButton.addEventListener('click', renderAllKeywordChart);
-
-    prabowoButton.addEventListener('click', function() {
-        const labels = ['Prabowo'];
-        const topicIdString = document.getElementById('data-container').getAttribute('data-topicid');
-        const topicId = parseInt(topicIdString);
-
-        fetchDataAndRender(topicId, labels, (dataset) => {
-            const positive = [dataset.prabowo.positif];
-            const negative = [dataset.prabowo.negatif];
-            const netral = [dataset.prabowo.netral];
-
-            return [
-                {
-                    label: 'Positif',
-                    data: positive,
-                    backgroundColor: ['#00E096'],
-                    borderColor: ['#00E096'],
-                    borderWidth: 1
-                },
-                {
-                    label: 'Negatif',
-                    data: negative,
-                    backgroundColor: ['#EE1E1E'],
-                    borderColor: ['#EE1E1E'],
-                    borderWidth: 1
-                },
-                {
-                    label: 'Netral',
-                    data: netral,
-                    backgroundColor: ['#979797'],
-                    borderColor: ['#979797'],
-                    borderWidth: 1
+    document.querySelectorAll('.filter-button').forEach(function (button) {
+        button.addEventListener('click', function () {
+            if (button.id === 'allKeyword') {
+                selectedButtons = [button.id];
+            } else {
+                var index = selectedButtons.indexOf(button.id);
+                if (index === -1) {
+                    if (selectedButtons.includes('allKeyword')) {
+                        selectedButtons = [button.id];
+                    } else if (selectedButtons.length < 2) {
+                        selectedButtons.push(button.id);
+                    } else {
+                        selectedButtons = [button.id];
+                    }
+                } else {
+                    selectedButtons.splice(index, 1);
                 }
-            ];
-        });
-    });
+            }
 
-    ganjarButton.addEventListener('click', function() {
-        const labels = ['Ganjar'];
-        const topicIdString = document.getElementById('data-container').getAttribute('data-topicid');
-        const topicId = parseInt(topicIdString);
+            document.querySelectorAll('.filter-button').forEach(function (btn) {
+                btn.classList.remove('active');
+            });
 
-        fetchDataAndRender(topicId, labels, (dataset) => {
-            const positive = [dataset.ganjar.positif];
-            const negative = [dataset.ganjar.negatif];
-            const netral = [dataset.ganjar.netral];
+            selectedButtons.forEach(function (selectedButton) {
+                document.getElementById(selectedButton).classList.add('active');
+            });
 
-            return [
-                {
-                    label: 'Positif',
-                    data: positive,
-                    backgroundColor: ['#00E096'],
-                    borderColor: ['#00E096'],
-                    borderWidth: 1
-                },
-                {
-                    label: 'Negatif',
-                    data: negative,
-                    backgroundColor: ['#EE1E1E'],
-                    borderColor: ['#EE1E1E'],
-                    borderWidth: 1
-                },
-                {
-                    label: 'Netral',
-                    data: netral,
-                    backgroundColor: ['#979797'],
-                    borderColor: ['#979797'],
-                    borderWidth: 1
-                }
-            ];
-        });
-    });
-
-    aniesButton.addEventListener('click', function() {
-        const labels = ['Anies'];
-        const topicIdString = document.getElementById('data-container').getAttribute('data-topicid');
-        const topicId = parseInt(topicIdString);
-
-        fetchDataAndRender(topicId, labels, (dataset) => {
-            const positive = [dataset.anies.positif];
-            const negative = [dataset.anies.negatif];
-            const netral = [dataset.anies.netral];
-
-            return [
-                {
-                    label: 'Positif',
-                    data: positive,
-                    backgroundColor: ['#00E096'],
-                    borderColor: ['#00E096'],
-                    borderWidth: 1
-                },
-                {
-                    label: 'Negatif',
-                    data: negative,
-                    backgroundColor: ['#EE1E1E'],
-                    borderColor: ['#EE1E1E'],
-                    borderWidth: 1
-                },
-                {
-                    label: 'Netral',
-                    data: netral,
-                    backgroundColor: ['#979797'],
-                    borderColor: ['#979797'],
-                    borderWidth: 1
-                }
-            ];
+            updateChartBasedOnSelection();
         });
     });
 });
