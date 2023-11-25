@@ -57,7 +57,7 @@
   </div>
 
   <!-- topic section -->
-  <section class="car_section layout_padding">
+  <section class="layout_padding">
     <div class="container">
       <!-- Container without d-flex class -->
       <div class="topic-container">
@@ -72,17 +72,20 @@
           Topic Lists
         </div>
         <!-- Container for topic cards -->
-        <div class="row" id="topicCardsContainer">
+        <div class="scrolling-container">
           <!-- Loop through topics and generate topic cards -->
           <form method="post" action="{{ url_for('form') }}">
-            {% for topic in topics %}
+            <div class="row" id="topicCardsContainer">
+              {% for topic in topics %}
               <div class="col-md-3 mb-4">
                 <div class="topic-card" id="topicCard{{ topic.topicId }}" data-topicid="{{ topic.topicId }}">
                   <div class="row">
                     <div class="col-md-4">
                       <img class="topic-card-img" src="{{ url_for('static', filename='images/Icon.png') }}" alt="Topic1">
                     </div>
-                    <div class="col-md-8">
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
                       <div class="topic-card-title" id="topicCardTitle">
                         {{ topic.title }}
                       </div>
@@ -94,17 +97,14 @@
                   <div class="topic-card-text2" id="topicCardText2">
                     Total Data: {{ topic.amount }}
                   </div>
-                  <div class="topic-card-text3" id="topicCardText3">
-                    Created at: {{ topic.created_at }}
-                  </div>
                   <div class="row">
                     <button type="button" class="delete-button" onclick="deleteTopic('{{ topic.topicId }}')" data-topicid="{{ topic.topicId }}">Delete</button>
                   </div>                  
                 </div>
               </div>
-            {% endfor %}
+              {% endfor %}
+            </div>
           </form>
-
         </div>
       </div>
     </div>
@@ -224,7 +224,6 @@
           topicCardTitle.innerHTML = title;
           topicCardText.innerHTML = formattedDate;
           topicCardText2.innerHTML = 'Total Data: ' + amount;
-          topicCardText3.innerHTML = 'Created at: ' + currentDate; // Update the "Created at" text
 
           closeModal();
         },
@@ -500,7 +499,6 @@
     border-radius: 10px;
   }
   
-  
   .modal-content2 {
     text-align: left;
     font-family: 'Poppins';
@@ -569,6 +567,29 @@
     font-weight: bold;
     cursor: pointer;
   }
+
+  /* Gaya tambahan untuk tombol delete */
+.delete-button {
+  margin-top: 5px;
+  background-color: #ff5a5a; /* Warna merah untuk tombol delete */
+  color: #ffffff; /* Warna teks pada tombol delete */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Efek transisi untuk perubahan warna latar belakang */
+}
+
+/* Gaya saat kursor mouse mengarah ke tombol delete */
+.delete-button:hover {
+  background-color: #ff8484; /* Warna merah pudar saat tombol di-hover */
+}
+
+/* Gaya saat tombol delete ditekan */
+.delete-button:active {
+  background-color: #c93d3d; /* Warna merah yang lebih gelap saat tombol ditekan */
+}
+
   
   .underline-input {
     font-family: 'Public Sans';
@@ -622,16 +643,23 @@
     padding: 20px;
   }
 
+  .scrolling-container {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  /* Override the row class to display cards horizontally */
   .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
   }
   
   /* Card container styling */
   .col-md-3 {
     flex-basis: calc(25% - 1rem); /* Adjust width based on the number of columns you want */
-    margin-bottom: 1rem;
+    margin-right: 1rem; /* Tambahkan margin kanan */
+    margin-bottom: 1rem; /* Tambahkan margin bawah */
   }
 
   /* Title styling */
@@ -681,7 +709,7 @@
   }
   
   .topic-card-title {
-    text-align: left;
+    text-align: center;
     font-family: 'Poppins';
     color: #050505;
     font-size: 17px;
