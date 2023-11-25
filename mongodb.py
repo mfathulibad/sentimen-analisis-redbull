@@ -167,3 +167,12 @@ def get_all_topics():
     db.client.close()
 
     return topic_list
+
+def delete_topic(topic_id):
+    db = createConnection()
+    # Assuming 'tweets' is the collection name where tweet data is stored
+    db.tweets.delete_many({"topicId": topic_id})
+    # Assuming 'topic' is the collection name where topic data is stored
+    db.topic.delete_one({"topicId": topic_id})
+    
+    db.client.close()

@@ -74,10 +74,10 @@
         <!-- Container for topic cards -->
         <div class="row" id="topicCardsContainer">
           <!-- Loop through topics and generate topic cards -->
-          {% for topic in topics %}
-            <div class="col-md-3 mb-4">
-              <a href="form.html" class="topic-card-link" id="topicCardLink">
-                <div class="topic-card" id="topicCard">
+          <form method="post" action="{{ url_for('form') }}">
+            {% for topic in topics %}
+              <div class="col-md-3 mb-4">
+                <div class="topic-card" id="topicCard{{ topic.topicId }}">
                   <div class="row">
                     <div class="col-md-4">
                       <img class="topic-card-img" src="{{ url_for('static', filename='images/Icon.png') }}" alt="Topic1">
@@ -97,10 +97,14 @@
                   <div class="topic-card-text3" id="topicCardText3">
                     Created at: {{ topic.created_at }}
                   </div>
+                  <div class="row">
+                    <button type="button" class="delete-button" onclick="deleteTopic('{{ topic.topicId }}')" data-topicid="{{ topic.topicId }}">Delete</button>
+                  </div>                  
                 </div>
-              </a>
-            </div>
-          {% endfor %}
+              </div>
+            {% endfor %}
+          </form>
+
         </div>
       </div>
     </div>
@@ -232,6 +236,36 @@
         }
       });
     }
+
+    function deleteTopic(topicId) {
+      var confirmDelete = confirm("Are you sure you want to delete this topic?");
+      if (confirmDelete) {
+        // Get the topicId from the data-topicid attribute
+        var topicIdToDelete = event.currentTarget.getAttribute('data-topicid');
+        // Print the value of topicIdToDelete
+        console.log("Topic ID to delete:", topicIdToDelete);
+
+        // Perform AJAX request
+        $.ajax({
+          type: 'POST',
+          url: '{{ url_for("delete_topic") }}',
+          data: { topicId: topicIdToDelete },
+          success: function(response) {
+            // Handle success response if needed
+            console.log(response);
+
+            // Remove the deleted topic card from the DOM
+            var topicCard = document.getElementById('topicCard' + topicIdToDelete);
+            topicCard.parentNode.removeChild(topicCard);
+          },
+          error: function(error) {
+            // Handle error response if needed
+            console.error(error);
+          }
+        });
+      }
+    }
+
 
     function getCurrentDate() {
       var today = new Date();

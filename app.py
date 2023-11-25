@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, redirect, render_template, request, jsonify, url_for
 import transform
 import scrape
 import mongodb
@@ -11,10 +11,31 @@ app.config['STATIC_FOLDER'] = 'static'
 def home():
     return "Hello, Flask!"
   
-@app.route("/form") 
+@app.route("/form", methods=['GET', 'POST']) 
 def form():
+    if request.method == 'POST':
+        # Check if it's a delete request
+        if 'deleteTopic' in request.form:
+            topic_id = request.form.get('topicId')
+            # Call the function to delete the topic and associated data from the database
+            mongodb.delete_topic(topic_id)
+            return redirect(url_for('form'))
+
     topics = mongodb.get_all_topics()  # Assume you have a function to get all topics
     return render_template("home.html", topics=topics)
+
+@app.route("/delete_topic", methods=['POST'])
+def delete_topic():
+    if request.method == 'POST':
+        topic_id = request.form.get('topicId')  # Menggunakan request.form untuk mendapatkan data dari form
+        if topic_id:
+            # Call the function to delete the topic and associated data from the database
+            mongodb.delete_topic(topic_id)
+            return jsonify({'message': 'Topic deleted successfully'})
+        else:
+            return jsonify({'error': 'Invalid request. TopicId is missing.'}), 400
+    else:
+        return jsonify({'error': 'Invalid request method. Expected POST.'}), 400
 
 @app.route("/hasil") 
 def hasil():
