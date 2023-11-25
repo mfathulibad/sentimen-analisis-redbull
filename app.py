@@ -30,16 +30,16 @@ def form_submit():
     print(title)
     print(until)
     # Buat tipic
-    # topicId = mongodb.createTopic(title, amount, until, since)
+    topicId = mongodb.createTopic(title, amount, until, since)
 
-    # scrape.crawl_data(topicId, amount, until, since)
-    # transform.compare_length(topicId)
-    # transform.trim_field(topicId)
-    # transform.convert_datetime(topicId)
-    # transform.add_keyword(topicId)
-    # process.addLabel(topicId)
-    # mongodb.insertTweet(topicId)
-    # mongodb.menghitungSentimen(topicId)
+    scrape.crawl_data(topicId, amount, until, since)
+    transform.compare_length(topicId)
+    transform.trim_field(topicId)
+    transform.convert_datetime(topicId)
+    transform.add_keyword(topicId)
+    process.addLabel(topicId)
+    mongodb.insertTweet(topicId)
+    mongodb.menghitungSentimen(topicId)
 
     return render_template("home.html")
 
