@@ -147,3 +147,23 @@ def get_sentiment_data():
     db.client.close()
 
     return sentiment_data
+
+def get_all_topics():
+    db = createConnection()
+    topics = db.topic.find({})
+    topic_list = []
+
+    for topic in topics:
+        topic_data = {
+            "topicId": topic["topicId"],
+            "title": topic["title"],
+            "amount": topic["amount"],
+            "since": topic["timeline"]["since"],
+            "until": topic["timeline"]["until"],
+            "created_at": topic.get("created_at", ""),  # Add this line to get the created_at field
+        }
+        topic_list.append(topic_data)
+
+    db.client.close()
+
+    return topic_list

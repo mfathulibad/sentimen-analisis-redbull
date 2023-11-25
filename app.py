@@ -13,7 +13,8 @@ def home():
   
 @app.route("/form") 
 def form():
-    return render_template("home.html")
+    topics = mongodb.get_all_topics()  # Assume you have a function to get all topics
+    return render_template("home.html", topics=topics)
 
 @app.route("/hasil") 
 def hasil():
@@ -23,16 +24,13 @@ def hasil():
 @app.route("/get_sentiment_data")
 def get_sentiment_data():
     sentiment_data = mongodb.get_sentiment_data()
-
     return jsonify(sentiment_data)
 
 @app.route("/form_submit", methods=['POST'])
 def form_submit():
 
-    
     # Ambil data di form
     title = request.form.get('title')
-
     amount_str = request.form.get('amount')
     amount = int(amount_str) if amount_str else 0
     until = request.form.get('endDate')
@@ -40,7 +38,7 @@ def form_submit():
 
     print(title)
     print(until)
-    # Buat tipic
+    # Buat topic
     topicId = mongodb.createTopic(title, amount, until, since)
 
     scrape.crawl_data(topicId, amount, until, since)
