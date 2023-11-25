@@ -77,7 +77,7 @@
           <form method="post" action="{{ url_for('form') }}">
             {% for topic in topics %}
               <div class="col-md-3 mb-4">
-                <div class="topic-card" id="topicCard{{ topic.topicId }}">
+                <div class="topic-card" id="topicCard{{ topic.topicId }}" data-topicid="{{ topic.topicId }}">
                   <div class="row">
                     <div class="col-md-4">
                       <img class="topic-card-img" src="{{ url_for('static', filename='images/Icon.png') }}" alt="Topic1">
@@ -336,6 +336,22 @@
       var yyyy = date.getFullYear();
       return yyyy + '-' + mm + '-' + dd;
     }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        // Mendapatkan semua elemen dengan kelas 'topic-card'
+        var topicCards = document.querySelectorAll('.topic-card');
+
+        // Menambahkan event listener ke setiap elemen 'topic-card'
+        topicCards.forEach(function(card) {
+            card.addEventListener('click', function() {
+                var topicId = this.getAttribute('data-topicid');
+
+                // Mengarahkan pengguna ke hasilAnalisis.html dengan menyertakan topicId sebagai query parameter
+                window.location.href = '/hasil/' + topicId;
+            });
+        });
+    });
+
   </script>
 </body>
 
@@ -732,6 +748,26 @@
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
   }
+
+  .topic-card {
+    /* Tambahkan efek transisi untuk perubahan */
+    transition: background-color 0.3s ease;
+    /* Tambahkan gaya kursor yang menunjukkan elemen dapat diklik */
+    cursor: pointer;
+  }
+
+  /* Gaya saat kursor mouse mengarah ke elemen */
+  .topic-card:hover {
+    /* Misalnya, ubah warna latar belakang */
+    background-color: #ffb1b9;
+  }
+
+  /* Gaya saat elemen ditekan */
+  .topic-card:active {
+    /* Misalnya, ubah sedikit warna latar belakang saat ditekan */
+    background-color: #b67077;
+  }
+
 
   @keyframes spin {
     0% { transform: rotate(0deg); }

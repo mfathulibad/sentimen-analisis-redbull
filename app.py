@@ -37,9 +37,19 @@ def delete_topic():
     else:
         return jsonify({'error': 'Invalid request method. Expected POST.'}), 400
 
-@app.route("/hasil") 
-def hasil():
-    return render_template("hasilAnalisis.html")
+# @app.route('/hasil', methods=['POST'])
+# def hasil():
+#     if request.method == 'POST':
+#         topic_id = request.json.get('topicId')
+
+#         # Redirect ke halaman hasil_topic dengan topicId sebagai parameter
+#         return redirect(url_for('hasil_topic', topicId=topic_id))
+
+@app.route('/hasil/<int:topicId>')
+def hasil_topic(topicId):
+    # Lakukan sesuatu dengan nilai topicId, misalnya proses data
+    # Kemudian render halaman hasilAnalisis.html
+    return render_template("hasilAnalisis.html", topicId=topicId)
 
 
 @app.route("/get_sentiment_data")
