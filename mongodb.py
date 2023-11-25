@@ -11,26 +11,27 @@ def createConnection():
     return db
     
 
-def createTopic(title,amount,until,since):
+def createTopic(title, amount, until, since):
 
     db = createConnection()
 
-    total_data = db.topic.count_documents({})
+    # Mencari topicId terbesar
+    last_topic = db.topic.find_one(sort=[("topicId", -1)])
+    last_topic_id = last_topic["topicId"] if last_topic else 0
 
-    print(total_data)
     topic = {
-        "topicId": total_data + 1,
+        "topicId": last_topic_id + 1,
         "title": title,
-        "amount" : amount,
-        "timeline" : {
-            "until" : until,
-            "since" : since
+        "amount": amount,
+        "timeline": {
+            "until": until,
+            "since": since
         }
     }
 
     db.topic.insert_one(topic)
 
-    return total_data+1
+    return last_topic_id + 1
 
 def getAmount(topicId):
     db = createConnection()

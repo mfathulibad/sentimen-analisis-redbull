@@ -31,6 +31,7 @@ def delete_topic():
         if topic_id:
             # Call the function to delete the topic and associated data from the database
             mongodb.delete_topic(topic_id)
+            print("TOPIC ID: ", topic_id)
             return jsonify({'message': 'Topic deleted successfully'})
         else:
             return jsonify({'error': 'Invalid request. TopicId is missing.'}), 400
