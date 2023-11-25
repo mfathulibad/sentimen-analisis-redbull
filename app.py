@@ -58,6 +58,13 @@ def get_sentiment_data():
     sentiment_data = mongodb.get_sentiment_data()
     return jsonify(sentiment_data)
 
+
+@app.route("/get_peak_time_data/<int:topicId>")
+def get_peak_time_data(topicId):
+    peak_time_data = mongodb.peak_time(topicId)
+    return jsonify(peak_time_data)
+
+
 @app.route("/form_submit", methods=['POST'])
 def form_submit():
 

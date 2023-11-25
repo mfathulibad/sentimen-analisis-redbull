@@ -1,6 +1,7 @@
 import pymongo
 import pandas as pd
 import numpy as np
+from datetime import datetime 
 
 KEYWORDS = ["prabowo", "ganjar", "anies"]
 
@@ -179,3 +180,82 @@ def delete_topic(topic_id):
         print(f"Error deleting topic: {e}")
     finally:
         db.client.close()
+        
+
+def peak_time(topicId):
+
+    # Membuat koneksi ke database MongoDB
+    db = createConnection()
+
+    # Aggregation pipeline
+    pipeline = [
+        {
+            "$match": {
+                "topicId": topicId
+            }
+        },
+        {"$unwind": "$tweets"},
+        {
+            "$project": {
+                "keyword": "$tweets.keyword",
+                "created_at": {
+                    "$dateFromString": {
+                        "dateString": {
+                            "$dateToString": {
+                                "format": "%Y-%m-%dT%H:%M:%S",
+                                "date": {
+                                    "$dateFromString": {
+                                        "dateString": "$tweets.created_at",
+                                        "format": "%Y-%m-%d %H:%M:%S%z"
+                                    }
+                                }
+                            }
+                        },
+                        "format": "%Y-%m-%dT%H:%M:%S"
+                    }
+                }
+            }
+        },
+        {
+            "$group": {
+                "_id": {
+                    "keyword": "$keyword",
+                    "day": {"$dayOfMonth": "$created_at"},
+                    "month": {"$month": "$created_at"},
+                    "year": {"$year": "$created_at"}
+                },
+                "count": {"$sum": 1}
+            }
+        },
+        {
+            "$project": {
+                "_id": 0,
+                "keyword": "$_id.keyword",
+                "date": {
+                    "$dateToString": {
+                        "format": "%Y-%m-%d",
+                        "date": {
+                            "$dateFromParts": {
+                                "year": "$_id.year",
+                                "month": "$_id.month",
+                                "day": "$_id.day"
+                            }
+                        }
+                    }
+                },
+                "count": 1
+            }
+        }
+    ]
+
+    # Menjalankan aggregation
+    result = list(db.topic.aggregate(pipeline))
+
+    data = []
+    # Menampilkan hasil
+    for doc in result:
+        data.append(doc)
+    
+    db.client.close()
+    
+    return data

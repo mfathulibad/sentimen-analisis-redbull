@@ -1,3 +1,60 @@
+// Fungsi untuk mengelompokkan data berdasarkan tanggal
+function groupDataByDate(data) {
+    const groupedData = {};
+    data.forEach(item => {
+        if (!groupedData[item.date]) {
+            groupedData[item.date] = [];
+        }
+        groupedData[item.date].push(item);
+    });
+    return groupedData;
+}
+
+// Fungsi untuk membuat chart
+function createChart(data) {
+    const groupedData = groupDataByDate(data);
+
+    // Mengumpulkan label tanggal
+    const dates = Object.keys(groupedData);
+
+    // Mengumpulkan data untuk setiap kata kunci
+    const datasets = [];
+    data.forEach(item => {
+        const keywordIndex = datasets.findIndex(dataset => dataset.label === item.keyword);
+        if (keywordIndex === -1) {
+            datasets.push({
+                label: item.keyword,
+                data: [item.count],
+                backgroundColor: randomColor() // Fungsi untuk mendapatkan warna acak
+            });
+        } else {
+            datasets[keywordIndex].data.push(item.count);
+        }
+    });
+
+    // Membuat chart
+    const ctx = document.getElementById('myChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: dates,
+            datasets: datasets
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+}
+
+// Fungsi untuk mendapatkan warna acak
+function randomColor() {
+    return '#' + Math.floor(Math.random()*16777215).toString(16);
+}
+
 document.addEventListener('DOMContentLoaded', (event) => {
     const ctx2 = document.getElementById('myChart2');
     const allKeywordButton = document.getElementById('allKeyword');
@@ -11,6 +68,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
             myChart.destroy();
         }
     }
+
+
+    fetch(`/get_peak_time_data/${topicId}`)
+        .then(response => response.json())
+        .then(data => {
+            console.log(data); // Data yang diambil dari server
+            createChart(data)
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+
 
     function fetchDataAndRender(labels, dataCallback) {
         destroyChart();
