@@ -1,6 +1,7 @@
 import pymongo
 import pandas as pd
 import numpy as np
+import json
 from datetime import datetime 
 
 KEYWORDS = ["prabowo", "ganjar", "anies"]
@@ -259,3 +260,48 @@ def peak_time(topicId):
     db.client.close()
     
     return data
+
+
+def getTweets(topicId):
+    db = createConnection()
+
+    labels = ["positif", "negatif", "netral"]
+    top_5_tweets_by_label = {}
+    top_5_general_tweets = []
+
+    for label in labels:
+        tweets = db.topic.find({"topicId": topicId, "tweets.label": label})
+
+        # Mengumpulkan semua tweets yang cocok dengan topicId dan label tertentu
+        all_tweets = [tweet for tweet in tweets]
+
+        # Mengurutkan tweets berdasarkan total count (quote_count + reply_count + retweet_count + favorite_count)
+        all_tweets = [tweet for tweet in all_tweets if 'tweets' in tweet]  # Pastikan data memiliki field 'tweets'
+        sorted_tweets = []
+        for data in all_tweets:
+            sorted_tweets.extend([tweet for tweet in data['tweets'] if tweet['label'] == label])
+        sorted_tweets = sorted(sorted_tweets, key=lambda x: x['quote_count'] + x['reply_count'] + x['retweet_count'] + x['favorite_count'], reverse=True)
+
+        # Mengambil 5 tweets teratas untuk label tertentu
+        top_5_tweets_by_label[label] = sorted_tweets[:5]
+
+        # Menambahkan ke dalam list untuk penggabungan secara general
+        top_5_general_tweets.extend(sorted_tweets[:5])
+
+    # Mengurutkan tweets secara general berdasarkan total count
+    top_5_general_tweets = sorted(top_5_general_tweets, key=lambda x: x['quote_count'] + x['reply_count'] + x['retweet_count'] + x['favorite_count'], reverse=True)
+
+    # Mengambil 5 tweets teratas secara general
+    top_5_general_tweets = top_5_general_tweets[:5]
+
+    # Format data top 5 tweets untuk masing-masing label dan secara general ke dalam JSON
+    data = {
+        "general": top_5_general_tweets,
+        "by_label": top_5_tweets_by_label
+    }
+
+    top_5_tweets_json = json.dumps(data, indent=4)  # Konversi ke JSON dengan indentasi untuk kejelasan
+    
+    print(top_5_tweets_json)
+
+    return top_5_tweets_json
