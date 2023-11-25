@@ -57,48 +57,51 @@
   </div>
 
   <!-- topic section -->
-  <section class="car_section layout_padding">  
-    <!-- Container -->
-    <div class="topic-container">
-      <div class="topic-title">
-        Topic
-        <button id="addTopicButton" class="create-button">
-          <img src="{{ url_for('static', filename='images/Export.png') }}" alt="Create Image">
-          Create
-        </button>
-      </div>      
-      <div class="topic-subtitle">
-        Topic Lists
-      </div>
-      <!-- Card 1 -->
-      <div class="row">
-        <div class="col-md-3">
-          <a href="form.html" class="topic-card-link" id="topicCardLink">
-            <div class="topic-card" id="topicCard">
-              <div class="row">
-                <div class="col-md-4">
-                  <img class="topic-card-img" src="{{ url_for('static', filename='images/Icon.png') }}" alt="Topic1">
-                </div>
-                <div class="col-md-8">
-                  <div class="topic-card-title" id="topicCardTitle">
-                    Sentimen Kesatu
+  <section class="car_section layout_padding">
+    <div class="container">
+      <!-- Container without d-flex class -->
+      <div class="topic-container">
+        <div class="topic-title">
+          Topic
+          <button id="addTopicButton" class="create-button">
+            <img src="{{ url_for('static', filename='images/Export.png') }}" alt="Create Image">
+            Create
+          </button>
+        </div>
+        <div class="topic-subtitle">
+          Topic Lists
+        </div>
+        <!-- Container for topic cards -->
+        <div class="row" id="topicCardsContainer">
+          <!-- Loop through topics and generate topic cards -->
+          {% for topic in topics %}
+            <div class="col-md-3 mb-4">
+              <a href="form.html" class="topic-card-link" id="topicCardLink">
+                <div class="topic-card" id="topicCard">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img class="topic-card-img" src="{{ url_for('static', filename='images/Icon.png') }}" alt="Topic1">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="topic-card-title" id="topicCardTitle">
+                        {{ topic.title }}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="topic-card-text" id="topicCardText">
+                    {{ topic.since }} s.d.<br>{{ topic.until }}
+                  </div>
+                  <div class="topic-card-text2" id="topicCardText2">
+                    Total Data: {{ topic.amount }}
+                  </div>
+                  <div class="topic-card-text3" id="topicCardText3">
+                    Created at: {{ topic.created_at }}
                   </div>
                 </div>
-              </div>
-              <div class="topic-card-text" id="topicCardText">
-                2023-10-01 s.d.<br>2023-11-01
-              </div>
-              <div class="topic-card-text2" id="topicCardText2">
-                Total Data: 1329
-              </div>
-              <div class="topic-card-text3" id="topicCardText3">
-                Created at: 2023-11-01
-              </div>
+              </a>
             </div>
-          </a>
+          {% endfor %}
         </div>
-
-        <!-- Add more cards as needed -->
       </div>
     </div>
   </section>
@@ -202,7 +205,7 @@
           var topicCardText2 = document.getElementById('topicCardText2');
 
           // Get the input values from the form
-          var topicTitle = formData.get('topicTitle');
+          var title = formData.get('title');
           var amount = formData.get('amount');
           var startDate = formData.get('startDate');
           var endDate = formData.get('endDate');
@@ -214,7 +217,7 @@
           var currentDate = getCurrentDate();
 
           // Update card content
-          topicCardTitle.innerHTML = topicTitle;
+          topicCardTitle.innerHTML = title;
           topicCardText.innerHTML = formattedDate;
           topicCardText2.innerHTML = 'Total Data: ' + amount;
           topicCardText3.innerHTML = 'Created at: ' + currentDate; // Update the "Created at" text
@@ -568,7 +571,19 @@
     margin: 0 auto;
     padding: 20px;
   }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   
+  /* Card container styling */
+  .col-md-3 {
+    flex-basis: calc(25% - 1rem); /* Adjust width based on the number of columns you want */
+    margin-bottom: 1rem;
+  }
+
   /* Title styling */
   .topic-title {
     display: flex;
@@ -593,8 +608,6 @@
   
   /* Card container styling */
   .card-container {
-    display: flex;
-    justify-content: space-around;
     margin-top: 20px; /* Jarak antara teks dan card */
   }
   
