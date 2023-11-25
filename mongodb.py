@@ -169,10 +169,12 @@ def get_all_topics():
     return topic_list
 
 def delete_topic(topic_id):
-    db = createConnection()
-    # Assuming 'tweets' is the collection name where tweet data is stored
-    db.tweets.delete_many({"topicId": topic_id})
-    # Assuming 'topic' is the collection name where topic data is stored
-    db.topic.delete_one({"topicId": topic_id})
-    
-    db.client.close()
+    try:
+        db = createConnection()
+        db.topic.delete_one({"topicId": topic_id})
+        print("BISA?: ", topic_id)
+        print("Type of topic_id:", type(topic_id))
+    except Exception as e:
+        print(f"Error deleting topic: {e}")
+    finally:
+        db.client.close()

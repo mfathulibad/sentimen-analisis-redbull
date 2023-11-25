@@ -16,7 +16,7 @@ def form():
     if request.method == 'POST':
         # Check if it's a delete request
         if 'deleteTopic' in request.form:
-            topic_id = request.form.get('topicId')
+            topic_id = int(request.form.get('topicId'))
             # Call the function to delete the topic and associated data from the database
             mongodb.delete_topic(topic_id)
             return redirect(url_for('form'))
@@ -27,7 +27,7 @@ def form():
 @app.route("/delete_topic", methods=['POST'])
 def delete_topic():
     if request.method == 'POST':
-        topic_id = request.form.get('topicId')  # Menggunakan request.form untuk mendapatkan data dari form
+        topic_id = int(request.form.get('topicId'))  # Menggunakan request.form untuk mendapatkan data dari form
         if topic_id:
             # Call the function to delete the topic and associated data from the database
             mongodb.delete_topic(topic_id)
