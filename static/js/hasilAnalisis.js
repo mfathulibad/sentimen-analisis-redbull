@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const prabowoButton = document.getElementById('prabowo');
     const ganjarButton = document.getElementById('ganjar');
     const aniesButton = document.getElementById('anies');
-
     let myChart;
 
     function destroyChart() {
@@ -49,7 +48,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     function renderAllKeywordChart() {
         const labels = ['Prabowo', 'Ganjar', 'Anies'];
-        const topicId = 2;
+        const topicIdString = document.getElementById('data-container').getAttribute('data-topicid');
+        const topicId = parseInt(topicIdString);
 
         fetchDataAndRender(topicId, labels, (dataset) => {
             const positiveData = [dataset.prabowo.positif, dataset.ganjar.positif, dataset.anies.positif];
@@ -89,7 +89,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     prabowoButton.addEventListener('click', function() {
         const labels = ['Prabowo'];
-        const topicId = 2;
+        const topicIdString = document.getElementById('data-container').getAttribute('data-topicid');
+        const topicId = parseInt(topicIdString);
 
         fetchDataAndRender(topicId, labels, (dataset) => {
             const positive = [dataset.prabowo.positif];
@@ -124,7 +125,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     ganjarButton.addEventListener('click', function() {
         const labels = ['Ganjar'];
-        const topicId = 2;
+        const topicIdString = document.getElementById('data-container').getAttribute('data-topicid');
+        const topicId = parseInt(topicIdString);
 
         fetchDataAndRender(topicId, labels, (dataset) => {
             const positive = [dataset.ganjar.positif];
@@ -159,7 +161,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     aniesButton.addEventListener('click', function() {
         const labels = ['Anies'];
-        const topicId = 2;
+        const topicIdString = document.getElementById('data-container').getAttribute('data-topicid');
+        const topicId = parseInt(topicIdString);
 
         fetchDataAndRender(topicId, labels, (dataset) => {
             const positive = [dataset.anies.positif];
