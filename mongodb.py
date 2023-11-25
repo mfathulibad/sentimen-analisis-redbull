@@ -304,4 +304,6 @@ def getTweets(topicId):
     
     print(top_5_tweets_json)
 
+    db.client.close()
+    
     return top_5_tweets_json
