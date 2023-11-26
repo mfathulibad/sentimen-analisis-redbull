@@ -20,14 +20,13 @@
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet">
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/stylehome.css') }}">
   <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
 </head>
 
 <body class="sub_page">
   <div class="hero_area">
-
     <!-- header section starts -->
     <header class="header_section">
       <div class="container-fluid">
@@ -111,60 +110,58 @@
   </section>
   <!-- end topic section -->
 
-<!-- AddTopic Modal -->
-<div id="addTopicModal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal()">&times;</span>
-    <div>
-      <label>Create Topic</label>
+  <!-- AddTopic Modal -->
+  <div id="addTopicModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div>
+        <label>Create Topic</label>
+      </div>
+
+      <!-- Form for adding a topic -->
+      <form id="addTopicForm">
+        <div>
+          <label class="modal-content2" for="title">Title:</label>
+          <input type="text" id="title" name="title" class="underline-input">
+        </div>
+        <div>
+          <label class="modal-content2" for="amount">Total Data:</label>
+          <input type="text" id="amount" name="amount" class="underline-input">
+        </div>
+        <div style="margin-bottom: 10px;">
+          <label class="modal-content2">Timeline:</label>
+          <div class="form-check">
+            <input type="radio" id="defaultTimeline" name="timeline" class="form-check-input" onchange="toggleTimeline()">
+            <label class="checkbox-text" for="defaultTimeline">Latest</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" id="enableTimeline" name="timeline" class="form-check-input" onchange="toggleTimeline()">
+            <label class="checkbox-text" for="enableTimeline">Customize</label>
+          </div>
+        </div>
+        <div class="date-box" id="timelineFields">
+          <div class="row">
+            <div class="col-md-12">
+              <label class="modal-content2 fontsize14" for="startDate">Start Date:</label>
+              <input class="modal-content2 fontsize14" type="date" id="startDate" name="startDate">
+            </div>
+            <div class="col-md-12">
+              <label class="modal-content2 fontsize14" for="endDate">End Date:</label>
+              <input class="modal-content2 fontsize14" type="date" id="endDate" name="endDate">
+            </div>
+          </div>
+        </div>
+        <div class="loading" id="loadingIndicator" style="display: none;"> <!-- Modified loading element -->
+          <div class="loader"></div> <!-- Loader added here -->
+          <p>Processing Your Request ...</p>
+        </div>
+        <div class="button-container">
+          <button type="button" class="cancel-button" onclick="closeModal()">Cancel</button>
+          <button type="button" class="create-button2" onclick="submitForm()">Create</button>
+        </div>
+      </form>
     </div>
-
-    <!-- Form for adding a topic -->
-    <form id="addTopicForm">
-      <div>
-        <label class="modal-content2" for="title">Title:</label>
-        <input type="text" id="title" name="title" class="underline-input">
-      </div>
-      <div>
-        <label class="modal-content2" for="amount">Total Data:</label>
-        <input type="text" id="amount" name="amount" class="underline-input">
-      </div>
-      <div style="margin-bottom: 10px;">
-        <label class="modal-content2">Timeline:</label>
-        <div class="form-check">
-          <input type="radio" id="defaultTimeline" name="timeline" class="form-check-input" onchange="toggleTimeline()">
-          <label class="checkbox-text" for="defaultTimeline">Latest</label>
-        </div>
-        <div class="form-check">
-          <input type="radio" id="enableTimeline" name="timeline" class="form-check-input" onchange="toggleTimeline()">
-          <label class="checkbox-text" for="enableTimeline">Customize</label>
-        </div>
-      </div>
-      <div class="date-box" id="timelineFields">
-        <div class="row">
-          <div class="col-md-12">
-            <label class="modal-content2 fontsize14" for="startDate">Start Date:</label>
-            <input class="modal-content2 fontsize14" type="date" id="startDate" name="startDate">
-          </div>
-          <div class="col-md-12">
-            <label class="modal-content2 fontsize14" for="endDate">End Date:</label>
-            <input class="modal-content2 fontsize14" type="date" id="endDate" name="endDate">
-          </div>
-        </div>
-      </div>
-      <div class="loading" id="loadingIndicator" style="display: none;"> <!-- Modified loading element -->
-        <div class="loader"></div> <!-- Loader added here -->
-        <p>Processing Your Reqeust ...</p>
-      </div>
-      <div class="button-container">
-        <button type="button" class="cancel-button" onclick="closeModal()">Cancel</button>
-        <button type="button" class="create-button2" onclick="submitForm()">Create</button>
-      </div>
-    </form>
   </div>
-</div>
-  
-
 
   <!-- footer section -->
   <footer class="container-fluid footer_section">
@@ -179,628 +176,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="js/custom.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
-
-  <script>
-    function submitForm() {
-      // Get form data
-      var formData = new FormData(document.getElementById('addTopicForm'));
-
-       // Show loading indicator
-      var loadingIndicator = document.getElementById('loadingIndicator');
-      loadingIndicator.style.display = 'block';
-
-      // Perform AJAX request
-      $.ajax({
-        type: 'POST',
-        url: '{{ url_for("form_submit") }}',
-        data: formData,
-        processData: false,
-        contentType: false,
-        success: function(response) {
-          // Hide loading indicator on success
-          loadingIndicator.style.display = 'none';
-          // Handle the success response if needed
-          console.log(response);
-
-          // Update card content with input values
-          var topicCardTitle = document.getElementById('topicCardTitle');
-          var topicCardText = document.getElementById('topicCardText');
-          var topicCardText2 = document.getElementById('topicCardText2');
-
-          // Get the input values from the form
-          var title = formData.get('title');
-          var amount = formData.get('amount');
-          var startDate = formData.get('startDate');
-          var endDate = formData.get('endDate');
-
-          // Format the date as needed
-          var formattedDate = startDate + ' s.d.<br>' + endDate;
-
-          // Get the current date in the format "dd-mm-yyyy"
-          var currentDate = getCurrentDate();
-
-          // Update card content
-          topicCardTitle.innerHTML = title;
-          topicCardText.innerHTML = formattedDate;
-          topicCardText2.innerHTML = 'Total Data: ' + amount;
-
-          closeModal();
-        },
-        error: function(error) {
-          // Hide loading indicator on error
-          loadingIndicator.style.display = 'none';
-          // Handle the error response if needed
-          console.error(error);
-        }
-      });
-    }
-
-    function deleteTopic(topicId) {
-      var confirmDelete = confirm("Are you sure you want to delete this topic?");
-      if (confirmDelete) {
-        // Get the topicId from the data-topicid attribute
-        var topicIdToDelete = event.currentTarget.getAttribute('data-topicid');
-        // Print the value of topicIdToDelete
-        console.log("Topic ID to delete:", topicIdToDelete);
-
-        // Perform AJAX request
-        $.ajax({
-          type: 'POST',
-          url: '{{ url_for("delete_topic") }}',
-          data: { topicId: topicIdToDelete },
-          success: function(response) {
-            // Handle success response if needed
-            console.log(response);
-
-            // Remove the deleted topic card from the DOM
-            var topicCard = document.getElementById('topicCard' + topicIdToDelete);
-            topicCard.parentNode.removeChild(topicCard);
-          },
-          error: function(error) {
-            // Handle error response if needed
-            console.error(error);
-          }
-        });
-      }
-    }
-
-
-    function getCurrentDate() {
-      var today = new Date();
-      var dd = String(today.getDate()).padStart(2, '0');
-      var mm = String(today.getMonth() + 1).padStart(2, '0'); // January is 0!
-      var yyyy = today.getFullYear();
-
-      return yyyy + '-' + mm + '-' + dd;
-    }
-
-    // Get the modal
-    var modal = document.getElementById('addTopicModal');
-    // Get the button that opens the modal
-    var btn = document.getElementById("addTopicButton");
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-    // When the user clicks the button, open the modal
-    btn.onclick = function() {
-      modal.style.display = "block";
-    }
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      closeModal();
-    }
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        closeModal();
-      }
-    }
-    function closeModal() {
-      modal.style.display = "none";
-    }
-    function saveTopic() {
-      // Add logic to save the topic (e.g., get the input value and process it)
-      closeModal();
-    }
-    function toggleTimeline() {
-      var timelineFields = document.getElementById('timelineFields');
-      var enableTimelineRadio = document.getElementById('enableTimeline');
-      var defaultTimelineRadio = document.getElementById('defaultTimeline');
-      var startDateInput = document.getElementById('startDate');
-      var endDateInput = document.getElementById('endDate');
-
-      if (enableTimelineRadio.checked) {
-        timelineFields.style.display = 'block';
-      } else {
-        timelineFields.style.display = 'none';
-      }
-
-      // If "Default" radio is checked, hide timelineFields
-      if (defaultTimelineRadio.checked) {
-        // Jika "Default" radio dipilih, atur nilai startDate dan endDate satu bulan sebelumnya
-        var currentDate = new Date();
-        var lastMonth = new Date(currentDate);
-        lastMonth.setMonth(currentDate.getMonth() - 1);
-
-        // Format tanggal ke dalam format 'yyyy-mm-dd' yang diperlukan untuk input date
-        var formattedLastMonth = formatDate(lastMonth);
-
-        startDateInput.value = formattedLastMonth;
-        endDateInput.value = formatDate(currentDate);
-      }
-    }
-    function formatDate(date) {
-      var dd = String(date.getDate()).padStart(2, '0');
-      var mm = String(date.getMonth() + 1).padStart(2, '0');
-      var yyyy = date.getFullYear();
-      return yyyy + '-' + mm + '-' + dd;
-    }
-
-    document.addEventListener("DOMContentLoaded", function() {
-        // Mendapatkan semua elemen dengan kelas 'topic-card'
-        var topicCards = document.querySelectorAll('.topic-card');
-
-        // Menambahkan event listener ke setiap elemen 'topic-card'
-        topicCards.forEach(function(card) {
-            card.addEventListener('click', function() {
-                var topicId = this.getAttribute('data-topicid');
-
-                // Mengarahkan pengguna ke hasilAnalisis.html dengan menyertakan topicId sebagai query parameter
-                window.location.href = '/hasil/' + topicId;
-            });
-        });
-    });
-
-  </script>
+  <script src="{{ url_for('static', filename='js/home.js') }}"></script>
 </body>
-
-<style>
-    body {
-    font-family: "Poppins",
-    sans-serif;
-    color: #0c0c0c;
-    background-color: #f9fafb;
-  }
-  
-  .layout_padding {
-    padding-top: 90px;
-    padding-bottom: 90px;
-  }
-  
-  /*header section*/
-  .hero_area {
-    position: relative;
-    background-color: #ffffff;
-  }
-  
-  .sub_page .header_section {
-    position: unset;
-  }
-  
-  .header_section {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-  }
-  
-  .header_section .container-fluid {
-    padding-right: 25px;
-    padding-left: 25px;
-  }
-  
-  .header_section .nav_container {
-    margin: 0 auto;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    }
-
-  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link img {
-    width: 22px;
-    margin-right: 15px;
-  }
-  
-  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
-    padding: 0px 25px;
-    color: #fefeff;
-    text-align: center;
-    font-family: "Roboto",
-    sans-serif;
-  }
-  
-  .navbar-brand {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  
-  .navbar-brand span {
-    font-size: 24px;
-    font-weight: 700;
-    color: #240a5e;
-  }
-  
-  .custom_nav-container {
-    z-index: 99999;
-    padding: 15px 0;
-  }
-  
-  .custom_nav-container .navbar-toggler {
-    outline: none;
-  }
-  
-  .custom_nav-container .navbar-toggler .navbar-toggler-icon {
-    background-image: url(../images/menu.png);
-    background-size: 55px;
-  }
-  
-  .user_option {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    margin-right: 95px;
-  }
-  
-  .user_profile img {
-    width: 35px; /* Sesuaikan ukuran gambar profil sesuai kebutuhan */
-    height: 35px;
-    border-radius: 20%; /* Untuk membuat gambar profil berbentuk lingkaran */
-    margin-right: 10px;
-  }
-  
-  .user_info {
-    font-family: 'Poppins';
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .user_name {
-    font-weight: bold;
-    font-size: 13px;
-  }
-  
-  .user_role {
-    font-style: italic;
-    color: #737791;
-    font-size: 10px;
-  }
-  
-  .modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .modal-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left;
-    font-family: 'Poppins';
-    color: #050505;
-    font-size: 17px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    background-color: #fff;
-    padding: 20px;
-    width: 30%;
-    border-radius: 10px;
-  }
-  
-  .modal-content2 {
-    text-align: left;
-    font-family: 'Poppins';
-    color: #757575;
-    font-size: 15px;
-    font-weight: 500;
-  }
-  
-  .checkbox-text {
-    text-align: left;
-    font-family: 'Poppins';
-    color: #757575;
-    font-size: 14px;
-    font-weight: 500;
-  }
-  
-  .fontsize14 {
-    font-size: 14px;
-  }
-  
-  .date-box {
-    display: none;
-    margin-left: 5px;
-    margin-bottom: 15px;
-  }
-  
-  .button-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-  
-  .cancel-button,
-  .create-butto2n {
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  .cancel-button {
-    background-color: #e9eef9; /* Warna ungu sesuai keinginan Anda */
-    color: #333333; /* Warna teks */
-    font-size: 15px;
-    font-weight: 550;
-    font-family: 'Poppins';
-    border: none;
-    padding: 10px 40px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .create-button2 {
-    background-color: #5F65F6; /* Warna ungu sesuai keinginan Anda */
-    color: #ffffff; /* Warna teks */
-    font-size: 15px;
-    font-weight: 550;
-    font-family: 'Poppins';
-    border: none;
-    padding: 10px 40px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .close {
-    float: right;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-
-  /* Gaya tambahan untuk tombol delete */
-.delete-button {
-  margin-top: 5px;
-  background-color: #ff5a5a; /* Warna merah untuk tombol delete */
-  color: #ffffff; /* Warna teks pada tombol delete */
-  border: none;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease; /* Efek transisi untuk perubahan warna latar belakang */
-}
-
-/* Gaya saat kursor mouse mengarah ke tombol delete */
-.delete-button:hover {
-  background-color: #ff8484; /* Warna merah pudar saat tombol di-hover */
-}
-
-/* Gaya saat tombol delete ditekan */
-.delete-button:active {
-  background-color: #c93d3d; /* Warna merah yang lebih gelap saat tombol ditekan */
-}
-
-  
-  .underline-input {
-    font-family: 'Public Sans';
-    font-size: 15px;
-    border: none;
-    outline: none; /* Menghapus border focus */
-    border-bottom: 1px solid #757575; /* Warna garis sesuai keinginan Anda */
-    padding: 5px;
-    margin-bottom: 10px;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-  /* Gaya tambahan saat input diaktifkan */
-  .underline-input:focus {
-    border-bottom: 2px solid #5D5FEF; /* Warna garis saat input diaktifkan */
-  }
-  
-  /* Custom styling for date input */
-  input[type="date"] {
-    width: 100%; /* Lebar 100% agar responsif */
-    padding: 5px; /* Padding untuk penampilan yang lebih baik */
-    box-sizing: border-box; /* Padding dan border tidak mempengaruhi lebar total */
-  }
-  
-  
-  .create-button {
-    background-color: #A6A7FC; /* Warna ungu sesuai keinginan Anda */
-    color: #ffffff; /* Warna teks */
-    font-size: 10px;
-    font-family: 'Poppins';
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-  }
-  
-  .create-button img {
-    margin-right: 5px; /* Jarak antara gambar dan teks */
-  }
-  
-  .topic-container {
-    width: 80%;
-    text-align: center; /* Mengatur teks menjadi rata tengah */
-    background-color: #5D5FEF; /* Ganti warna latar belakang sesuai kebutuhan */
-    border-radius: 20px; /* Menjadikan sudut container bulat */
-    margin: 0 auto;
-    padding: 20px;
-  }
-
-  .scrolling-container {
-    overflow-x: auto;
-    white-space: nowrap;
-  }
-
-  /* Override the row class to display cards horizontally */
-  .row {
-    display: inline-flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-  }
-  
-  /* Card container styling */
-  .col-md-3 {
-    flex-basis: calc(25% - 1rem); /* Adjust width based on the number of columns you want */
-    margin-right: 1rem; /* Tambahkan margin kanan */
-    margin-bottom: 1rem; /* Tambahkan margin bawah */
-  }
-
-  /* Title styling */
-  .topic-title {
-    display: flex;
-    text-align: left;
-    font-family: 'Poppins';
-    color: #f1f1f1;
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-  
-  /* Subtitle styling */
-  .topic-subtitle {
-    text-align: left;
-    font-family: 'Poppins';
-    color: #f1f1f1;
-    font-size: 15px;
-    font-weight: 500;
-    margin-bottom: 30px;
-    margin-top: 10px;
-  }
-  
-  /* Card container styling */
-  .card-container {
-    margin-top: 20px; /* Jarak antara teks dan card */
-  }
-  
-  .topic-card {
-    width: 220px;
-    height: 220px;
-    background-color: #FFE2E5;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 0 auto;
-    margin-bottom: 40px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column; /* Mengatur tata letak menjadi kolom */
-  }
-  
-  .topic-card-img {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-  }
-  
-  .topic-card-title {
-    text-align: center;
-    font-family: 'Poppins';
-    color: #050505;
-    font-size: 17px;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-  
-  .topic-card-text {
-    text-align: left;
-    font-family: 'Poppins';
-    color: #050505;
-    font-size: 15px;
-    font-weight: 500;
-  }
-  .topic-card-text2 {
-    text-align: left;
-    font-family: 'Poppins';
-    color: #425166;
-    font-size: 13px;
-    font-weight: 500;
-  }
-  .topic-card-text3 {
-    text-align: left;
-    font-family: 'Poppins';
-    color: #4079ED;
-    font-size: 10px;
-    font-weight: 500;
-    margin-top: auto;
-  }
-  
-  /* footer section*/
-  .footer_section {
-    background-color: #f9fafb;
-    padding: 20px;
-  }
-  
-  .footer_section p {
-    margin-left: 50px;
-    text-align: left;
-    color: #7e7e7e;
-    font-size: 15px;
-  }
-  
-  .footer_section a {
-    color: #fefdfc;
-  }
-
-  /* Loader */
-  .loading {
-    text-align: center;
-  }
-
-  .loader {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 1;
-    width: 120px;
-    height: 120px;
-    margin: -76px 0 0 -76px;
-    border: 16px solid #e7e7e7;
-    border-radius: 50%;
-    border-top: 16px solid #555555;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-  }
-
-  .topic-card {
-    /* Tambahkan efek transisi untuk perubahan */
-    transition: background-color 0.3s ease;
-    /* Tambahkan gaya kursor yang menunjukkan elemen dapat diklik */
-    cursor: pointer;
-  }
-
-  /* Gaya saat kursor mouse mengarah ke elemen */
-  .topic-card:hover {
-    /* Misalnya, ubah warna latar belakang */
-    background-color: #ffb1b9;
-  }
-
-  /* Gaya saat elemen ditekan */
-  .topic-card:active {
-    /* Misalnya, ubah sedikit warna latar belakang saat ditekan */
-    background-color: #b67077;
-  }
-
-
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-</style>
-
 </html>
