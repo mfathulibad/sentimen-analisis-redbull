@@ -217,3 +217,39 @@
     font-size: 14.5px;
     color: #05004E;
 }
+
+.tweet-card{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.tweet-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweet-username{
+    font-weight: bold;
+    margin-right: 300px;
+}
+
+.tweet-sentiment-label{
+    font-weight: bold;
+}
+
+.positif{
+    color: #00FF00;
+}
+
+.negatif{
+    color: #FF0000;
+}
+
+.netral{
+    color: grey;
+}
+
+#filter-container {
+    margin-left: 350px;
+    display: inline-block;
+}
