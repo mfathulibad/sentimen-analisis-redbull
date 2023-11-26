@@ -1,0 +1,438 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #0c0c0c;
+  background-color: #f9fafb;
+}
+
+.layout_padding {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+/* Header section */
+.hero_area {
+  position: relative;
+  background-color: #ffffff;
+}
+
+.sub_page .header_section {
+  position: unset;
+}
+
+.header_section {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.header_section .container-fluid {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.header_section .nav_container {
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link img {
+  width: 22px;
+  margin-right: 15px;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0px 25px;
+  color: #fefeff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar-brand span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #240a5e;
+}
+
+.custom_nav-container {
+  z-index: 99999;
+  padding: 15px 0;
+}
+
+.custom_nav-container .navbar-toggler {
+  outline: none;
+}
+
+.custom_nav-container .navbar-toggler .navbar-toggler-icon {
+  background-image: url(../images/menu.png);
+  background-size: 55px;
+}
+
+.user_option {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 95px;
+}
+
+.user_profile img {
+  width: 35px;
+  height: 35px;
+  border-radius: 20%;
+  margin-right: 10px;
+}
+
+.user_info {
+  font-family: 'Poppins';
+  display: flex;
+  flex-direction: column;
+}
+
+.user_name {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.user_role {
+  font-style: italic;
+  color: #737791;
+  font-size: 10px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-family: 'Poppins';
+  color: #050505;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 20px;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.modal-content2 {
+  text-align: left;
+  font-family: 'Poppins';
+  color: #757575;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.checkbox-text {
+  text-align: left;
+  font-family: 'Poppins';
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.fontsize14 {
+  font-size: 14px;
+}
+
+.date-box {
+  display: none;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cancel-button,
+.create-button2n {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #e9eef9;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 550;
+  font-family: 'Poppins';
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-button2 {
+  background-color: #5F65F6;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 550;
+  font-family: 'Poppins';
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Styles for the delete button */
+.delete-button {
+  margin-top: 5px;
+  background-color: #ff5a5a;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Styles when the mouse hovers over the delete button */
+.delete-button:hover {
+  background-color: #ff8484;
+}
+
+/* Styles when the delete button is pressed */
+.delete-button:active {
+  background-color: #c93d3d;
+}
+
+.underline-input {
+  font-family: 'Public Sans';
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #757575;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.underline-input:focus {
+  border-bottom: 2px solid #5D5FEF;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.create-button {
+  background-color: #A6A7FC;
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'Poppins';
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.create-button img {
+  margin-right: 5px;
+}
+
+.topic-container {
+  width: 80%;
+  text-align: center;
+  background-color: #5D5FEF;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.scrolling-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.row {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.col-md-3 {
+  flex-basis: calc(25% - 1rem);
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.topic-title {
+  display: flex;
+  text-align: left;
+  font-family: 'Poppins';
+  color: #f1f1f1;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.topic-subtitle {
+  text-align: left;
+  font-family: 'Poppins';
+  color: #f1f1f1;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.card-container {
+  margin-top: 20px;
+}
+
+.topic-card {
+  width: 220px;
+  height: 220px;
+  background-color: #FFE2E5;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.topic-card-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.topic-card-title {
+  text-align: center;
+  font-family: 'Poppins';
+  color: #050505;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.topic-card-text {
+  text-align: left;
+  font-family: 'Poppins';
+  color: #050505;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.topic-card-text2 {
+  text-align: left;
+  font-family: 'Poppins';
+  color: #425166;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.topic-card-text3 {
+  text-align: left;
+  font-family: 'Poppins';
+  color: #4079ED;
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: auto;
+}
+
+/* Footer section */
+.footer_section {
+  background-color: #f9fafb;
+  padding: 20px;
+}
+
+.footer_section p {
+  margin-left: 50px;
+  text-align: left;
+  color: #7e7e7e;
+  font-size: 15px;
+}
+
+.footer_section a {
+  color: #fefdfc;
+}
+
+/* Loader */
+.loading {
+  text-align: center;
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #e7e7e7;
+  border-radius: 50%;
+  border-top: 16px solid #555555;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+.topic-card {
+    /* Tambahkan efek transisi untuk perubahan */
+    transition: background-color 0.3s ease;
+    /* Tambahkan gaya kursor yang menunjukkan elemen dapat diklik */
+    cursor: pointer;
+}
+
+/* Gaya saat kursor mouse mengarah ke elemen */
+.topic-card:hover {
+    /* Misalnya, ubah warna latar belakang */
+    background-color: #ffb1b9;
+}
+
+  /* Gaya saat elemen ditekan */
+.topic-card:active {
+    /* Misalnya, ubah sedikit warna latar belakang saat ditekan */
+    background-color: #b67077;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
