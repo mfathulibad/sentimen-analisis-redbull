@@ -142,7 +142,7 @@
       const tweetCard = document.createElement('div');
       tweetCard.classList.add('tweet-card');
       tweetCard.innerHTML = `
-        <div class="tweet-content">
+        <div class="tweet-content" onclick="redirectToTweet('${tweet.tweet_url}')">
           <div class="tweet-info">
             <span class="tweet-username">${tweet.username}<br></span>
             <span class="tweet-text">${tweet.full_text}</span>
@@ -181,6 +181,12 @@
     filterTweets();
 
     filterDropdown.addEventListener('change', filterTweets);
+
+
+
+    function redirectToTweet(url) {
+      window.open(url, '_blank');
+    }
   </script>
 
   

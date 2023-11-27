@@ -2,7 +2,7 @@
 function submitForm() {
     // Get form data
     var formData = new FormData(document.getElementById('addTopicForm'));
-    var onDelete = false
+  
     // Show loading indicator
     var loadingIndicator = document.getElementById('loadingIndicator');
     loadingIndicator.style.display = 'block';
@@ -18,8 +18,9 @@ function submitForm() {
         // Hide loading indicator on success
         loadingIndicator.style.display = 'none';
         // Handle the success response if needed
-        console.log(response);
-  
+        console.log(JSON.parse(response));
+        var topicId = JSON.parse(response)
+
         // Update card content with input values
         var topicCardTitle = document.getElementById('topicCardTitle');
         var topicCardText = document.getElementById('topicCardText');
@@ -43,6 +44,8 @@ function submitForm() {
         topicCardText2.innerHTML = 'Total Data: ' + amount;
   
         closeModal();
+        
+        window.location.href = '/hasil/' + topicId;
       },
       error: function(error) {
         // Hide loading indicator on error
@@ -56,7 +59,6 @@ function submitForm() {
   function deleteTopic(topicId) {
     var confirmDelete = confirm("Are you sure you want to delete this topic?");
     if (confirmDelete) {
-      var onDelete = true
       // Get the topicId from the data-topicid attribute
       var topicIdToDelete = event.currentTarget.getAttribute('data-topicid');
       // Print the value of topicIdToDelete
@@ -154,20 +156,17 @@ function submitForm() {
   }
   
   document.addEventListener("DOMContentLoaded", function() {
-    if (onDelete != true){
-      // Mendapatkan semua elemen dengan kelas 'topic-card'
-      var topicCards = document.querySelectorAll('.topic-card');
-    
-      // Menambahkan event listener ke setiap elemen 'topic-card'
-      topicCards.forEach(function(card) {
-        card.addEventListener('click', function() {
-          var topicId = this.getAttribute('data-topicid');
-    
-          // Mengarahkan pengguna ke hasilAnalisis.html dengan menyertakan topicId sebagai query parameter
-          window.location.href = '/hasil/' + topicId;
-        });
+    // Mendapatkan semua elemen dengan kelas 'topic-card'
+    var topicCards = document.querySelectorAll('.topic-card');
+  
+    // Menambahkan event listener ke setiap elemen 'topic-card'
+    topicCards.forEach(function(card) {
+      card.addEventListener('click', function() {
+        var topicId = this.getAttribute('data-topicid');
+  
+        // Mengarahkan pengguna ke hasilAnalisis.html dengan menyertakan topicId sebagai query parameter
+        window.location.href = '/hasil/' + topicId;
       });
-    }
-    
+    });
   });
   
