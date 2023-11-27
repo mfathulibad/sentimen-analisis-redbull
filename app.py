@@ -46,11 +46,10 @@ def delete_topic():
 #         # Redirect ke halaman hasil_topic dengan topicId sebagai parameter
 #         return redirect(url_for('hasil_topic', topicId=topic_id))
 
-@app.route('/hasil/<int:topicId>')
+@app.route('/hasil/<topicId>')
 def hasil_topic(topicId):
     # Lakukan sesuatu dengan nilai topicId, misalnya proses data
     tweets = mongodb.getTweets(topicId)
-
     # Kemudian render halaman hasilAnalisis.html
     return render_template("hasilAnalisis.html", topicId=topicId, tweets=tweets)
 
@@ -91,7 +90,8 @@ def form_submit():
     mongodb.insertTweet(topicId)
     mongodb.menghitungSentimen(topicId)
 
-    return render_template("home.html")
+    # Kemudian render halaman hasilAnalisis.html
+    return jsonify(topicId)
 
 
 if __name__ == '__main__':
