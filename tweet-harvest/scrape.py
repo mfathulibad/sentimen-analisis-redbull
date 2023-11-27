@@ -10,7 +10,7 @@ for keyword in KEYWORDS:
 
     search_keyword = f"{keyword} until:{UNTIL} since:{SINCE}"
 
-    command = f'npx --yes tweet-harvest@2.2.7 -o "{filename}" -s "{search_keyword}" -l {amount} --token "34e252d65ac27a217ea6fa7de24720061040a6c0"'
+    command = f'npx --yes tweet-harvest@2.2.7 -o "{filename}" -s "{search_keyword}" -l {amount} --token "433af3c9bbc460a4aebe4f88ba037aada1dbadc7"'
 
     try:    
         subprocess.run(command, shell=True, check=True)
