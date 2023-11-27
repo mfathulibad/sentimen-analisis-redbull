@@ -149,7 +149,7 @@
 .result_analisys {
     position: relative; 
     margin-top: 65px;
-    width: 995px;
+    /* width: 995px; */
     height: 530px;
     background-color: #FAFBFC;
     margin-left: 19%;
@@ -207,7 +207,8 @@
 
 .visualisasi > div {
     background-color: #fff;
-    height: 200px;
+    padding: 20px;
+    /* height: 200px; */
     box-shadow: 0px 0px 10px #efeff0;
     border-radius: 10px 10px 10px 10px; 
 }
