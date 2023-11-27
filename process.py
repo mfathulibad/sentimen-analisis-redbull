@@ -30,7 +30,7 @@ def addLabel(topicId):
 
         # Membaca file CSV
         try:
-            df = pd.read_csv(file_path, delimiter=';', encoding='utf-8')
+            df = pd.read_csv(file_path, delimiter=',', encoding='utf-8')
         except pd.errors.ParserError as e:
             print(f"ParserError: {e}")
             # Keluar dari program jika ada kesalahan parser
@@ -40,4 +40,4 @@ def addLabel(topicId):
         
         # Menyimpan DataFrame ke dalam file CSV
         output_file_path = f'tweet-harvest\\tweets-data\{topicId}_{keyword}_labelled.csv'
-        df.to_csv(output_file_path, index=False, sep=";")  # index=False untuk menghindari menyimpan indeks baris
+        df.to_csv(output_file_path, index=False, sep=",")  # index=False untuk menghindari menyimpan indeks baris

@@ -50,7 +50,7 @@ def insertTweet(topicId):
         file_path = f'tweet-harvest/tweets-data/{topicId}_{keyword}_labelled.csv'
 
         # Membaca file CSV ke dalam DataFrame
-        df = pd.read_csv(file_path, delimiter=';', encoding='utf-8')
+        df = pd.read_csv(file_path, delimiter=',', encoding='utf-8')
         
         tweet_data = df.to_dict(orient='records')
 
@@ -79,7 +79,7 @@ def menghitungSentimen(topicId):
         file_path = f'tweet-harvest/tweets-data/{topicId}_{keyword}_labelled.csv'
 
         # Membaca file CSV ke dalam DataFrame
-        df = pd.read_csv(file_path, delimiter=';', encoding='utf-8')
+        df = pd.read_csv(file_path, delimiter=',', encoding='utf-8')
 
         # Menghitung berapa jumlah label yang bernilai "positif"
         positif = df['label'].value_counts().get('positif', 0)

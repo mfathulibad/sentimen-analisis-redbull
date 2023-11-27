@@ -89,7 +89,7 @@ def form_submit():
     process.addLabel(topicId)
     mongodb.insertTweet(topicId)
     mongodb.menghitungSentimen(topicId)
-
+    print(topicId)
     # Kemudian render halaman hasilAnalisis.html
     return jsonify(topicId)
 
