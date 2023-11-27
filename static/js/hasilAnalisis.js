@@ -1,58 +1,65 @@
-// Fungsi untuk mengelompokkan data berdasarkan tanggal
-function groupDataByDate(data) {
-    const groupedData = {};
-    data.forEach(item => {
-        if (!groupedData[item.date]) {
-            groupedData[item.date] = [];
-        }
-        groupedData[item.date].push(item);
-    });
-    return groupedData;
-}
+// Fungsi untuk menggambar chart
+function drawChart(data) {
+    // Mengurutkan data berdasarkan tanggal
+    data.sort((a, b) => new Date(a.date) - new Date(b.date));
 
-// Fungsi untuk membuat chart
-function createChart(data) {
-    const groupedData = groupDataByDate(data);
+    // Mengambil data unik untuk tanggal
+    const uniqueDates = [...new Set(data.map(item => item.date))];
+    
+    // Menginisialisasi data yang akan digunakan oleh Chart.js
+    const chartData = {
+        labels: uniqueDates,
+        datasets: []
+    };
 
-    // Mengumpulkan label tanggal
-    const dates = Object.keys(groupedData);
+    // Membuat dataset untuk setiap keyword
+    const uniqueKeywords = [...new Set(data.map(item => item.keyword))];
+    uniqueKeywords.forEach(keyword => {
+        const keywordData = data.filter(item => item.keyword === keyword);
+        const counts = uniqueDates.map(date => keywordData.find(item => item.date === date)?.count || 0);
 
-    // Mengumpulkan data untuk setiap kata kunci
-    const datasets = [];
-    data.forEach(item => {
-        const keywordIndex = datasets.findIndex(dataset => dataset.label === item.keyword);
-        if (keywordIndex === -1) {
-            datasets.push({
-                label: item.keyword,
-                data: [item.count],
-                backgroundColor: randomColor() // Fungsi untuk mendapatkan warna acak
-            });
-        } else {
-            datasets[keywordIndex].data.push(item.count);
-        }
+        chartData.datasets.push({
+        label: keyword,
+        data: counts,
+        fill: false,
+        borderColor: getRandomColor(), // Fungsi untuk mendapatkan warna acak
+        });
     });
 
-    // Membuat chart
+    // Membuat chart menggunakan Chart.js
     const ctx = document.getElementById('myChart').getContext('2d');
     new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: dates,
-            datasets: datasets
-        },
+        type: 'line',
+        data: chartData,
         options: {
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
+        scales: {
+            x: {
+            type: 'category',
+            labels: uniqueDates,
+            title: {
+                display: true,
+                text: 'Tanggal'
             }
+            },
+            y: {
+            title: {
+                display: true,
+                text: 'Count'
+            }
+            }
+        }
         }
     });
 }
 
 // Fungsi untuk mendapatkan warna acak
-function randomColor() {
-    return '#' + Math.floor(Math.random()*16777215).toString(16);
+function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
 }
 
 document.addEventListener('DOMContentLoaded', (event) => {
@@ -73,8 +80,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     fetch(`/get_peak_time_data/${topicId}`)
         .then(response => response.json())
         .then(data => {
-            console.log(data); // Data yang diambil dari server
-            createChart(data)
+            drawChart(data)
         })
         .catch(error => {
             console.error('Error fetching data:', error);
