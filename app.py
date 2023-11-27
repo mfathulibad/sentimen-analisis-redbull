@@ -49,8 +49,10 @@ def delete_topic():
 @app.route('/hasil/<int:topicId>')
 def hasil_topic(topicId):
     # Lakukan sesuatu dengan nilai topicId, misalnya proses data
+    tweets = mongodb.getTweets(topicId)
+
     # Kemudian render halaman hasilAnalisis.html
-    return render_template("hasilAnalisis.html", topicId=topicId)
+    return render_template("hasilAnalisis.html", topicId=topicId, tweets=tweets)
 
 
 @app.route("/get_sentiment_data")

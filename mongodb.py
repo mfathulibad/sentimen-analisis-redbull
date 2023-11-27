@@ -270,31 +270,39 @@ def getTweets(topicId):
     top_5_general_tweets = []
 
     for label in labels:
-        tweets = db.topic.find({"topicId": topicId, "tweets.label": label})
+        pipeline = [
+            {"$match": {"topicId": topicId, "tweets.label": label}},
+            {"$unwind": "$tweets"},
+            {"$match": {"tweets.label": label}},
+            {"$sort": {
+                "tweets.quote_count": -1,
+                "tweets.reply_count": -1,
+                "tweets.retweet_count": -1,
+                "tweets.favorite_count": -1
+            }},
+            {"$group": {
+                "_id": "$_id",
+                "tweets": {"$push": "$tweets"}
+            }},
+            {"$project": {
+                "top_tweets": {"$slice": ["$tweets", 5]}
+            }}
+        ]
 
-        # Mengumpulkan semua tweets yang cocok dengan topicId dan label tertentu
-        all_tweets = [tweet for tweet in tweets]
+        result = list(db.topic.aggregate(pipeline))
 
-        # Mengurutkan tweets berdasarkan total count (quote_count + reply_count + retweet_count + favorite_count)
-        all_tweets = [tweet for tweet in all_tweets if 'tweets' in tweet]  # Pastikan data memiliki field 'tweets'
-        sorted_tweets = []
-        for data in all_tweets:
-            sorted_tweets.extend([tweet for tweet in data['tweets'] if tweet['label'] == label])
-        sorted_tweets = sorted(sorted_tweets, key=lambda x: x['quote_count'] + x['reply_count'] + x['retweet_count'] + x['favorite_count'], reverse=True)
+        if result:
+            top_5_tweets_by_label[label] = result[0]['top_tweets']
+            top_5_general_tweets.extend(result[0]['top_tweets'])
 
-        # Mengambil 5 tweets teratas untuk label tertentu
-        top_5_tweets_by_label[label] = sorted_tweets[:5]
+    # Menghilangkan duplikat dari top 5 tweets secara umum menggunakan id_str
+    top_5_general_tweets_dict = {tweet['id_str']: tweet for tweet in top_5_general_tweets}
+    top_5_general_tweets = list(top_5_general_tweets_dict.values())
 
-        # Menambahkan ke dalam list untuk penggabungan secara general
-        top_5_general_tweets.extend(sorted_tweets[:5])
+    # Mengurutkan dan mengambil 5 tweets teratas secara umum
+    top_5_general_tweets = sorted(top_5_general_tweets, key=lambda x: x['quote_count'] + x['reply_count'] + x['retweet_count'] + x['favorite_count'], reverse=True)[:5]
 
-    # Mengurutkan tweets secara general berdasarkan total count
-    top_5_general_tweets = sorted(top_5_general_tweets, key=lambda x: x['quote_count'] + x['reply_count'] + x['retweet_count'] + x['favorite_count'], reverse=True)
-
-    # Mengambil 5 tweets teratas secara general
-    top_5_general_tweets = top_5_general_tweets[:5]
-
-    # Format data top 5 tweets untuk masing-masing label dan secara general ke dalam JSON
+    # Format data top 5 tweets untuk masing-masing label dan secara umum ke dalam JSON
     data = {
         "general": top_5_general_tweets,
         "by_label": top_5_tweets_by_label
