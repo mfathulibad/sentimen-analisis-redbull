@@ -1,57 +1,66 @@
 // Your JavaScript code goes here
 function submitForm() {
-    // Get form data
-    var formData = new FormData(document.getElementById('addTopicForm'));
-    var onDelete = false
-    // Show loading indicator
-    var loadingIndicator = document.getElementById('loadingIndicator');
-    loadingIndicator.style.display = 'block';
-  
-    // Perform AJAX request
-    $.ajax({
+  // Get form data
+  var formData = new FormData(document.getElementById('addTopicForm'));
+  var onDelete = false;
+
+  // Get the input values from the form
+  var title = formData.get('title');
+  var amount = formData.get('amount');
+  var startDate = formData.get('startDate');
+  var endDate = formData.get('endDate');
+
+  // Check if the title length is greater than 20
+  if (title.length > 20) {
+      // Display an error message or take appropriate action
+      alert('Title should be 20 characters or less.');
+      closeModal(); // Close the modal without submitting the form
+      return;
+  }
+
+  // Show loading indicator
+  var loadingIndicator = document.getElementById('loadingIndicator');
+  loadingIndicator.style.display = 'block';
+
+  // Perform AJAX request
+  $.ajax({
       type: 'POST',
       url: '/form_submit',  // Use the correct URL for the Flask route
       data: formData,
       processData: false,
       contentType: false,
       success: function(response) {
-        // Hide loading indicator on success
-        loadingIndicator.style.display = 'none';
-        // Handle the success response if needed
-        console.log(response);
-  
-        // Update card content with input values
-        var topicCardTitle = document.getElementById('topicCardTitle');
-        var topicCardText = document.getElementById('topicCardText');
-        var topicCardText2 = document.getElementById('topicCardText2');
-  
-        // Get the input values from the form
-        var title = formData.get('title');
-        var amount = formData.get('amount');
-        var startDate = formData.get('startDate');
-        var endDate = formData.get('endDate');
-  
-        // Format the date as needed
-        var formattedDate = startDate + ' s.d.<br>' + endDate;
-  
-        // Get the current date in the format "dd-mm-yyyy"
-        var currentDate = getCurrentDate();
-  
-        // Update card content
-        topicCardTitle.innerHTML = title;
-        topicCardText.innerHTML = formattedDate;
-        topicCardText2.innerHTML = 'Total Data: ' + amount;
-  
-        closeModal();
+          // Hide loading indicator on success
+          loadingIndicator.style.display = 'none';
+          // Handle the success response if needed
+          console.log(response);
+
+          // Update card content with input values
+          var topicCardTitle = document.getElementById('topicCardTitle');
+          var topicCardText = document.getElementById('topicCardText');
+          var topicCardText2 = document.getElementById('topicCardText2');
+
+          // Format the date as needed
+          var formattedDate = startDate + ' s.d.<br>' + endDate;
+
+          // Get the current date in the format "dd-mm-yyyy"
+          var currentDate = getCurrentDate();
+
+          // Update card content
+          topicCardTitle.innerHTML = title;
+          topicCardText.innerHTML = formattedDate;
+          topicCardText2.innerHTML = 'Total Data: ' + amount;
+
+          closeModal();
       },
       error: function(error) {
-        // Hide loading indicator on error
-        loadingIndicator.style.display = 'none';
-        // Handle the error response if needed
-        console.error(error);
+          // Hide loading indicator on error
+          loadingIndicator.style.display = 'none';
+          // Handle the error response if needed
+          console.error(error);
       }
-    });
-  }
+  });
+}
   
   function deleteTopic(topicId) {
     var confirmDelete = confirm("Are you sure you want to delete this topic?");
