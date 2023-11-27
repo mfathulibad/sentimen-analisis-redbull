@@ -22,7 +22,7 @@ def compare_length(topicId):
                 continue  # Continue to try the next encoding if this one fails
         
         if length_of_records < limit:
-            limit = length_of_records
+            limit = length_of_records-1
 
     for keyword in KEYWORDS:
         file_path = f'tweet-harvest/tweets-data/{topicId}_{keyword}.csv'
