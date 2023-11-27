@@ -213,6 +213,13 @@
     border-radius: 10px 10px 10px 10px; 
 }
 
+.tweets > div {
+    background-color: #fff;
+    padding: 20px;
+    /* height: 200px; */
+    box-shadow: 0px 0px 10px #efeff0;
+    border-radius: 10px 10px 10px 10px; 
+}
 .visualisasi h3, 
 .keywoard h3{
     font-size: 14.5px;
@@ -220,21 +227,17 @@
 }
 
 .tweet-card{
-    font-size: 18px;
+    font-size: 15px;
     background-color: #E1E8ED;
     border-radius: 10px;
     margin-bottom:15px;
     padding: 20px;
+    padding-bottom:0px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     transition: background-color 0.3s ease;
     cursor: pointer;
-}
-
-.tweet-content{
-    display: flex;
-    justify-content: space-between;
 }
 
 .tweet-username{
@@ -259,7 +262,7 @@
 }
 
 #filter-container {
-    margin-left: 350px;
+    margin-left: 950px;
     display: inline-block;
 }
 

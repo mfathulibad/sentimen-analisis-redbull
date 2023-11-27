@@ -141,55 +141,13 @@
                 <div class="row" style="margin-bottom: 7px; color:#979797;">
                   ● 200
                 </div>
-                
               </div>
             </div>
-            <!-- <div class="row text-center" style="padding-left: 40px; padding-right: 15px; font-size: 15px;">
-              <div class="col">
-                <div class="row">
-                  <div class="col" style="color:#00E096; padding: 0px;">
-                    ● 200
-                  </div>
-                  <div class="col" style="color:#EE1E1E; padding: 0px;">
-                    ● 200
-                  </div>
-                  <div class="col" style="color:#979797; padding: 0px;">
-                    ● 200
-                  </div>
-                </div>    
-              </div>
-              <div class="col">
-                <div class="row">
-                  <div class="col" style="color:#00E096; padding: 0px;">
-                    ● 200
-                  </div>
-                  <div class="col" style="color:#EE1E1E; padding: 0px;">
-                    ● 200
-                  </div>
-                  <div class="col" style="color:#979797; padding: 0px;">
-                    ● 200
-                  </div>
-                </div>    
-              </div>
-              <div class="col">
-                <div class="row">
-                  <div class="col" style="color:#00E096; padding: 0px;">
-                    ● 200
-                  </div>
-                  <div class="col" style="color:#EE1E1E; padding: 0px;">
-                    ● 200
-                  </div>
-                  <div class="col" style="color:#979797; padding: 0px;">
-                    ● 200
-                  </div>
-                </div>    
-              </div>
-            </div> -->
+          
           </div>
-          <div>
-            <h3 class="mt-2 ml-3">Top Candidate</h3>
-          </div>
-          <div>
+        </div>
+        <div class="tweets">
+          <div style="margin-top: 30px;">
             <div>
               <h3 class="mt-2 ml-3">Tweets</h3>
               <div id="filter-container" style="margin-bottom: 20px;">
@@ -210,6 +168,8 @@
       </div>   
     </div>
 
+    
+
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -226,14 +186,17 @@
       const tweetCard = document.createElement('div');
       tweetCard.classList.add('tweet-card');
       tweetCard.innerHTML = `
-        <div class="tweet-content" onclick="redirectToTweet('${tweet.tweet_url}')">
-          <div class="tweet-info">
+      <div class="tweet-content" onclick="redirectToTweet('${tweet.tweet_url}')">
+        <div class="row">
+          <div class="col-10">
             <span class="tweet-username">${tweet.username}<br></span>
             <span class="tweet-text">${tweet.full_text}</span>
           </div>
-          <span class="sentiment-label ${sentimentClass}" style="text-transform:capitalize"><b>${tweet.label}<b></span>
+          <div class="col-2">
+            <span class="sentiment-label ${sentimentClass}" style="text-transform:capitalize"><b>${tweet.label}<b></span>
+          </div>
         </div>
-        
+      </div>
       `;
       return tweetCard;
     }
