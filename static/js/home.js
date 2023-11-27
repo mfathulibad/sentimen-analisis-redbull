@@ -33,7 +33,8 @@ function submitForm() {
           // Hide loading indicator on success
           loadingIndicator.style.display = 'none';
           // Handle the success response if needed
-          console.log(response);
+          topicId = JSON.parse(response)
+          console.log(topicId);
 
           // Update card content with input values
           var topicCardTitle = document.getElementById('topicCardTitle');
@@ -52,6 +53,7 @@ function submitForm() {
           topicCardText2.innerHTML = 'Total Data: ' + amount;
 
           closeModal();
+          window.location.href = '/hasil/' + topicId;
       },
       error: function(error) {
           // Hide loading indicator on error

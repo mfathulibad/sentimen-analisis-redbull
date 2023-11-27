@@ -309,7 +309,6 @@ def getTweets(topicId):
     }
 
     top_5_tweets_json = json.dumps(data, indent=4)  # Konversi ke JSON dengan indentasi untuk kejelasan
-    print(top_5_tweets_json)
     db.client.close()
     
     return top_5_tweets_json
