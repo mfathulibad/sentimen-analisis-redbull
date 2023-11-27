@@ -62,121 +62,116 @@ function submitForm() {
   });
 }
   
-  function deleteTopic(topicId) {
-    var confirmDelete = confirm("Are you sure you want to delete this topic?");
-    if (confirmDelete) {
-      var onDelete = true
-      // Get the topicId from the data-topicid attribute
-      var topicIdToDelete = event.currentTarget.getAttribute('data-topicid');
-      // Print the value of topicIdToDelete
-      console.log("Topic ID to delete:", topicIdToDelete);
-  
-      // Perform AJAX request
-      $.ajax({
-        type: 'POST',
-        url: '/delete_topic',
-        data: { topicId: topicIdToDelete },
-        success: function(response) {
-          // Handle success response if needed
-          console.log(response);
-  
-          // Remove the deleted topic card from the DOM
-          var topicCard = document.getElementById('topicCard' + topicIdToDelete);
-          topicCard.parentNode.removeChild(topicCard);
-        },
-        error: function(error) {
-          // Handle error response if needed
-          console.error(error);
-        }
-      });
-    }
+function deleteTopic(topicId) {
+  var confirmDelete = confirm("Are you sure you want to delete this topic?");
+  if (confirmDelete) {
+    // Get the topicId from the data-topicid attribute
+    var topicIdToDelete = event.currentTarget.getAttribute('data-topicid');
+    // Print the value of topicIdToDelete
+    console.log("Topic ID to delete:", topicIdToDelete);
+
+    // Perform AJAX request
+    $.ajax({
+      type: 'POST',
+      url: '/delete_topic',
+      data: { topicId: topicIdToDelete },
+      success: function(response) {
+        // Handle success response if needed
+        console.log(response);
+
+        // Remove the deleted topic card from the DOM
+        var topicCard = document.getElementById('topicCard' + topicIdToDelete);
+        topicCard.parentNode.removeChild(topicCard);
+      },
+      error: function(error) {
+        // Handle error response if needed
+        console.error(error);
+      }
+    });
   }
-  
-  function getCurrentDate() {
-    var today = new Date();
-    var dd = String(today.getDate()).padStart(2, '0');
-    var mm = String(today.getMonth() + 1).padStart(2, '0'); // January is 0!
-    var yyyy = today.getFullYear();
-  
-    return yyyy + '-' + mm + '-' + dd;
-  }
-  
-  // Get the modal
-  var modal = document.getElementById('addTopicModal');
-  // Get the button that opens the modal
-  var btn = document.getElementById("addTopicButton");
-  // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
-  // When the user clicks the button, open the modal
-  btn.onclick = function() {
-    modal.style.display = "block";
-  }
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function() {
+}
+
+function getCurrentDate() {
+  var today = new Date();
+  var dd = String(today.getDate()).padStart(2, '0');
+  var mm = String(today.getMonth() + 1).padStart(2, '0'); // January is 0!
+  var yyyy = today.getFullYear();
+
+  return yyyy + '-' + mm + '-' + dd;
+}
+
+// Get the modal
+var modal = document.getElementById('addTopicModal');
+// Get the button that opens the modal
+var btn = document.getElementById("addTopicButton");
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  closeModal();
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
     closeModal();
   }
-  // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      closeModal();
-    }
+}
+function closeModal() {
+  modal.style.display = "none";
+}
+function saveTopic() {
+  // Add logic to save the topic (e.g., get the input value and process it)
+  closeModal();
+}
+function toggleTimeline() {
+  var timelineFields = document.getElementById('timelineFields');
+  var enableTimelineRadio = document.getElementById('enableTimeline');
+  var defaultTimelineRadio = document.getElementById('defaultTimeline');
+  var startDateInput = document.getElementById('startDate');
+  var endDateInput = document.getElementById('endDate');
+
+  if (enableTimelineRadio.checked) {
+    timelineFields.style.display = 'block';
+  } else {
+    timelineFields.style.display = 'none';
   }
-  function closeModal() {
-    modal.style.display = "none";
+
+  // If "Default" radio is checked, hide timelineFields
+  if (defaultTimelineRadio.checked) {
+    // Jika "Default" radio dipilih, atur nilai startDate dan endDate satu bulan sebelumnya
+    var currentDate = new Date();
+    var lastMonth = new Date(currentDate);
+    lastMonth.setMonth(currentDate.getMonth() - 1);
+
+    // Format tanggal ke dalam format 'yyyy-mm-dd' yang diperlukan untuk input date
+    var formattedLastMonth = formatDate(lastMonth);
+
+    startDateInput.value = formattedLastMonth;
+    endDateInput.value = formatDate(currentDate);
   }
-  function saveTopic() {
-    // Add logic to save the topic (e.g., get the input value and process it)
-    closeModal();
-  }
-  function toggleTimeline() {
-    var timelineFields = document.getElementById('timelineFields');
-    var enableTimelineRadio = document.getElementById('enableTimeline');
-    var defaultTimelineRadio = document.getElementById('defaultTimeline');
-    var startDateInput = document.getElementById('startDate');
-    var endDateInput = document.getElementById('endDate');
-  
-    if (enableTimelineRadio.checked) {
-      timelineFields.style.display = 'block';
-    } else {
-      timelineFields.style.display = 'none';
-    }
-  
-    // If "Default" radio is checked, hide timelineFields
-    if (defaultTimelineRadio.checked) {
-      // Jika "Default" radio dipilih, atur nilai startDate dan endDate satu bulan sebelumnya
-      var currentDate = new Date();
-      var lastMonth = new Date(currentDate);
-      lastMonth.setMonth(currentDate.getMonth() - 1);
-  
-      // Format tanggal ke dalam format 'yyyy-mm-dd' yang diperlukan untuk input date
-      var formattedLastMonth = formatDate(lastMonth);
-  
-      startDateInput.value = formattedLastMonth;
-      endDateInput.value = formatDate(currentDate);
-    }
-  }
-  function formatDate(date) {
-    var dd = String(date.getDate()).padStart(2, '0');
-    var mm = String(date.getMonth() + 1).padStart(2, '0');
-    var yyyy = date.getFullYear();
-    return yyyy + '-' + mm + '-' + dd;
-  }
-  
-  document.addEventListener("DOMContentLoaded", function() {
-    if (onDelete != true){
-      // Mendapatkan semua elemen dengan kelas 'topic-card'
-      var topicCards = document.querySelectorAll('.topic-card');
-    
-      // Menambahkan event listener ke setiap elemen 'topic-card'
-      topicCards.forEach(function(card) {
-        card.addEventListener('click', function() {
-          var topicId = this.getAttribute('data-topicid');
-    
-          // Mengarahkan pengguna ke hasilAnalisis.html dengan menyertakan topicId sebagai query parameter
-          window.location.href = '/hasil/' + topicId;
-        });
-      });
-    }
-    
+}
+function formatDate(date) {
+  var dd = String(date.getDate()).padStart(2, '0');
+  var mm = String(date.getMonth() + 1).padStart(2, '0');
+  var yyyy = date.getFullYear();
+  return yyyy + '-' + mm + '-' + dd;
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Mendapatkan semua elemen dengan kelas 'topic-card'
+  var topicCards = document.querySelectorAll('.topic-card');
+
+  // Menambahkan event listener ke setiap elemen 'topic-card'
+  topicCards.forEach(function(card) {
+    card.addEventListener('click', function() {
+      var topicId = this.getAttribute('data-topicid');
+
+      // Mengarahkan pengguna ke hasilAnalisis.html dengan menyertakan topicId sebagai query parameter
+      window.location.href = '/hasil/' + topicId;
+    });
   });
-  
+});
