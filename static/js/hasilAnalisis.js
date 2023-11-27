@@ -1,57 +1,3 @@
-// Fungsi untuk menggambar chart
-function drawChart(data) {
-    // Mengurutkan data berdasarkan tanggal
-    data.sort((a, b) => new Date(a.date) - new Date(b.date));
-
-    // Mengambil data unik untuk tanggal
-    const uniqueDates = [...new Set(data.map(item => item.date))];
-    
-    // Menginisialisasi data yang akan digunakan oleh Chart.js
-    const chartData = {
-        labels: uniqueDates,
-        datasets: []
-    };
-
-    // Membuat dataset untuk setiap keyword
-    const uniqueKeywords = [...new Set(data.map(item => item.keyword))];
-    uniqueKeywords.forEach(keyword => {
-        const keywordData = data.filter(item => item.keyword === keyword);
-        const counts = uniqueDates.map(date => keywordData.find(item => item.date === date)?.count || 0);
-
-        chartData.datasets.push({
-        label: keyword,
-        data: counts,
-        fill: false,
-        borderColor: getRandomColor(), // Fungsi untuk mendapatkan warna acak
-        });
-    });
-
-    // Membuat chart menggunakan Chart.js
-    const ctx = document.getElementById('myChart').getContext('2d');
-    new Chart(ctx, {
-        type: 'line',
-        data: chartData,
-        options: {
-        scales: {
-            x: {
-            type: 'category',
-            labels: uniqueDates,
-            title: {
-                display: true,
-                text: 'Tanggal'
-            }
-            },
-            y: {
-            title: {
-                display: true,
-                text: 'Count'
-            }
-            }
-        }
-        }
-    });
-}
-
 // Fungsi untuk mendapatkan warna acak
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
@@ -61,6 +7,7 @@ function getRandomColor() {
     }
     return color;
 }
+
 
 document.addEventListener('DOMContentLoaded', (event) => {
     const ctx2 = document.getElementById('myChart2');
@@ -77,26 +24,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             myChartPeak.destroy();
         }
     }
-
-
-    // fetch(`/get_peak_time_data/${topicId}`)
-    //     .then(response => response.json())
-    //     .then(data => {
-            
-    //         if (selectedButtons.includes('allKeyword')) {
-    //             labels = ['Prabowo', 'Ganjar', 'Anies'];
-    //             console.log("ini coy 1", labels)
-    //             drawChart(data)
-    //         } else {
-    //             labels = selectedButtons.map(button => button.charAt(0).toUpperCase() + button.slice(1));
-    //             console.log("ini coy 2", labels)
-    //         }
-    //         // console.log("ini label di data", labels)
-            
-    //     })
-    //     .catch(error => {
-    //         console.error('Error fetching data:', error);
-    //     });
 
 
     function fetchDataAndRender(labels, dataCallback) {
@@ -207,8 +134,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
         if (selectedButtons.includes('allKeyword')) {
             labels = ['Prabowo', 'Ganjar', 'Anies'];
 
-            console.log("semua", labels)
-
             selectedDataCallback = (dataset) => {
                 const positiveData = [dataset.prabowo.positif, dataset.ganjar.positif, dataset.anies.positif];
                 const negativeData = [dataset.prabowo.negatif, dataset.ganjar.negatif, dataset.anies.negatif];
@@ -240,8 +165,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             };
         } else {
             labels = selectedButtons.map(button => button.charAt(0).toUpperCase() + button.slice(1));
-
-            console.log("selected", labels)
 
             selectedDataCallback = (dataset) => {
                 const data = selectedButtons.map(button => {
@@ -282,8 +205,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
         
     }
 
+
     allKeywordButton.classList.add('active'); 
-    updateChartBasedOnSelection(); 
+    updateChartBasedOnSelection();
+
 
     document.querySelectorAll('.filter-button').forEach(function (button) {
         button.addEventListener('click', function () {
