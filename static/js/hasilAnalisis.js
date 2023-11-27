@@ -67,24 +67,36 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const allKeywordButton = document.getElementById('allKeyword');
     const topicIdString = document.getElementById('data-container').getAttribute('data-topicid');
     const topicId = parseInt(topicIdString);
+    var selectedButtons = ['allKeyword']; 
 
     let myChart;
 
     function destroyChart() {
         if (myChart) {
             myChart.destroy();
+            myChartPeak.destroy();
         }
     }
 
 
-    fetch(`/get_peak_time_data/${topicId}`)
-        .then(response => response.json())
-        .then(data => {
-            drawChart(data)
-        })
-        .catch(error => {
-            console.error('Error fetching data:', error);
-        });
+    // fetch(`/get_peak_time_data/${topicId}`)
+    //     .then(response => response.json())
+    //     .then(data => {
+            
+    //         if (selectedButtons.includes('allKeyword')) {
+    //             labels = ['Prabowo', 'Ganjar', 'Anies'];
+    //             console.log("ini coy 1", labels)
+    //             drawChart(data)
+    //         } else {
+    //             labels = selectedButtons.map(button => button.charAt(0).toUpperCase() + button.slice(1));
+    //             console.log("ini coy 2", labels)
+    //         }
+    //         // console.log("ini label di data", labels)
+            
+    //     })
+    //     .catch(error => {
+    //         console.error('Error fetching data:', error);
+    //     });
 
 
     function fetchDataAndRender(labels, dataCallback) {
@@ -121,7 +133,72 @@ document.addEventListener('DOMContentLoaded', (event) => {
             });
     }
 
-    var selectedButtons = ['allKeyword']; 
+    
+    function fetchDataAndRenderPeak(labels) {
+        destroyChart();
+
+        fetch(`/get_peak_time_data/${topicId}`)
+            .then(response => response.json())
+            .then(data => {
+                let lowercaseLabels = labels.map(label => label.toLowerCase());
+                let filteredData = data.filter(item => lowercaseLabels.includes(item.keyword));
+                // Mengurutkan data berdasarkan tanggal
+                filteredData.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+                // Mengambil data unik untuk tanggal
+                const uniqueDates = [...new Set(filteredData.map(item => item.date))];
+                
+                // Menginisialisasi data yang akan digunakan oleh Chart.js
+                const chartData = {
+                    labels: uniqueDates,
+                    datasets: []
+                };
+
+                // Membuat dataset untuk setiap keyword
+                const uniqueKeywords = [...new Set(filteredData.map(item => item.keyword))];
+                uniqueKeywords.forEach(keyword => {
+                    const keywordData = filteredData.filter(item => item.keyword === keyword);
+                    const counts = uniqueDates.map(date => keywordData.find(item => item.date === date)?.count || 0);
+
+                    chartData.datasets.push({
+                    label: keyword,
+                    data: counts,
+                    fill: false,
+                    borderColor: getRandomColor(), // Fungsi untuk mendapatkan warna acak
+                    });
+                });
+
+                // Membuat chart menggunakan Chart.js
+                const ctx = document.getElementById('myChart').getContext('2d');
+                myChartPeak = new Chart(ctx, {
+                    type: 'line',
+                    data: chartData,
+                    options: {
+                    scales: {
+                        x: {
+                        type: 'category',
+                        labels: uniqueDates,
+                        title: {
+                            display: true,
+                            text: 'Tanggal'
+                        }
+                        },
+                        y: {
+                        title: {
+                            display: true,
+                            text: 'Count'
+                        }
+                        }
+                    }
+                    }
+                });
+            
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+    }
+
 
     function updateChartBasedOnSelection() {
         let labels = [];
@@ -129,6 +206,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
         if (selectedButtons.includes('allKeyword')) {
             labels = ['Prabowo', 'Ganjar', 'Anies'];
+
+            console.log("semua", labels)
+
             selectedDataCallback = (dataset) => {
                 const positiveData = [dataset.prabowo.positif, dataset.ganjar.positif, dataset.anies.positif];
                 const negativeData = [dataset.prabowo.negatif, dataset.ganjar.negatif, dataset.anies.negatif];
@@ -160,6 +240,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
             };
         } else {
             labels = selectedButtons.map(button => button.charAt(0).toUpperCase() + button.slice(1));
+
+            console.log("selected", labels)
 
             selectedDataCallback = (dataset) => {
                 const data = selectedButtons.map(button => {
@@ -196,6 +278,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
 
         fetchDataAndRender(labels, selectedDataCallback);
+        fetchDataAndRenderPeak(labels)
+        
     }
 
     allKeywordButton.classList.add('active'); 
