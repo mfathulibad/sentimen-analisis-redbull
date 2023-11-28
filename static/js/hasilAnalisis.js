@@ -34,6 +34,29 @@ document.addEventListener('DOMContentLoaded', (event) => {
             .then(data => {
                 const dataset = data.find(item => item.topicId === topicId);
 
+                console.log("ini dataset bro", dataset)
+                // Get elements by their IDs
+                var prabPositifElement = document.getElementById("prab-positif");
+                var prabNegatifElement = document.getElementById("prab-negatif");
+                var prabNetralElement = document.getElementById("prab-netral");
+                var ganjarPositifElement = document.getElementById("ganjar-positif");
+                var ganjarNegatifElement = document.getElementById("ganjar-negatif");
+                var ganjarNetralElement = document.getElementById("ganjar-netral");
+                var aniesPositifElement = document.getElementById("anies-positif");
+                var aniesNegatifElement = document.getElementById("anies-negatif");
+                var aniesNetralElement = document.getElementById("anies-netral");
+
+                // Modify content
+                prabPositifElement.textContent = "● " + dataset.prabowo.positif;
+                prabNegatifElement.textContent = "● " + dataset.prabowo.negatif;
+                prabNetralElement.textContent = "● " + dataset.prabowo.netral;
+                ganjarPositifElement.textContent = "● " + dataset.ganjar.positif;
+                ganjarNegatifElement.textContent = "● " + dataset.ganjar.negatif;
+                ganjarNetralElement.textContent = "● " + dataset.ganjar.netral;
+                aniesPositifElement.textContent = "● " + dataset.anies.positif;
+                aniesNegatifElement.textContent = "● " + dataset.anies.negatif;
+                aniesNetralElement.textContent = "● " + dataset.anies.netral;
+
                 if (dataset) {
                     const chartData = dataCallback(dataset);
 
@@ -54,6 +77,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 } else {
                     console.error('Dataset not found for topicId:', 2);
                 }
+
+                
             })
             .catch(error => {
                 console.error('Error fetching data:', error);
