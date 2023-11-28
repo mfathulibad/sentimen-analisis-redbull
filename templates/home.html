@@ -77,13 +77,13 @@
             <div class="row" id="topicCardsContainer">
               {% for topic in topics %}
               <div class="col-md-3 mb-4">
-                <div class="topic-card" id="topicCard{{ topic.topicId }}" data-topicid="{{ topic.topicId }}">
-                  <div class="row">
+                <div class="topic-card">
+                  <div class="row card-click" id="topicCard{{ topic.topicId }}" data-topicid="{{ topic.topicId }}">
                     <div class="col-md-4">
                       <img class="topic-card-img" src="{{ url_for('static', filename='images/Icon.png') }}" alt="Topic1">
                     </div>
                   </div>
-                  <div class="row">
+                  <div class="row card-click" id="topicCard{{ topic.topicId }}" data-topicid="{{ topic.topicId }}">
                     <div class="col-md-12">
                       <div class="topic-card-title" id="topicCardTitle">
                         {{ topic.title }}

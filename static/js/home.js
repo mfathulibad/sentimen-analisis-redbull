@@ -165,7 +165,7 @@ function formatDate(date) {
 
 document.addEventListener("DOMContentLoaded", function() {
   // Mendapatkan semua elemen dengan kelas 'topic-card'
-  var topicCards = document.querySelectorAll('.topic-card');
+  var topicCards = document.querySelectorAll('.card-click');
 
   // Menambahkan event listener ke setiap elemen 'topic-card'
   topicCards.forEach(function(card) {
